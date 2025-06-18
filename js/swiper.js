@@ -55,22 +55,25 @@ var swiper = new Swiper(".swiper-3d-7", {
             return '<span class="' + className + '">' + (index + 1) + "</span>";
         },
     },
-    breakpoints: {
-        500: {
-            slidesPerView: 2,
-        },
-        991: {
-            slidesPerView: 3,
-        },
-        1024: {
-            slidesPerView: 3,
-        },
-        1200: {
-            slidesPerView: 4,
-        },
-        1400: {
-            slidesPerView: 5,
-        },
+breakpoints: {
+    320: {
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+    },
+    768: {
+        slidesPerView: 2.2,
+        spaceBetween: 25,
+    },
+    1024: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+    },
+    1200: {
+        slidesPerView: 4,
+    },
+    1400: {
+        slidesPerView: 5,
+    },
     },
 });
 

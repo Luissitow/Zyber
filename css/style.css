@@ -2535,3 +2535,48 @@ body.background-white .tf-mouse-inner {
 body.background-white .tf-mouse-outer {
     border-color: rgba(22, 22, 22, 1);
 }
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#logo_header {
+  width: 80px;
+  height: auto; /* Mantiene la proporción */
+  max-width: 80px;
+  min-width: 80px;
+  object-fit: contain;
+  display: block;
+}
+
+
+/* 🖥️ Computadoras (por defecto o explícito) */
+.titulo-principal {
+  font-size: 72px !important;
+  letter-spacing: 23px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+}
+
+/* 📱 Celulares */
+@media screen and (max-width: 768px) {
+  .titulo-principal {
+    font-size: 50px !important;
+    letter-spacing: 9px;
+    color: #ffff11;
+    text-align: center;
+  }
+}
+
+/* 💻 Tabletas */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .titulo-principal {
+    font-size: 56px !important;
+    letter-spacing: 15px;
+    color: #ffffff;
+    text-align: center;
+  }
+}
