@@ -1,10 +1,23 @@
+const screenWidth = window.innerWidth;
+
+let particlesCount = 60;
+let particleSize = 3;
+
+if (screenWidth < 768) {
+  particlesCount = 30;
+  particleSize = 2;
+} else if (screenWidth < 480) {
+  particlesCount = 20;
+  particleSize = 1.5;
+}
+
 particlesJS("particles-js", {
   particles: {
-    number: { value: 60 },
+    number: { value: particlesCount },
     color: { value: "#fefefe" },
     shape: { type: "circle" },
     opacity: { value: 0.2 },
-    size: { value: 3 },
+    size: { value: particleSize },
     line_linked: {
       enable: true,
       distance: 150,
@@ -16,7 +29,9 @@ particlesJS("particles-js", {
   },
   interactivity: {
     events: {
-      onhover: { enable: true, mode: "repulse" }
+      onhover: { enable: true, mode: "repulse" },
+      resize: true
     }
-  }
+  },
+  retina_detect: true
 });

@@ -2564,9 +2564,9 @@ body.background-white .tf-mouse-outer {
 /* 📱 Celulares */
 @media screen and (max-width: 768px) {
   .titulo-principal {
-    font-size: 50px !important;
+    font-size: 55px !important;
     letter-spacing: 9px;
-    color: #ffff11;
+    color: #ffffff;
     text-align: center;
   }
 }
