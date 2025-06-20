@@ -631,3 +631,11 @@
     });
 
 })(jQuery);
+
+
+window.addEventListener("load", function () {
+  // Espera 2.5 segundos antes de quitar el preloader
+  setTimeout(function () {
+    document.body.classList.add("loaded");
+  }, 1500); // Puedes cambiar 2500 por 3000 (3s), 4000, etc.
+});
