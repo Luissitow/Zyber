@@ -639,3 +639,27 @@ window.addEventListener("load", function () {
     document.body.classList.add("loaded");
   }, 1500); // Puedes cambiar 2500 por 3000 (3s), 4000, etc.
 });
+
+
+
+
+
+
+
+
+
+  // Abrir modal al hacer clic en la imagen
+  document.querySelectorAll('.img-proyecto').forEach(img => {
+    img.addEventListener('click', () => {
+      const modal = document.getElementById('modal-proyecto');
+      modal.querySelector('img').src = img.dataset.img; // etiqueta <img>
+      document.getElementById('modal-titulo').textContent = img.dataset.titulo; // etiqueta <h2>
+      document.getElementById('modal-descripcion').textContent = img.dataset.descripcion; // etiqueta <p>
+      modal.style.display = 'block';
+    });
+  });
+
+  // Cerrar modal
+  document.querySelector('.close-btn').addEventListener('click', () => {
+    document.getElementById('modal-proyecto').style.display = 'none';
+  });
