@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Digital Marketing Agency</title>
+        <title>Zyber | Marketing</title>
+        <!-- Favicon estándar -->
+        <link rel="icon" type="image/x-icon" href="img/logos/zyberlogo.ico">
         <meta name='robots' content='max-image-preview:large'/>
         <style>
             img:is([sizes="auto" i], [sizes^="auto," i]) {
@@ -588,7 +590,11 @@
         <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.1' media='all'/>
         <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='https://home.foxcreation.net/marko/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.3.7' media='all'/>
         <link rel='stylesheet' id='elementor-icons-jkiticon-css' href='https://home.foxcreation.net/marko/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.css?ver=2.6.11' media='all'/>
+    
+
         
+
+
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
         <script src="https://home.foxcreation.net/marko/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
         <script src="https://home.foxcreation.net/marko/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
@@ -618,6 +624,7 @@
                 }
             }
         </style>
+
     </head>
 
 
@@ -632,7 +639,8 @@
                         <div class="elementor-element elementor-element-cda564f e-con-full e-flex e-con e-child" data-id="cda564f" data-element_type="container">
                             <div class="elementor-element elementor-element-2c92fd1c elementor-widget elementor-widget-image" data-id="2c92fd1c" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <img fetchpriority="high" width="511" height="111" src="/img/logos/zyberlogo.png" class="attachment-large size-large wp-image-63" alt="Zyber Logo" decoding="async" srcset="/img/logos/zyberlogo.png 511w" sizes="(max-width: 511px) 100vw, 511px"/>                                </div>
+                                    <img fetchpriority="high" width="511" height="111" src="/img/logos/zyberlogo.png" class="attachment-large size-large wp-image-63" alt="Zyber Logo" decoding="async" srcset="/img/logos/zyberlogo.png 511w" sizes="(max-width: 511px) 100vw, 511px">                                
+                                </div>
                             </div>
                         </div>
 
@@ -643,9 +651,13 @@
                             <div class="elementor-element elementor-element-243d140 elementor-widget elementor-widget-ekit-nav-menu" data-id="243d140" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
                                 <div class="elementor-widget-container">
                                     <nav class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="icon icon-menu-button-of-three-horizontal-lines" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
+
+                                        <!--Botón menu secundario-->
                                         <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
                                             <i aria-hidden="true" class="ekit-menu-icon icon icon-menu-button-of-three-horizontal-lines"></i>
                                         </button>
+
+
                                         <div id="ekit-megamenu-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
                                             <ul id="menu-menu" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon">
                                                 <li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-11 current_page_item menu-item-255 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px>
@@ -662,9 +674,23 @@
                                                     </a>
                                                     <ul class="elementskit-dropdown elementskit-submenu-panel">
                                                         <li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                            <a href="https://home.foxcreation.net/marko/services/" class=" dropdown-item">Services</a>
+                                                            <a href="#" class=" dropdown-item">Marketing Digital</a>
                                                         <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                            <a href="https://home.foxcreation.net/marko/single-services/" class=" dropdown-item">Single Services</a>
+                                                            <a href="#" class=" dropdown-item">Desarrollo Web</a>
+                                                        <li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                                                            <a href="#" class=" dropdown-item">Sistemas y aplicaciones a medida</a>
+                                                        <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                                                            <a href="#" class=" dropdown-item">Chatbots y experiencia al cliente</a>
+                                                        <li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                                                            <a href="#" class=" dropdown-item">Analisis de datos</a>
+                                                        <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                                                            <a href="#" class=" dropdown-item">Transformación Digital</a>
+                                                        <li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                                                            <a href="#" class=" dropdown-item">Analisis de datos</a>
+                                                        <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                                                            <a href="#" class=" dropdown-item">Innovación y nuevas tecnologías</a>
+                                                        <li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
+                                                            <a href="#" class=" dropdown-item">Servicios adicionales</a>
                                                     </ul>
                                                 </li>
 
@@ -749,11 +775,29 @@
                                 <div class="elementor-element elementor-element-76fd05c3 ekit-off-canvas-position-right elementor-widget elementor-widget-elementskit-header-offcanvas" data-id="76fd05c3" data-element_type="widget" data-widget_type="elementskit-header-offcanvas.default">
                                     <div class="elementor-widget-container">
                                         <div class="ekit-wid-con">
+
+
+
+
+
+
+
+
+                                            <!-- Menu pequeño 
                                             <div class="ekit-offcanvas-toggle-wraper before">
                                                 <a href="#" class="ekit_navSidebar-button ekit_offcanvas-sidebar" aria-label="offcanvas-menu">
                                                     <i aria-hidden="true" class="icon icon-menu-6"></i>
                                                 </a>
                                             </div>
+                                            -->
+
+
+
+
+
+
+
+
                                             <!-- offset cart strart -->
                                             <!-- sidebar cart item -->
                                             <div class="ekit-sidebar-group info-group ekit-slide" data-settings="{&quot;disable_bodyscroll&quot;:&quot;&quot;}">
@@ -779,6 +823,8 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+                                        
                                             <!-- END sidebar widget item -->
                                             <!-- END offset cart strart -->
                                         </div>
@@ -800,7 +846,7 @@
                                 <div class="elementor-element elementor-element-a0748c6 e-con-full e-flex e-con e-child" data-id="a0748c6" data-element_type="container">
                                     <div class="elementor-element elementor-element-3535152b elementor-widget elementor-widget-heading" data-id="3535152b" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h6 class="elementor-heading-title elementor-size-default">+52 722 644 8900</h6>
+                                            <h6 class="elementor-heading-title elementor-size-default">722 644 8900</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -841,6 +887,13 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <br>
+                                <br>
+
+
+
+
                                 <div class="elementor-element elementor-element-5a60f364 e-con-full e-flex e-con e-child" data-id="5a60f364" data-element_type="container">
 
 
@@ -922,13 +975,19 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
+
+                                                <!-- Video de Zyber -->
                                                 <div class="elementor-element elementor-element-e0dd820 e-con-full e-flex e-con e-child" data-id="e0dd820" data-element_type="container">
                                                     <div class="elementor-element elementor-element-4b3de074 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="4b3de074" data-element_type="widget" data-widget_type="heading.default">
                                                         <div class="elementor-widget-container">
-                                                            <div class="elementor-heading-title elementor-size-default">2.7k Positive Reviews</div>
+                                                            <div class="elementor-heading-title elementor-size-default">2.7k Reseñas Positivas</div>
                                                         </div>
                                                     </div>
                                                 </div>
+
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -1146,9 +1205,16 @@
                     </div>
                 </div>
             </div>
-            --><br><br><br>
+            -->
+            
+            
+            
+            
+            
+            
+            
 
-
+<!-- 
             <div class="elementor-element elementor-element-79fe5775 e-flex e-con-boxed e-con e-parent" data-id="79fe5775" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-1f0efbb3 e-con-full e-flex elementor-invisible e-con e-child" data-id="1f0efbb3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
@@ -1170,7 +1236,7 @@
                                                 <div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_left   ekit_heading_mobile-">
                                                     <h3 class="ekit-heading--title elementskit-section-title text_fill">
                                                         <span>
-                                                            <span>Powering Success for Top Brands</span>
+                                                            <span>Impulsamos el Éxito de Cualquier Marca</span>
                                                         </span>
                                                     </h3>
                                                 </div>
@@ -1181,12 +1247,13 @@
                                 <div class="elementor-element elementor-element-514aa09f e-con-full e-flex e-con e-child" data-id="514aa09f" data-element_type="container">
                                     <div class="elementor-element elementor-element-496c7ea elementor-widget elementor-widget-text-editor" data-id="496c7ea" data-element_type="widget" data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis. Quisque eget tincidunt lectus. Sed quis diam sed neque mattis feugiat.</p>
+                                            <p>Descubre cómo ayudamos a marcas reconocidas a alcanzar nuevos niveles de éxito digital. Estrategias personalizadas, resultados medibles y crecimiento real para tu empresa.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="elementor-element elementor-element-3d12c4e3 e-con-full e-flex e-con e-child" data-id="3d12c4e3" data-element_type="container">
                             <div class="elementor-element elementor-element-6757d3e1 e-con-full e-flex e-con e-child" data-id="6757d3e1" data-element_type="container" data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
                                 <div class="elementor-element elementor-element-738e8553 elementor-widget elementor-widget-spacer" data-id="738e8553" data-element_type="widget" data-widget_type="spacer.default">
@@ -1202,51 +1269,31 @@
                                     <div class="jeg-elementor-kit jkit-client-logo arrow-bottom-middle jeg_module_11__686f469106ad7" data-id="jeg_module_11__686f469106ad7" data-settings="{&quot;autoplay&quot;:true,&quot;autoplay_speed&quot;:5000,&quot;autoplay_hover_pause&quot;:true,&quot;show_navigation&quot;:false,&quot;navigation_left&quot;:&quot;&lt;span&gt;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-angle-left\&quot; viewBox=\&quot;0 0 256 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&lt;\/span&gt;&quot;,&quot;navigation_right&quot;:&quot;&lt;span&gt;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-angle-right\&quot; viewBox=\&quot;0 0 256 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&lt;\/span&gt;&quot;,&quot;show_dots&quot;:false,&quot;arrow_position&quot;:&quot;bottom&quot;,&quot;responsive&quot;:{&quot;desktop&quot;:{&quot;items&quot;:6,&quot;margin&quot;:10,&quot;breakpoint&quot;:1025},&quot;tablet&quot;:{&quot;items&quot;:4,&quot;margin&quot;:10,&quot;breakpoint&quot;:768},&quot;mobile&quot;:{&quot;items&quot;:3,&quot;margin&quot;:10,&quot;breakpoint&quot;:0}}}">
                                         <div class="client-list">
                                             <div class="client-track">
+
+
+
+
                                                 <div class="client-slider item ">
                                                     <div class="image-list">
                                                         <a href="#" class="client-logo-link">
                                                             <div class="content-image">
-                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-1.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-1.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-1-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                                <img loading="lazy" decoding="async" style="width: 100%; height: auto; object-fit: contain;" src="/img/clientes/GRUMEXWH.svg" class="main-image" alt="GRUMEX" />
                                                             </div>
                                                         </a>
                                                     </div>
                                                 </div>
+
                                                 <div class="client-slider item ">
                                                     <div class="image-list">
                                                         <a href="#" class="client-logo-link">
                                                             <div class="content-image">
-                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-3.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-3.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-3-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                                <img loading="lazy" decoding="async" style="width: 100%; height: auto; object-fit: contain;" src="/img/clientes/logolilis.svg" class="main-image" alt="Title" />
                                                             </div>
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="client-slider item ">
-                                                    <div class="image-list">
-                                                        <a href="#" class="client-logo-link">
-                                                            <div class="content-image">
-                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-5.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-5.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-5-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="client-slider item ">
-                                                    <div class="image-list">
-                                                        <a href="#" class="client-logo-link">
-                                                            <div class="content-image">
-                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-4.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-4.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-4-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="client-slider item ">
-                                                    <div class="image-list">
-                                                        <a href="#" class="client-logo-link">
-                                                            <div class="content-image">
-                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-7.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-7.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-7-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
+
+                                                
                                                 <div class="client-slider item ">
                                                     <div class="image-list">
                                                         <a href="#" class="client-logo-link">
@@ -1274,6 +1321,65 @@
                                                         </a>
                                                     </div>
                                                 </div>
+
+
+
+
+                                                <div class="client-slider item ">
+                                                    <div class="image-list">
+                                                        <a href="#" class="client-logo-link">
+                                                            <div class="content-image">
+                                                                <img loading="lazy" decoding="async" width="512" height="112" src="/img/clientes/GRUMEXWH.svg" class="main-image" alt="GRUMEX" srcset="/img/clientes/GRUMEXWH.svg 512w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+
+
+
+                                                <div class="client-slider item ">
+                                                    <div class="image-list">
+                                                        <a href="#" class="client-logo-link">
+                                                            <div class="content-image">
+                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-7.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-7.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-7-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <div class="client-slider item ">
+                                                    <div class="image-list">
+                                                        <a href="#" class="client-logo-link">
+                                                            <div class="content-image">
+                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-6.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-6.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-6-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="client-slider item ">
+                                                    <div class="image-list">
+                                                        <a href="#" class="client-logo-link">
+                                                            <div class="content-image">
+                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-8.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-8.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-8-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="client-slider item ">
+                                                    <div class="image-list">
+                                                        <a href="#" class="client-logo-link">
+                                                            <div class="content-image">
+                                                                <img loading="lazy" decoding="async" width="512" height="112" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-2.png" class="main-image" alt="Title" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-2.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Client-2-300x66.png 300w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -1284,7 +1390,7 @@
                 </div>
             </div>
 
-
+-->
 
 
 
@@ -1703,6 +1809,11 @@
 
             <div class="elementor-element elementor-element-be12da3 e-flex e-con-boxed e-con e-parent" data-id="be12da3" data-element_type="container">
                 <div class="e-con-inner">
+
+
+                    
+
+                
                     <div class="elementor-element elementor-element-47667a60 e-con-full e-flex elementor-invisible e-con e-child" data-id="47667a60" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInDown&quot;}">
                         <div class="elementor-element elementor-element-6816eda9 elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="6816eda9" data-element_type="widget" data-widget_type="icon-list.default">
                             <div class="elementor-widget-container">
@@ -1713,7 +1824,7 @@
                                                 <path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path>
                                             </svg>
                                         </span>
-                                        <span class="elementor-icon-list-text">Our Core Services</span>
+                                        <span class="elementor-icon-list-text">Nuestros Servicios</span>
                                     </li>
                                 </ul>
                             </div>
@@ -1724,7 +1835,7 @@
                                     <div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-text_center   ekit_heading_mobile-">
                                         <h2 class="ekit-heading--title elementskit-section-title text_fill">
                                             <span>
-                                                <span>Digital Solutions That Drive Real Results</span>
+                                                <span>Soluciones Digitales Que Dan Soluciones Reales</span>
                                             </span>
                                         </h2>
                                     </div>
@@ -1732,7 +1843,21 @@
                             </div>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
+
+
                     <div class="elementor-element elementor-element-4b0adb0b e-con-full e-flex e-con e-child" data-id="4b0adb0b" data-element_type="container">
+
+
+                                        
                         <div class="elementor-element elementor-element-8fc7afc e-con-full e-flex elementor-invisible e-con e-child" data-id="8fc7afc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:600}">
                             <div class="elementor-element elementor-element-3fb3ab59 e-con-full e-flex e-con e-child" data-id="3fb3ab59" data-element_type="container">
                                 <div class="elementor-element elementor-element-40822c64 e-con-full e-flex e-con e-child" data-id="40822c64" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1747,7 +1872,7 @@
                                 <div class="elementor-element elementor-element-31c6f16a e-con-full e-flex e-con e-child" data-id="31c6f16a" data-element_type="container">
                                     <div class="elementor-element elementor-element-26b3563e elementor-widget elementor-widget-heading" data-id="26b3563e" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h4 class="elementor-heading-title elementor-size-default">Social Media Marketing</h4>
+                                            <h4 class="elementor-heading-title elementor-size-default">Marketing Digital</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -1755,7 +1880,13 @@
                             <div class="elementor-element elementor-element-105b80b2 e-con-full e-flex e-con e-child" data-id="105b80b2" data-element_type="container">
                                 <div class="elementor-element elementor-element-6830d6f8 elementor-widget elementor-widget-text-editor" data-id="6830d6f8" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Build brand awareness &amp;engage your audience effectively lorem ipsum dolor sit amet consectetur adip.</p>
+                                        <ul>
+                                            <li><strong>Campañas publicitarias en redes sociales:</strong> Facebook, Instagram, TikTok, LinkedIn, etc.</li>
+                                            <li><strong>Publicidad PPC:</strong> Google Ads, Bing Ads y campañas de retargeting.</li>
+                                            <li><strong>SEO:</strong> Optimización para motores de búsqueda para mejorar el posicionamiento orgánico.</li>
+                                            <li><strong>Email Marketing:</strong> Automatización de correos para promociones, newsletters y fidelización.</li>
+                                            <li><strong>Marketing de contenidos:</strong> Creación de blogs, videos, infografías y guías para atraer y fidelizar clientes.</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-25f6f0a0 e-con-full e-flex e-con e-child" data-id="25f6f0a0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1765,7 +1896,7 @@
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">View Details</span>
+                                                            <span class="elementor-button-text">Cotizar</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1784,47 +1915,64 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-76625221 e-con-full e-flex elementor-invisible e-con e-child" data-id="76625221" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:300}">
-                            <div class="elementor-element elementor-element-5452e436 e-con-full e-flex e-con e-child" data-id="5452e436" data-element_type="container">
-                                <div class="elementor-element elementor-element-cb103fc e-con-full e-flex e-con e-child" data-id="cb103fc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-element elementor-element-23b07796 e-con-full e-flex e-con e-child" data-id="23b07796" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                        <div class="elementor-element elementor-element-49f52858 elementor-widget elementor-widget-image" data-id="49f52858" data-element_type="widget" data-widget_type="image.default">
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="elementor-element elementor-element-72bdff0a e-con-full e-flex elementor-invisible e-con e-child" data-id="72bdff0a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:900}">
+                            <div class="elementor-element elementor-element-154b3c27 e-con-full e-flex e-con e-child" data-id="154b3c27" data-element_type="container">
+                                <div class="elementor-element elementor-element-29c70c59 e-con-full e-flex e-con e-child" data-id="29c70c59" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-5bc2b27b e-con-full e-flex e-con e-child" data-id="5bc2b27b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-element elementor-element-7f760c80 elementor-widget elementor-widget-image" data-id="7f760c80" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8.png" class="attachment-large size-large wp-image-33" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4.png" class="attachment-large size-large wp-image-37" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-4c26231e e-con-full e-flex e-con e-child" data-id="4c26231e" data-element_type="container">
-                                    <div class="elementor-element elementor-element-4bf6d37 elementor-widget elementor-widget-heading" data-id="4bf6d37" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-element elementor-element-308add39 e-con-full e-flex e-con e-child" data-id="308add39" data-element_type="container">
+                                    <div class="elementor-element elementor-element-38927864 elementor-widget elementor-widget-heading" data-id="38927864" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h4 class="elementor-heading-title elementor-size-default">Content Marketing</h4>
+                                            <h4 class="elementor-heading-title elementor-size-default">Web Development</h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-17688c7a e-con-full e-flex e-con e-child" data-id="17688c7a" data-element_type="container">
-                                <div class="elementor-element elementor-element-3664083f elementor-widget elementor-widget-text-editor" data-id="3664083f" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-element elementor-element-778135e0 e-con-full e-flex e-con e-child" data-id="778135e0" data-element_type="container">
+                                <div class="elementor-element elementor-element-46def1b elementor-widget elementor-widget-text-editor" data-id="46def1b" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Build brand awareness &amp;engage your audience effectively lorem ipsum dolor sit amet consectetur adip.</p>
+                                        <ul>
+                                            <li><strong>Diseño de sitios web:</strong> Páginas modernas, responsivas y optimizadas para SEO.</li>
+                                            <li><strong>E-commerce:</strong> Tiendas en línea con pasarelas de pago y gestión de inventarios.</li>
+                                            <li><strong>Landing Pages:</strong> Páginas específicas para campañas publicitarias.</li>
+                                            <li><strong>Sistemas de reservas:</strong> Ideal para negocios como restaurantes, hoteles o servicios profesionales.</li>
+                                            <br><br><br>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-35d54581 e-con-full e-flex e-con e-child" data-id="35d54581" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-element elementor-element-250d40d e-con-full e-flex e-con e-child" data-id="250d40d" data-element_type="container">
-                                        <div class="elementor-element elementor-element-38e6eebe elementor-align-justify elementor-widget elementor-widget-button" data-id="38e6eebe" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-element elementor-element-4e198bd3 e-con-full e-flex e-con e-child" data-id="4e198bd3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-1c06ce08 e-con-full e-flex e-con e-child" data-id="1c06ce08" data-element_type="container">
+                                        <div class="elementor-element elementor-element-4961f4de elementor-align-justify elementor-widget elementor-widget-button" data-id="4961f4de" data-element_type="widget" data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">View Details</span>
+                                                            <span class="elementor-button-text">Cotizar</span>
                                                         </span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-2f8dd7f2 e-con-full e-flex e-con e-child" data-id="2f8dd7f2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-element elementor-element-18cd3b8 elementor-widget elementor-widget-image" data-id="18cd3b8" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-element elementor-element-569de5b8 e-con-full e-flex e-con e-child" data-id="569de5b8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-element elementor-element-78743103 elementor-widget elementor-widget-image" data-id="78743103" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <a href="#">
                                                     <img decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
@@ -1835,6 +1983,143 @@
                                 </div>
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+                        <div class="elementor-element elementor-element-72bdff0a e-con-full e-flex elementor-invisible e-con e-child" data-id="72bdff0a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:900}">
+                            <div class="elementor-element elementor-element-154b3c27 e-con-full e-flex e-con e-child" data-id="154b3c27" data-element_type="container">
+                                <div class="elementor-element elementor-element-29c70c59 e-con-full e-flex e-con e-child" data-id="29c70c59" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-5bc2b27b e-con-full e-flex e-con e-child" data-id="5bc2b27b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-element elementor-element-7f760c80 elementor-widget elementor-widget-image" data-id="7f760c80" data-element_type="widget" data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4.png" class="attachment-large size-large wp-image-37" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-308add39 e-con-full e-flex e-con e-child" data-id="308add39" data-element_type="container">
+                                    <div class="elementor-element elementor-element-38927864 elementor-widget elementor-widget-heading" data-id="38927864" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h4 class="elementor-heading-title elementor-size-default">Soluciones Tecnológicas Personalizadas</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-778135e0 e-con-full e-flex e-con e-child" data-id="778135e0" data-element_type="container">
+                                <div class="elementor-element elementor-element-46def1b elementor-widget elementor-widget-text-editor" data-id="46def1b" data-element_type="widget" data-widget_type="text-editor.default">
+                                    <div class="elementor-widget-container">
+                                            <ul>
+                                                <li><strong>Sistemas a medida:</strong> Desarrollo de software para gestión de inventarios, CRM, ERP, etc.</li>
+                                                <li><strong>Aplicaciones móviles:</strong> Apps para mejorar la interacción con clientes o facilitar procesos internos.</li>
+                                                <li><strong>Automatización de procesos:</strong> Implementación de herramientas para reducir tareas repetitivas.</li>
+                                                <li><strong>Integración de APIs:</strong> Conexión de sistemas existentes con plataformas externas.</li>
+                                                <br>
+                                            </ul>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-4e198bd3 e-con-full e-flex e-con e-child" data-id="4e198bd3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-1c06ce08 e-con-full e-flex e-con e-child" data-id="1c06ce08" data-element_type="container">
+                                        <div class="elementor-element elementor-element-4961f4de elementor-align-justify elementor-widget elementor-widget-button" data-id="4961f4de" data-element_type="widget" data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Cotizar</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-569de5b8 e-con-full e-flex e-con e-child" data-id="569de5b8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-element elementor-element-78743103 elementor-widget elementor-widget-image" data-id="78743103" data-element_type="widget" data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <a href="#">
+                                                    <img decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="elementor-element elementor-element-70eb42d3 e-con-full e-flex elementor-invisible e-con e-child" data-id="70eb42d3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:1200}">
+                            <div class="elementor-element elementor-element-e2a9388 e-con-full e-flex e-con e-child" data-id="e2a9388" data-element_type="container">
+                                <div class="elementor-element elementor-element-4e890884 e-con-full e-flex e-con e-child" data-id="4e890884" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-1daae48 e-con-full e-flex e-con e-child" data-id="1daae48" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-element elementor-element-673a81d8 elementor-widget elementor-widget-image" data-id="673a81d8" data-element_type="widget" data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6.png" class="attachment-large size-large wp-image-36" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-6bc9fc69 e-con-full e-flex e-con e-child" data-id="6bc9fc69" data-element_type="container">
+                                    <div class="elementor-element elementor-element-36334f58 elementor-widget elementor-widget-heading" data-id="36334f58" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h4 class="elementor-heading-title elementor-size-default">Branding &amp;Diseño</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-31947d02 e-con-full e-flex e-con e-child" data-id="31947d02" data-element_type="container">
+                                <div class="elementor-element elementor-element-20b0f841 elementor-widget elementor-widget-text-editor" data-id="20b0f841" data-element_type="widget" data-widget_type="text-editor.default">
+                                    <div class="elementor-widget-container">
+                                            <ul>
+                                                <li><strong>Creación de logotipos:</strong> Diseños únicos y personalizados que representen la esencia de la marca.</li>
+                                                <li><strong>Manual de identidad:</strong> Definición de colores, tipografías, estilos visuales y uso correcto del logotipo.</li>
+                                                <li><strong>Remodelación de identidad:</strong> Actualización de la imagen de marca para adaptarse a nuevas tendencias o mercados.</li>
+                                                <li><strong>Diseño de materiales promocionales:</strong> Folletos, tarjetas de presentación, banners y más.</li>
+                                                <br>
+                                            </ul>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-22d75814 e-con-full e-flex e-con e-child" data-id="22d75814" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-4d4023c e-con-full e-flex e-con e-child" data-id="4d4023c" data-element_type="container">
+                                        <div class="elementor-element elementor-element-31f5dc87 elementor-align-justify elementor-widget elementor-widget-button" data-id="31f5dc87" data-element_type="widget" data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Cotizar</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-48ebe596 e-con-full e-flex e-con e-child" data-id="48ebe596" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-element elementor-element-21947056 elementor-widget elementor-widget-image" data-id="21947056" data-element_type="widget" data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <a href="#">
+                                                    <img decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        
+
+
+
+
                         <div class="elementor-element elementor-element-cfaedb4 e-con-full e-flex elementor-invisible e-con e-child" data-id="cfaedb4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:0}">
                             <div class="elementor-element elementor-element-5affc36f e-con-full e-flex e-con e-child" data-id="5affc36f" data-element_type="container">
                                 <div class="elementor-element elementor-element-1acd94c3 e-con-full e-flex e-con e-child" data-id="1acd94c3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1849,7 +2134,7 @@
                                 <div class="elementor-element elementor-element-1e60acfd e-con-full e-flex e-con e-child" data-id="1e60acfd" data-element_type="container">
                                     <div class="elementor-element elementor-element-e166bc2 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="e166bc2" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h4 class="elementor-heading-title elementor-size-default">PPC Advertising</h4>
+                                            <h4 class="elementor-heading-title elementor-size-default">Experiencia al cliente</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -1857,7 +2142,15 @@
                             <div class="elementor-element elementor-element-21e62d02 e-con-full e-flex e-con e-child" data-id="21e62d02" data-element_type="container">
                                 <div class="elementor-element elementor-element-415910b6 elementor-widget elementor-widget-text-editor" data-id="415910b6" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Build brand awareness &amp;engage your audience effectively lorem ipsum dolor sit amet consectetur adip.</p>
+                                        <ul>
+                                            <li><strong>Chatbots:</strong> Implementación de asistentes virtuales para atención al cliente.</li>
+                                            <li><strong>Encuestas y feedback:</strong> Sistemas para recopilar opiniones de clientes y mejorar servicios.</li>
+                                            <li><strong>Programas de fidelización:</strong> Desarrollo de sistemas para recompensar la lealtad de los clientes.</li>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2e9346ae e-con-full e-flex e-con e-child" data-id="2e9346ae" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1886,6 +2179,10 @@
                                 </div>
                             </div>
                         </div>
+
+
+
+                        
                         <div class="elementor-element elementor-element-67950b1d e-con-full e-flex elementor-invisible e-con e-child" data-id="67950b1d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:1500}">
                             <div class="elementor-element elementor-element-17f670ef e-con-full e-flex e-con e-child" data-id="17f670ef" data-element_type="container">
                                 <div class="elementor-element elementor-element-7f3c642e e-con-full e-flex e-con e-child" data-id="7f3c642e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1900,7 +2197,7 @@
                                 <div class="elementor-element elementor-element-39ad0fc4 e-con-full e-flex e-con e-child" data-id="39ad0fc4" data-element_type="container">
                                     <div class="elementor-element elementor-element-2b69ee5 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2b69ee5" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h4 class="elementor-heading-title elementor-size-default">Email Marketing</h4>
+                                            <h4 class="elementor-heading-title elementor-size-default">Análisis de Datos</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -1908,7 +2205,12 @@
                             <div class="elementor-element elementor-element-5a4a3ff7 e-con-full e-flex e-con e-child" data-id="5a4a3ff7" data-element_type="container">
                                 <div class="elementor-element elementor-element-70b987d7 elementor-widget elementor-widget-text-editor" data-id="70b987d7" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Build brand awareness &amp;engage your audience effectively lorem ipsum dolor sit amet consectetur adip.</p>
+                                            <ul>
+                                                <li><strong>Dashboards personalizados:</strong> Visualización de métricas clave para la toma de decisiones.</li>
+                                                <li><strong>Análisis predictivo:</strong> Uso de datos históricos para prever tendencias y comportamientos.</li>
+                                                <li><strong>Optimización de campañas:</strong> Ajuste de estrategias basadas en datos en tiempo real.</li>
+                                                <br><br><br><br><br>
+                                            </ul>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-2784f74d e-con-full e-flex e-con e-child" data-id="2784f74d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1918,7 +2220,7 @@
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">View Details</span>
+                                                            <span class="elementor-button-text">Cotizar</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1937,47 +2239,56 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-70eb42d3 e-con-full e-flex elementor-invisible e-con e-child" data-id="70eb42d3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:1200}">
-                            <div class="elementor-element elementor-element-e2a9388 e-con-full e-flex e-con e-child" data-id="e2a9388" data-element_type="container">
-                                <div class="elementor-element elementor-element-4e890884 e-con-full e-flex e-con e-child" data-id="4e890884" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-element elementor-element-1daae48 e-con-full e-flex e-con e-child" data-id="1daae48" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                        <div class="elementor-element elementor-element-673a81d8 elementor-widget elementor-widget-image" data-id="673a81d8" data-element_type="widget" data-widget_type="image.default">
+
+
+
+
+
+                        <div class="elementor-element elementor-element-76625221 e-con-full e-flex elementor-invisible e-con e-child" data-id="76625221" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:300}">
+                            <div class="elementor-element elementor-element-5452e436 e-con-full e-flex e-con e-child" data-id="5452e436" data-element_type="container">
+                                <div class="elementor-element elementor-element-cb103fc e-con-full e-flex e-con e-child" data-id="cb103fc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-23b07796 e-con-full e-flex e-con e-child" data-id="23b07796" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-element elementor-element-49f52858 elementor-widget elementor-widget-image" data-id="49f52858" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6.png" class="attachment-large size-large wp-image-36" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-6-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8.png" class="attachment-large size-large wp-image-33" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/digital-marketing-icons-F4LJ4W8-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-6bc9fc69 e-con-full e-flex e-con e-child" data-id="6bc9fc69" data-element_type="container">
-                                    <div class="elementor-element elementor-element-36334f58 elementor-widget elementor-widget-heading" data-id="36334f58" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-element elementor-element-4c26231e e-con-full e-flex e-con e-child" data-id="4c26231e" data-element_type="container">
+                                    <div class="elementor-element elementor-element-4bf6d37 elementor-widget elementor-widget-heading" data-id="4bf6d37" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h4 class="elementor-heading-title elementor-size-default">Branding &amp;Design</h4>
+                                            <h4 class="elementor-heading-title elementor-size-default">Estrategias de Transformación Digital</h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-31947d02 e-con-full e-flex e-con e-child" data-id="31947d02" data-element_type="container">
-                                <div class="elementor-element elementor-element-20b0f841 elementor-widget elementor-widget-text-editor" data-id="20b0f841" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-element elementor-element-17688c7a e-con-full e-flex e-con e-child" data-id="17688c7a" data-element_type="container">
+                                <div class="elementor-element elementor-element-3664083f elementor-widget elementor-widget-text-editor" data-id="3664083f" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Build brand awareness &amp;engage your audience effectively lorem ipsum dolor sit amet consectetur adip.</p>
+                                        <ul>
+                                            <li><strong>Digitalización de procesos:</strong> Migración de sistemas manuales a plataformas digitales.</li>
+                                            <li><strong>Capacitación tecnológica:</strong> Entrenamiento para equipos en herramientas digitales.</li>
+                                            <li><strong>Consultoría tecnológica:</strong> Asesoramiento para elegir las mejores soluciones según las necesidades del negocio.</li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-22d75814 e-con-full e-flex e-con e-child" data-id="22d75814" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-element elementor-element-4d4023c e-con-full e-flex e-con e-child" data-id="4d4023c" data-element_type="container">
-                                        <div class="elementor-element elementor-element-31f5dc87 elementor-align-justify elementor-widget elementor-widget-button" data-id="31f5dc87" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-element elementor-element-35d54581 e-con-full e-flex e-con e-child" data-id="35d54581" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-250d40d e-con-full e-flex e-con e-child" data-id="250d40d" data-element_type="container">
+                                        <div class="elementor-element elementor-element-38e6eebe elementor-align-justify elementor-widget elementor-widget-button" data-id="38e6eebe" data-element_type="widget" data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">View Details</span>
+                                                            <span class="elementor-button-text">Cotizar</span>
                                                         </span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-48ebe596 e-con-full e-flex e-con e-child" data-id="48ebe596" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-element elementor-element-21947056 elementor-widget elementor-widget-image" data-id="21947056" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-element elementor-element-2f8dd7f2 e-con-full e-flex e-con e-child" data-id="2f8dd7f2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-element elementor-element-18cd3b8 elementor-widget elementor-widget-image" data-id="18cd3b8" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <a href="#">
                                                     <img decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
@@ -1988,47 +2299,57 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-72bdff0a e-con-full e-flex elementor-invisible e-con e-child" data-id="72bdff0a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:900}">
-                            <div class="elementor-element elementor-element-154b3c27 e-con-full e-flex e-con e-child" data-id="154b3c27" data-element_type="container">
-                                <div class="elementor-element elementor-element-29c70c59 e-con-full e-flex e-con e-child" data-id="29c70c59" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-element elementor-element-5bc2b27b e-con-full e-flex e-con e-child" data-id="5bc2b27b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                        <div class="elementor-element elementor-element-7f760c80 elementor-widget elementor-widget-image" data-id="7f760c80" data-element_type="widget" data-widget_type="image.default">
+
+
+
+
+
+                        <div class="elementor-element elementor-element-cfaedb4 e-con-full e-flex elementor-invisible e-con e-child" data-id="cfaedb4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:0}">
+                            <div class="elementor-element elementor-element-5affc36f e-con-full e-flex e-con e-child" data-id="5affc36f" data-element_type="container">
+                                <div class="elementor-element elementor-element-1acd94c3 e-con-full e-flex e-con e-child" data-id="1acd94c3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-65983dfe e-con-full e-flex e-con e-child" data-id="65983dfe" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-element elementor-element-986012c elementor-widget elementor-widget-image" data-id="986012c" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4.png" class="attachment-large size-large wp-image-37" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-4-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-8.png" class="attachment-large size-large wp-image-34" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-8.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-8-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-8-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-308add39 e-con-full e-flex e-con e-child" data-id="308add39" data-element_type="container">
-                                    <div class="elementor-element elementor-element-38927864 elementor-widget elementor-widget-heading" data-id="38927864" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-element elementor-element-1e60acfd e-con-full e-flex e-con e-child" data-id="1e60acfd" data-element_type="container">
+                                    <div class="elementor-element elementor-element-e166bc2 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="e166bc2" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h4 class="elementor-heading-title elementor-size-default">Web Development</h4>
+                                            <h4 class="elementor-heading-title elementor-size-default">Innovación y Nuevas Tecnologías</h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-778135e0 e-con-full e-flex e-con e-child" data-id="778135e0" data-element_type="container">
-                                <div class="elementor-element elementor-element-46def1b elementor-widget elementor-widget-text-editor" data-id="46def1b" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-element elementor-element-21e62d02 e-con-full e-flex e-con e-child" data-id="21e62d02" data-element_type="container">
+                                <div class="elementor-element elementor-element-415910b6 elementor-widget elementor-widget-text-editor" data-id="415910b6" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Build brand awareness &amp;engage your audience effectively lorem ipsum dolor sit amet consectetur adip.</p>
+                                        <ul>
+                                            <li><strong>Realidad aumentada (AR):</strong> Experiencias interactivas para productos o servicios.</li>
+                                            <li><strong>Inteligencia artificial:</strong> Automatización avanzada y análisis de datos.</li>
+                                            <li><strong>Blockchain:</strong> Soluciones para seguridad y transparencia en transacciones.</li>
+                                            <br>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-4e198bd3 e-con-full e-flex e-con e-child" data-id="4e198bd3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-element elementor-element-1c06ce08 e-con-full e-flex e-con e-child" data-id="1c06ce08" data-element_type="container">
-                                        <div class="elementor-element elementor-element-4961f4de elementor-align-justify elementor-widget elementor-widget-button" data-id="4961f4de" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-element elementor-element-2e9346ae e-con-full e-flex e-con e-child" data-id="2e9346ae" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-431c7807 e-con-full e-flex e-con e-child" data-id="431c7807" data-element_type="container">
+                                        <div class="elementor-element elementor-element-26ac08ed elementor-align-justify elementor-widget elementor-widget-button" data-id="26ac08ed" data-element_type="widget" data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">View Details</span>
+                                                            <span class="elementor-button-text">Cotiza ahora</span>
                                                         </span>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-569de5b8 e-con-full e-flex e-con e-child" data-id="569de5b8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        <div class="elementor-element elementor-element-78743103 elementor-widget elementor-widget-image" data-id="78743103" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-element elementor-element-58e826c2 e-con-full e-flex e-con e-child" data-id="58e826c2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-element elementor-element-29d3c92d elementor-widget elementor-widget-image" data-id="29d3c92d" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <a href="#">
                                                     <img decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
@@ -2039,16 +2360,88 @@
                                 </div>
                             </div>
                         </div>
+
+
+
+
+
+                        <div class="elementor-element elementor-element-67950b1d e-con-full e-flex elementor-invisible e-con e-child" data-id="67950b1d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;animation_delay&quot;:1500}">
+                            <div class="elementor-element elementor-element-17f670ef e-con-full e-flex e-con e-child" data-id="17f670ef" data-element_type="container">
+                                <div class="elementor-element elementor-element-7f3c642e e-con-full e-flex e-con e-child" data-id="7f3c642e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-6b53f066 e-con-full e-flex e-con e-child" data-id="6b53f066" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                        <div class="elementor-element elementor-element-191481ab elementor-widget elementor-widget-image" data-id="191481ab" data-element_type="widget" data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <img loading="lazy" decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-5.png" class="attachment-large size-large wp-image-35" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-5.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-5-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Icon-5-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-39ad0fc4 e-con-full e-flex e-con e-child" data-id="39ad0fc4" data-element_type="container">
+                                    <div class="elementor-element elementor-element-2b69ee5 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2b69ee5" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h4 class="elementor-heading-title elementor-size-default">Servicios adicionales</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-5a4a3ff7 e-con-full e-flex e-con e-child" data-id="5a4a3ff7" data-element_type="container">
+                                <div class="elementor-element elementor-element-70b987d7 elementor-widget elementor-widget-text-editor" data-id="70b987d7" data-element_type="widget" data-widget_type="text-editor.default">
+                                    <div class="elementor-widget-container">
+                                            <ul>
+                                                <li><strong>Gestión de redes sociales:</strong> Creación de contenido, programación de publicaciones y análisis de métricas.</li>
+                                                <li><strong>Producción audiovisual:</strong> Videos promocionales, animaciones y fotografía profesional.</li>
+                                                <li><strong>Consultoría en ciberseguridad:</strong> Protección de datos y sistemas contra amenazas digitales.</li>
+                                                <br>
+                                            </ul>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-2784f74d e-con-full e-flex e-con e-child" data-id="2784f74d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-4c7a392c e-con-full e-flex e-con e-child" data-id="4c7a392c" data-element_type="container">
+                                        <div class="elementor-element elementor-element-72631666 elementor-align-justify elementor-widget elementor-widget-button" data-id="72631666" data-element_type="widget" data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Cotiza ahora</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-1fdbb1d e-con-full e-flex e-con e-child" data-id="1fdbb1d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-element elementor-element-758d4693 elementor-widget elementor-widget-image" data-id="758d4693" data-element_type="widget" data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <a href="#">
+                                                    <img decoding="async" width="512" height="512" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png" class="attachment-large size-large wp-image-14" alt="" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1.png 512w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-300x300.png 300w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Gp-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        
+
+
                     </div>
+
+
                     <div class="elementor-element elementor-element-17f8826b e-con-full e-flex e-con e-child" data-id="17f8826b" data-element_type="container">
                         <div class="elementor-element elementor-element-1f105f15 elementor-widget elementor-widget-text-editor" data-id="1f105f15" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <p>
-                                    Need a custom solution? Let’s create a strategy tailored for your business. <a href="#">Get a Free Strategy Call</a>
+                ¿Necesitas una solución personalizada? Creamos estrategias adaptadas a tu negocio. <a href="#">Solicita una llamada gratuita</a>
                                 </p>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
 
@@ -2832,7 +3225,7 @@
                                                             <path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path>
                                                         </svg>
                                                     </span>
-                                                    <span class="elementor-icon-list-text">How It Work </span>
+                                                    <span class="elementor-icon-list-text">Como funciona? </span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -2843,7 +3236,7 @@
                                                 <div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-text_left   ekit_heading_mobile-">
                                                     <h2 class="ekit-heading--title elementskit-section-title text_fill">
                                                         <span>
-                                                            <span>Simple Steps to Digital Success</span>
+                                                            <span>Pasos para tú éxito digital</span>
                                                         </span>
                                                     </h2>
                                                 </div>
@@ -2854,7 +3247,7 @@
                                 <div class="elementor-element elementor-element-b4f15df e-con-full e-flex e-con e-child" data-id="b4f15df" data-element_type="container">
                                     <div class="elementor-element elementor-element-3c714153 elementor-widget elementor-widget-text-editor" data-id="3c714153" data-element_type="widget" data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Our streamlined process ensures your digital growth is seamless and effective. ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis.</p>
+                                            <p>Nuestro proceso optimizado asegura un crecimiento digital fluido y efectivo. Creamos estrategias personalizadas para maximizar tu impacto en el mercado. .</p>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-6c2c3a74 elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="6c2c3a74" data-element_type="widget" data-widget_type="button.default">
@@ -2867,7 +3260,7 @@
                                                                 <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"></path>
                                                             </svg>
                                                         </span>
-                                                        <span class="elementor-button-text">Get Started Now</span>
+                                                        <span class="elementor-button-text">Comienza ahora</span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -2893,12 +3286,12 @@
                                         <div class="elementor-element elementor-element-1e700e59 e-con-full e-flex e-con e-child" data-id="1e700e59" data-element_type="container">
                                             <div class="elementor-element elementor-element-1876100 elementor-widget elementor-widget-heading" data-id="1876100" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Discovery &amp;Consult</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">Análisis &amp; Consultoria</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2f1678b1 elementor-widget elementor-widget-text-editor" data-id="2f1678b1" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</p>
+                                                    <p>Evaluamos tus necesidades y objetivos para diseñar una estrategia digital personalizada.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -2928,12 +3321,12 @@
                                         <div class="elementor-element elementor-element-2c026a7a e-con-full e-flex e-con e-child" data-id="2c026a7a" data-element_type="container">
                                             <div class="elementor-element elementor-element-52d41b70 elementor-widget elementor-widget-heading" data-id="52d41b70" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Strategy &amp;Planning</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">Estrategia &amp;Planificación</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-7cb747eb elementor-widget elementor-widget-text-editor" data-id="7cb747eb" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</p>
+                                                    <p>Definimos un plan de acción claro para alcanzar tus metas de negocio.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -2963,12 +3356,12 @@
                                         <div class="elementor-element elementor-element-1a754def e-con-full e-flex e-con e-child" data-id="1a754def" data-element_type="container">
                                             <div class="elementor-element elementor-element-246dbabb elementor-widget elementor-widget-heading" data-id="246dbabb" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Execution &amp;Optimize</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">Ejecución &amp; Optimización</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3b0b2456 elementor-widget elementor-widget-text-editor" data-id="3b0b2456" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</p>
+                                                    <p>Implementamos la estrategia y ajustamos continuamente para maximizar resultados</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -2998,12 +3391,12 @@
                                         <div class="elementor-element elementor-element-468574ab e-con-full e-flex e-con e-child" data-id="468574ab" data-element_type="container">
                                             <div class="elementor-element elementor-element-65fa4e83 elementor-widget elementor-widget-heading" data-id="65fa4e83" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Results &amp;Growth</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">Resultados &amp; Crecimiento</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2c9b39e7 elementor-widget elementor-widget-text-editor" data-id="2c9b39e7" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</p>
+                                                    <p>Medimos el impacto y escalamos tus esfuerzos para un crecimiento sostenible.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -3035,7 +3428,7 @@
                                                 <path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path>
                                             </svg>
                                         </span>
-                                        <span class="elementor-icon-list-text">Our Core Services</span>
+                                        <span class="elementor-icon-list-text">Nuestros planes de marketing</span>
                                     </li>
                                 </ul>
                             </div>
@@ -3046,7 +3439,7 @@
                                     <div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-text_center   ekit_heading_mobile-">
                                         <h2 class="ekit-heading--title elementskit-section-title text_fill">
                                             <span>
-                                                <span>Flexible Pricing Plans for Every Business</span>
+                                                <span>Precios Flexibes para cada negocio</span>
                                             </span>
                                         </h2>
                                     </div>
@@ -3073,7 +3466,7 @@
                                                 <div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-text_center   ekit_heading_mobile-">
                                                     <h3 class="ekit-heading--title elementskit-section-title text_fill">
                                                         <span>
-                                                            <span>Let’s Find the Right Strategy for You!</span>
+                                                            <span>Encuentra la estrategia perfecta para tu negocio.</span>
                                                         </span>
                                                     </h3>
                                                 </div>
@@ -3090,7 +3483,7 @@
                                                                 <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"></path>
                                                             </svg>
                                                         </span>
-                                                        <span class="elementor-button-text">Book a Free Consultation</span>
+                                                        <span class="elementor-button-text">Solicita una consulta gratuita.</span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -3102,24 +3495,24 @@
                                 <div class="elementor-element elementor-element-274bf0e5 e-con-full e-flex e-con e-child" data-id="274bf0e5" data-element_type="container">
                                     <div class="elementor-element elementor-element-448d8b70 elementor-widget elementor-widget-heading" data-id="448d8b70" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h4 class="elementor-heading-title elementor-size-default">Starter</h4>
+                                            <h4 class="elementor-heading-title elementor-size-default">Esencial</h4>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-48ce009e elementor-widget elementor-widget-text-editor" data-id="48ce009e" data-element_type="widget" data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Perfect for startups &amp;small businesses</p>
+                                            <p> Objetivo: Tener presencia online, captar clientes y empezar a posicionarse en Google <br> <br> Ideal para emprendedores y pequeñas empresas. <br> <br>Desde: </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-38721d1d e-con-full e-flex e-con e-child" data-id="38721d1d" data-element_type="container">
                                     <div class="elementor-element elementor-element-3c421654 elementor-widget elementor-widget-heading" data-id="3c421654" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h3 class="elementor-heading-title elementor-size-default">$99</h3>
+                                            <h3 class="elementor-heading-title elementor-size-default">$999 MXN</h3>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-54ebc18e elementor-widget elementor-widget-heading" data-id="54ebc18e" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <div class="elementor-heading-title elementor-size-default">/ Month</div>
+                                            <div class="elementor-heading-title elementor-size-default">/ Mes</div>
                                         </div>
                                     </div>
                                 </div>
@@ -3130,7 +3523,7 @@
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">View Details</span>
+                                                            <span class="elementor-button-text">Cotiza ahora</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -3147,6 +3540,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="elementor-element elementor-element-5cc2f82e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5cc2f82e" data-element_type="widget" data-widget_type="icon-list.default">
                                     <div class="elementor-widget-container">
                                         <ul class="elementor-icon-list-items">
@@ -3157,7 +3551,7 @@
                                                             <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                         </svg>
                                                     </span>
-                                                    <span class="elementor-icon-list-text">Basic SEO & Digital Marketing</span>
+                                                    <span class="elementor-icon-list-text"> Página web funcional (hasta 5 secciones)</span>
                                                 </a>
                                             </li>
                                             <li class="elementor-icon-list-item">
@@ -3167,7 +3561,7 @@
                                                             <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                         </svg>
                                                     </span>
-                                                    <span class="elementor-icon-list-text">Social Media Management (1 platform)</span>
+                                                    <span class="elementor-icon-list-text">Optimización SEO básica (estructura, metaetiquetas, sitemap)</span>
                                                 </a>
                                             </li>
                                             <li class="elementor-icon-list-item">
@@ -3177,14 +3571,55 @@
                                                             <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                         </svg>
                                                     </span>
-                                                    <span class="elementor-icon-list-text">Monthly Performance Report</span>
+                                                    <span class="elementor-icon-list-text"> Dominio + Hosting incluidos (1 año)</span>
                                                 </a>
                                             </li>
+                                            <li class="elementor-icon-list-item">
+                                                <a href="#">
+                                                    <span class="elementor-icon-list-icon">
+                                                        <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="elementor-icon-list-text">Integración con redes sociales</span>
+                                                </a>
+                                            </li>
+                                            <li class="elementor-icon-list-item">
+                                                <a href="#">
+                                                    <span class="elementor-icon-list-icon">
+                                                        <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="elementor-icon-list-text">1 sesión de capacitación o soporte técnico mensual</span>
+                                                </a>
+                                            </li>
+
+                                            
                                         </ul>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         <div class="elementor-element elementor-element-c9ea70e e-con-full e-flex elementor-invisible e-con e-child" data-id="c9ea70e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:600}">
                             <div class="elementor-element elementor-element-2e6bee49 e-con-full e-flex e-con e-child" data-id="2e6bee49" data-element_type="container">
                                 <div class="elementor-element elementor-element-7a038e7e elementor-widget elementor-widget-spacer" data-id="7a038e7e" data-element_type="widget" data-widget_type="spacer.default">
@@ -3198,24 +3633,24 @@
                             <div class="elementor-element elementor-element-2c135785 e-con-full e-flex e-con e-child" data-id="2c135785" data-element_type="container">
                                 <div class="elementor-element elementor-element-348c3766 elementor-widget elementor-widget-heading" data-id="348c3766" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h4 class="elementor-heading-title elementor-size-default">Enterprise</h4>
+                                        <h4 class="elementor-heading-title elementor-size-default">Empresarial</h4>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-3750b384 elementor-widget elementor-widget-text-editor" data-id="3750b384" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>Full scale marketing for maximum impact</p>
+                                        <p> Para empresas que quieren posicionarse como líderes y escalar resultados. <br> <br> Desde:</p>  
                                     </div>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-1180bd44 e-con-full e-flex e-con e-child" data-id="1180bd44" data-element_type="container">
                                 <div class="elementor-element elementor-element-4e5394ed elementor-widget elementor-widget-heading" data-id="4e5394ed" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">$399</h3>
+                                        <h3 class="elementor-heading-title elementor-size-default">$7999 MXN</h3>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-395f87ef elementor-widget elementor-widget-heading" data-id="395f87ef" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <div class="elementor-heading-title elementor-size-default">/ Month</div>
+                                        <div class="elementor-heading-title elementor-size-default">/ Mes</div>
                                     </div>
                                 </div>
                             </div>
@@ -3226,7 +3661,7 @@
                                             <div class="elementor-button-wrapper">
                                                 <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                     <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">View Details</span>
+                                                        <span class="elementor-button-text">Cotiza ahora</span>
                                                     </span>
                                                 </a>
                                             </div>
@@ -3252,7 +3687,7 @@
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="jki jki-brain-solid"></i>
                                                     </span>
-                                                    <span class="elementor-icon-list-text">Dedicated Account Manager</span>
+                                                    <span class="elementor-icon-list-text">Todo lo anterior</span>
                                                 </a>
                                             </li>
                                             <li class="elementor-icon-list-item">
@@ -3260,7 +3695,7 @@
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="jki jki-accessible-icon"></i>
                                                     </span>
-                                                    <span class="elementor-icon-list-text">Priority Support 24/7</span>
+                                                    <span class="elementor-icon-list-text">Soporte 24/7</span>
                                                 </a>
                                             </li>
                                             <li class="elementor-icon-list-item">
@@ -3268,13 +3703,15 @@
                                                     <span class="elementor-icon-list-icon">
                                                         <i aria-hidden="true" class="jki jki-bug-solid"></i>
                                                     </span>
-                                                    <span class="elementor-icon-list-text">Customized Growth Strategy</span>
+                                                    <span class="elementor-icon-list-text">Cambios ilimitados a la web</span>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+
                             <div class="elementor-element elementor-element-6c2a41c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="6c2a41c" data-element_type="widget" data-widget_type="icon-list.default">
                                 <div class="elementor-widget-container">
                                     <ul class="elementor-icon-list-items">
@@ -3285,7 +3722,7 @@
                                                         <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                     </svg>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Complete Digital Marketing Suite</span>
+                                                <span class="elementor-icon-list-text">Diseño premium para atrapar clientes</span>
                                             </a>
                                         </li>
                                         <li class="elementor-icon-list-item">
@@ -3295,7 +3732,7 @@
                                                         <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                     </svg>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Paid Ads Management</span>
+                                                <span class="elementor-icon-list-text">  Tienda en línea o catálogo de productos con categorización y pago en linea seguro</span>
                                             </a>
                                         </li>
                                         <li class="elementor-icon-list-item">
@@ -3305,7 +3742,7 @@
                                                         <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                     </svg>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Dedicated Account Manager</span>
+                                                <span class="elementor-icon-list-text">Integración de campañas para google (patrocinado) y redes sociales (anuncios)</span>
                                             </a>
                                         </li>
                                         <li class="elementor-icon-list-item">
@@ -3315,7 +3752,7 @@
                                                         <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                     </svg>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Email Marketing & Automation</span>
+                                                <span class="elementor-icon-list-text">Correos corporativos contacto@tudominio.com</span>
                                             </a>
                                         </li>
                                         <li class="elementor-icon-list-item">
@@ -3325,7 +3762,7 @@
                                                         <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                     </svg>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Dedicated Account Manager</span>
+                                                <span class="elementor-icon-list-text">Chatbot para WhatsApp o web</span>
                                             </a>
                                         </li>
                                         <li class="elementor-icon-list-item">
@@ -3335,19 +3772,66 @@
                                                         <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                     </svg>
                                                 </span>
-                                                <span class="elementor-icon-list-text">Weekly Performance Insights</span>
+                                                <span class="elementor-icon-list-text">Creación de contenido para web y redes sociales</span>
                                             </a>
                                         </li>
+                                        <li class="elementor-icon-list-item">
+                                            <a href="#">
+                                                <span class="elementor-icon-list-icon">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="elementor-icon-list-text"> Asesoría mensual personalizada (30-45 min por videollamada)</span>
+                                            </a>
+                                        </li>
+                                        
+
+                                        <li class="elementor-icon-list-item">
+                                            <a href="#">
+                                                <span class="elementor-icon-list-icon">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="elementor-icon-list-text">Integración con Google Analytics, Pixeles, Plugins y Search Console</span>
+                                            </a>
+                                        </li>
+
+
+
+
+
+
+
+
+                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         <div class="elementor-element elementor-element-bd3e358 e-con-full e-flex elementor-invisible e-con e-child" data-id="bd3e358" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;animation_delay&quot;:300}">
+
+                            <!-- -->
                             <div class="elementor-element elementor-element-7a11737b e-con-full e-flex e-con e-child" data-id="7a11737b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                                 <div class="elementor-element elementor-element-5cfdd5f5 e-con-full e-flex e-con e-child" data-id="5cfdd5f5" data-element_type="container">
                                     <div class="elementor-element elementor-element-3372c114 elementor-widget elementor-widget-heading" data-id="3372c114" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h5 class="elementor-heading-title elementor-size-default">Your Growth, Our Priority!</h5>
+                                            <h5 class="elementor-heading-title elementor-size-default">¡Tu crecimiento, nuestra prioridad!</h5>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-f5fb51e e-con-full e-flex e-con e-child" data-id="f5fb51e" data-element_type="container">
@@ -3362,7 +3846,7 @@
                                                                         <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"></path>
                                                                     </svg>
                                                                 </span>
-                                                                <span class="elementor-button-text">Data-Driven Digital Marketing</span>
+                                                                <span class="elementor-button-text">Marketing digital basado en datos</span>
                                                             </span>
                                                         </a>
                                                     </div>
@@ -3380,7 +3864,7 @@
                                                                         <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"></path>
                                                                     </svg>
                                                                 </span>
-                                                                <span class="elementor-button-text">Proven Strategies for Higher</span>
+                                                                <span class="elementor-button-text">Estrategias probadas para un mayor crecimiento</span>
                                                             </span>
                                                         </a>
                                                     </div>
@@ -3398,7 +3882,7 @@
                                                                         <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"></path>
                                                                     </svg>
                                                                 </span>
-                                                                <span class="elementor-button-text">Scalable Solutions for Every Business</span>
+                                                                <span class="elementor-button-text">Soluciones escalables para cada negocio/span>
                                                             </span>
                                                         </a>
                                                     </div>
@@ -3416,30 +3900,42 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
+                            
+
+
+
+
+
+
+
+
+
+
+
                             <div class="elementor-element elementor-element-28b57b46 e-con-full e-flex e-con e-child" data-id="28b57b46" data-element_type="container">
                                 <div class="elementor-element elementor-element-7ac1ba22 e-con-full e-flex elementor-invisible e-con e-child" data-id="7ac1ba22" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:700}">
                                     <div class="elementor-element elementor-element-460ca0d3 e-con-full e-flex e-con e-child" data-id="460ca0d3" data-element_type="container">
                                         <div class="elementor-element elementor-element-176c6673 elementor-widget elementor-widget-heading" data-id="176c6673" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Growth</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">Crecimiento</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-74d44a7a elementor-widget elementor-widget-text-editor" data-id="74d44a7a" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Best for growing businesses ready</p>
+                                                <p>Para negocios que ya venden y quieren seguir creciendo. <br><br> Desde:</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-4997bcc5 e-con-full e-flex e-con e-child" data-id="4997bcc5" data-element_type="container">
                                         <div class="elementor-element elementor-element-46a13698 elementor-widget elementor-widget-heading" data-id="46a13698" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h3 class="elementor-heading-title elementor-size-default">$299</h3>
+                                                <h3 class="elementor-heading-title elementor-size-default">$3499</h3>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-48d1c042 elementor-widget elementor-widget-heading" data-id="48d1c042" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-heading-title elementor-size-default">/ Month</div>
+                                                <div class="elementor-heading-title elementor-size-default">/ Mes</div>
                                             </div>
                                         </div>
                                     </div>
@@ -3450,7 +3946,7 @@
                                                     <div class="elementor-button-wrapper">
                                                         <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                                             <span class="elementor-button-content-wrapper">
-                                                                <span class="elementor-button-text">View Details</span>
+                                                                <span class="elementor-button-text">Cotiza ahora</span>
                                                             </span>
                                                         </a>
                                                     </div>
@@ -3477,7 +3973,7 @@
                                                                 <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                             </svg>
                                                         </span>
-                                                        <span class="elementor-icon-list-text">Basic SEO & Digital Marketing</span>
+                                                        <span class="elementor-icon-list-text">Tienda en línea o catálogo de productos (hasta 25 productos)</span>
                                                     </a>
                                                 </li>
                                                 <li class="elementor-icon-list-item">
@@ -3487,7 +3983,8 @@
                                                                 <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                             </svg>
                                                         </span>
-                                                        <span class="elementor-icon-list-text">Social Media Management (1 platform)</span>
+                                                        <span class="elementor-icon-list-text">Cambios ilimitados al sitio web (texto, imágenes, secciones simples)
+</span>
                                                     </a>
                                                 </li>
                                                 <li class="elementor-icon-list-item">
@@ -3497,9 +3994,51 @@
                                                                 <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
                                                             </svg>
                                                         </span>
-                                                        <span class="elementor-icon-list-text">Monthly Performance Report</span>
+                                                        <span class="elementor-icon-list-text">  SEO funcional (palabras clave, velocidad web, etiquetas esenciales)</span>
                                                     </a>
                                                 </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="#">
+                                                        <span class="elementor-icon-list-icon">
+                                                            <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="elementor-icon-list-text"> 1 campaña mensual en la red social de tu elección (creación y gestión) </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="#">
+                                                        <span class="elementor-icon-list-icon">
+                                                            <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="elementor-icon-list-text">  Landing page promocional (por campaña o servicio nuevo) </span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="#">
+                                                        <span class="elementor-icon-list-icon">
+                                                            <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="elementor-icon-list-text"> Ideas para vender nuevos productos/servicios y mejorar tu oferta</span>
+                                                    </a>
+                                                </li>
+
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="#">
+                                                        <span class="elementor-icon-list-icon">
+                                                            <svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                            </svg>
+                                                        </span>
+                                                        <span class="elementor-icon-list-text"> 1 campaña mensual en la red social de tu elección (creación y gestión básica) </span>
+                                                    </a>
+                                                </li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -3509,6 +4048,9 @@
                     </div>
                 </div>
             </div>
+
+
+<!--
             <div class="elementor-element elementor-element-66341f00 e-flex e-con-boxed e-con e-parent" data-id="66341f00" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-205c133c e-con-full e-flex e-con e-child" data-id="205c133c" data-element_type="container">
@@ -3548,12 +4090,14 @@
                                         <div id="mf-response-props-id-67" data-previous-steps-style="" data-editswitchopen="" data-response_type="alert" data-erroricon="fas fa-exclamation-triangle" data-successicon="fas fa-check" data-messageposition="top" class="   mf-scroll-top-no">
                                             <div class="formpicker_warper formpicker_warper_editable" data-metform-formpicker-key="67">
                                                 <div class="elementor-widget-container">
-                                                    <div id="metform-wrap-279766de-67" class="mf-form-wrapper" data-form-id="67" data-action="https://home.foxcreation.net/marko/wp-json/metform/v1/entries/insert/67" data-wp-nonce="76d6f38283" data-form-nonce="fc689781bb" data-quiz-summery="false" data-save-progress="false" data-form-type="general-form" data-stop-vertical-effect=""></div>
+                                                    <div id="metform-wrap-279766de-67" class="mf-form-wrapper" data-form-id="67" data-action="https://home.foxcreation.net/marko/wp-json/metform/v1/entries/insert/67" data-wp-nonce="76d6f38283" data-form-nonce="fc689781bb" data-quiz-summery="false" data-save-progress="false" data-form-type="general-form" data-stop-vertical-effect=""></div> --> 
                                                     <!----------------------------- 
 			* controls_data : find the the props passed indie of data attribute
 			* props.SubmitResponseMarkup : contains the markup of error or success message
-			* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-		--------------------------- -->
+			* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals 
+		--------------------------- --> 
+
+        <!--
                                                     <script type="text/mf" class="mf-template">
                                                         
 			function controls_data (value){
@@ -3587,13 +4131,13 @@
 			
 					${is_dummy_markup ? message_position === 'top' ?  props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
 					${is_dummy_markup ? ' ' :  message_position === 'top' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
-
+--> 
 					<!--------------------------------------------------------
 					*** IMPORTANT / DANGEROUS ***
 					${html``} must be used as in immediate child of "metform-form-main-wrapper"
 					class otherwise multistep form will not run at all
-					---------------------------------------------------------->
-
+					----------------------------------------------------------> 
+<!--
 					<div className="metform-form-main-wrapper" key=${'hide-form-after-submit'} ref=${parent.formRef}>
 					${html`
 								<div data-elementor-type="wp-post" key="2" data-elementor-id="67" className="elementor elementor-67">
@@ -3670,6 +4214,7 @@
                 </div>
             </div>
 
+--> 
 
 
 
@@ -3697,7 +4242,10 @@
 
 
 
-            <!-- Footer Section -->
+
+
+
+            
             <div style="display: none;" id="hidden-div">
                 <div class="elementor-element elementor-element-1c917dcf e-flex e-con-boxed e-con e-parent" data-id="1c917dcf" data-element_type="container">
                     <div class="e-con-inner">
@@ -3837,11 +4385,8 @@
 
         </div>
 
-        <br>
-        <br>
-        <br>
 
-
+<!-- Footer Section -->
         <div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
             <div data-elementor-type="wp-post" data-elementor-id="91" class="elementor elementor-91">
                 <div class="elementor-element elementor-element-4d793974 e-con-full e-flex e-con e-parent" data-id="4d793974" data-element_type="container">
@@ -3853,53 +4398,55 @@
                                         <div class="elementor-element elementor-element-6dab5683 elementor-widget elementor-widget-image" data-id="6dab5683" data-element_type="widget" data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <a href="#">
-                                                    <img width="511" height="111" src="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Marko-Logo.png" class="attachment-full size-full wp-image-63" alt="" decoding="async" srcset="https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Marko-Logo.png 511w, https://home.foxcreation.net/marko/wp-content/uploads/sites/10/2025/04/Marko-Logo-300x65.png 300w" sizes="(max-width: 511px) 100vw, 511px"/>
+                                                    <img fetchpriority="high" width="511" height="111" src="/img/logos/zyberlogo.png" class="attachment-large size-large wp-image-63" alt="Zyber Logo" decoding="async" srcset="/img/logos/zyberlogo.png 511w" sizes="(max-width: 511px) 100vw, 511px">   
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-605a3978 elementor-widget elementor-widget-heading" data-id="605a3978" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Driving Digital Growth with Innovation &amp;Strategy</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">Impulsamos tu crecimiento digital con estrategia e innovación</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-4cb5eb92 elementor-widget elementor-widget-text-editor" data-id="4cb5eb92" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.</p>
+                                                <p>Transformamos negocios con soluciones digitales personalizadas: sitios web, posicionamiento SEO, automatización, redes sociales y mucho más.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-4ce9cd3a e-con-full e-flex e-con e-child" data-id="4ce9cd3a" data-element_type="container">
                                         <div class="elementor-element elementor-element-155f4c02 elementor-widget elementor-widget-heading" data-id="155f4c02" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Quick Links</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Otros enlaces</h5>
                                             </div>
                                         </div>
+
+
                                         <div class="elementor-element elementor-element-65f3107d e-con-full e-flex e-con e-child" data-id="65f3107d" data-element_type="container">
                                             <div class="elementor-element elementor-element-7b73af42 elementor-widget elementor-widget-heading" data-id="7b73af42" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Home</a>
+                                                        <a href="#">Inicio</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5ff64fec elementor-widget elementor-widget-heading" data-id="5ff64fec" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">About Us</a>
+                                                        <a href="#">Sobre Nosotros</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-7cc26ea3 elementor-widget elementor-widget-heading" data-id="7cc26ea3" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Services</a>
+                                                        <a href="#">Servicios</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-181a9c57 elementor-widget elementor-widget-heading" data-id="181a9c57" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Case Studies</a>
+                                                        <a href="#">Portafolio</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3913,90 +4460,98 @@
                                             <div class="elementor-element elementor-element-3c36361d elementor-widget elementor-widget-heading" data-id="3c36361d" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Contact Us</a>
+                                                        <a href="#">Contacto</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+
+
+
+
                                     <div class="elementor-element elementor-element-81842eb e-con-full e-flex e-con e-child" data-id="81842eb" data-element_type="container">
                                         <div class="elementor-element elementor-element-7449f6ba elementor-widget elementor-widget-heading" data-id="7449f6ba" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Services</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Servicios</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5b8f795b e-con-full e-flex e-con e-child" data-id="5b8f795b" data-element_type="container">
                                             <div class="elementor-element elementor-element-8bb9298 elementor-widget elementor-widget-heading" data-id="8bb9298" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Social Media Marketing</a>
+                                                        <a href="#">Marketing digital</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5fa3bcf9 elementor-widget elementor-widget-heading" data-id="5fa3bcf9" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">SEO Optimization</a>
+                                                        <a href="#">Desarrollo web</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-620f4caa elementor-widget elementor-widget-heading" data-id="620f4caa" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">PPC Advertising</a>
+                                                        <a href="#">Soluciones Tecnológicas Personalizadas</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-427180ab elementor-widget elementor-widget-heading" data-id="427180ab" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Content Marketing</a>
+                                                        <a href="#">Branfing y diseño</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-3504950d elementor-widget elementor-widget-heading" data-id="3504950d" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Branding Strategy</a>
+                                                        <a href="#">Experiencia al cliente</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-2c164d09 elementor-widget elementor-widget-heading" data-id="2c164d09" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-heading-title elementor-size-default">
-                                                        <a href="#">Email Marketing</a>
+                                                        <a href="#">Y más</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+
+                                    
                                     <div class="elementor-element elementor-element-534c10e5 e-con-full e-flex e-con e-child" data-id="534c10e5" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class="elementor-element elementor-element-1e47eac6 elementor-widget elementor-widget-heading" data-id="1e47eac6" data-element_type="widget" data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Contact Info</h5>
+                                                <h5 class="elementor-heading-title elementor-size-default">Contacto</h5>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-52e20227 e-con-full e-flex e-con e-child" data-id="52e20227" data-element_type="container">
                                             <div class="elementor-element elementor-element-53612337 elementor-widget elementor-widget-heading" data-id="53612337" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-heading-title elementor-size-default">hello@markoagency.com</div>
+                                                    <div class="elementor-heading-title elementor-size-default">contacto@zyber.company</div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-4c733279 elementor-widget elementor-widget-heading" data-id="4c733279" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-heading-title elementor-size-default">+1 234 567 890</div>
+                                                    <div class="elementor-heading-title elementor-size-default">+52 722 644 8900</div>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-69c59af0 elementor-widget elementor-widget-heading" data-id="69c59af0" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <div class="elementor-heading-title elementor-size-default">123 Digital Street, New York, USA</div>
+                                                    <div class="elementor-heading-title elementor-size-default">Toluca, Estado de México, México</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-26f0e7fd e-con-full e-flex e-con e-child" data-id="26f0e7fd" data-element_type="container">
                                             <div class="elementor-element elementor-element-7fa0b13 elementor-widget elementor-widget-heading" data-id="7fa0b13" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h5 class="elementor-heading-title elementor-size-default">Social Media</h5>
+                                                    <h5 class="elementor-heading-title elementor-size-default">Redes sociales</h5>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-74f927d8 e-con-full e-flex e-con e-child" data-id="74f927d8" data-element_type="container">
@@ -4045,6 +4600,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                
                                                 <div class="elementor-element elementor-element-48d7b496 e-con-full e-flex e-con e-child" data-id="48d7b496" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                                     <div class="elementor-element elementor-element-4c27a460 e-con-full e-flex e-con e-child" data-id="4c27a460" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                                                         <div class="elementor-element elementor-element-2b48c19 elementor-view-default elementor-widget elementor-widget-icon" data-id="2b48c19" data-element_type="widget" data-widget_type="icon.default">
@@ -4064,6 +4620,14 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+
+
+
+
+
+
                                 <div class="elementor-element elementor-element-2876ee31 e-con-full e-flex e-con e-child" data-id="2876ee31" data-element_type="container">
                                     <div class="elementor-element elementor-element-2a6c8797 elementor-widget__width-inherit elementor-widget elementor-widget-spacer" data-id="2a6c8797" data-element_type="widget" data-widget_type="spacer.default">
                                         <div class="elementor-widget-container">
@@ -4076,7 +4640,7 @@
                                 <div class="elementor-element elementor-element-6e438506 e-con-full e-flex e-con e-child" data-id="6e438506" data-element_type="container">
                                     <div class="elementor-element elementor-element-338e67d0 elementor-widget elementor-widget-heading" data-id="338e67d0" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <div class="elementor-heading-title elementor-size-default">© 2025 Marko. Fox Creation All Rights Reserved.</div>
+                                            <div class="elementor-heading-title elementor-size-default">© 2025 Zyber Todos los derechos reservados</div>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-748df645 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-widget-mobile__width-inherit elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="748df645" data-element_type="widget" data-widget_type="icon-list.default">
@@ -4084,12 +4648,12 @@
                                             <ul class="elementor-icon-list-items elementor-inline-items">
                                                 <li class="elementor-icon-list-item elementor-inline-item">
                                                     <a href="#">
-                                                        <span class="elementor-icon-list-text">Privacy Policy</span>
+                                                        <span class="elementor-icon-list-text">Política de privacidad</span>
                                                     </a>
                                                 </li>
                                                 <li class="elementor-icon-list-item elementor-inline-item">
                                                     <a href="#">
-                                                        <span class="elementor-icon-list-text">Terms & Conditions</span>
+                                                        <span class="elementor-icon-list-text">Terminos y condiciones</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -4422,3 +4986,4 @@
         <script src="https://home.foxcreation.net/marko/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.3.7" id="elementskit-elementor-js"></script>
     </body>
 </html>
+<!--  -->
