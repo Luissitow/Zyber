@@ -70,11 +70,11 @@
     n.p = "",
     n(n.s = 0)
 }([function(e, t) {
-    class n extends elementorModules.frontend.handlers.Base {
+    class n extends zyberModules.frontend.handlers.Base {
         getDefaultSettings() {
             return {
                 selectors: {
-                    wrapper: ".jeg-elementor-kit.jkit-client-logo",
+                    wrapper: ".jeg-zyber-kit.jkit-client-logo",
                     items: ".client-track"
                 }
             }
@@ -127,9 +127,9 @@
             t.show_dots || this.elements.$wrapper.find(".tns-nav").remove()
         }
     }
-    jQuery(window).on("elementor/frontend/init", ( () => {
-        elementorFrontend.hooks.addAction("frontend/element_ready/jkit_client_logo.default", (e => {
-            elementorFrontend.elementsHandler.addHandler(n, {
+    jQuery(window).on("zyber/frontend/init", ( () => {
+        zyberFrontend.hooks.addAction("frontend/element_ready/jkit_client_logo.default", (e => {
+            zyberFrontend.elementsHandler.addHandler(n, {
                 $element: e
             })
         }

@@ -294,12 +294,12 @@ footer .site-navigation ul.menu a {
     width: 100%
 }
 
-.site-navigation-toggle-holder:not(.elementor-active)+.site-navigation-dropdown {
+.site-navigation-toggle-holder:not(.zyber-active)+.site-navigation-dropdown {
     transform: scaleY(0);
     max-height: 0
 }
 
-.site-navigation-toggle-holder.elementor-active+.site-navigation-dropdown {
+.site-navigation-toggle-holder.zyber-active+.site-navigation-dropdown {
     transform: scaleY(1);
     max-height: 100vh
 }
@@ -342,7 +342,7 @@ footer .site-navigation ul.menu a {
     max-height: 0
 }
 
-.site-navigation-dropdown ul.menu li.elementor-active>ul>li {
+.site-navigation-dropdown ul.menu li.zyber-active>ul>li {
     transform: scaleY(1);
     max-height: 100vh
 }

@@ -176,11 +176,11 @@
     }
 }
 
-.elementor-widget-mf-checkbox .mf-input-label {
+.zyber-widget-mf-checkbox .mf-input-label {
     margin-bottom: -5px!important
 }
 
-#elementor .mf-btn-wraper a.metform-btn {
+#zyber .mf-btn-wraper a.metform-btn {
     background: #337ab7;
     color: #fff;
     border-radius: 5px;
@@ -261,18 +261,18 @@ _::-webkit-full-page-media,_:future,:root .metform-form-content {
     overflow-x: hidden
 }
 
-.mf-multistep-container .elementor-top-section .elementor-inner-section {
+.mf-multistep-container .zyber-top-section .zyber-inner-section {
     padding: 0!important;
     margin: 0!important;
     min-height: inherit
 }
 
-.mf-multistep-container .elementor-top-section .elementor-inner-column .elementor-element-populated {
+.mf-multistep-container .zyber-top-section .zyber-inner-column .zyber-element-populated {
     padding-top: 0!important;
     padding-bottom: 0!important
 }
 
-.mf-multistep-container .elementor-top-section .elementor-inner-column .elementor-widget-container {
+.mf-multistep-container .zyber-top-section .zyber-inner-column .zyber-widget-container {
     margin: 10px 0
 }
 
@@ -912,11 +912,11 @@ button.metform-btn:focus,button.metform-btn:hover {
     height: auto
 }
 
-.elementor-widget-mf-date .mf-input-wrapper .flatpickr-calendar {
+.zyber-widget-mf-date .mf-input-wrapper .flatpickr-calendar {
     width: auto
 }
 
-.elementor-widget-mf-date.elementor-element-edit-mode .flatpickr-calendar,.elementor-widget-mf-time.elementor-element-edit-mode .flatpickr-calendar {
+.zyber-widget-mf-date.zyber-element-edit-mode .flatpickr-calendar,.zyber-widget-mf-time.zyber-element-edit-mode .flatpickr-calendar {
     top: 100%!important;
     left: 0!important
 }
@@ -1143,7 +1143,7 @@ button.metform-btn:focus,button.metform-btn:hover {
     text-align: left
 }
 
-.elementor-widget-mf-range .mf-field-error .error {
+.zyber-widget-mf-range .mf-field-error .error {
     display: none!important
 }
 
@@ -1248,7 +1248,7 @@ img.mf-input.mf-captcha-image {
     display: block
 }
 
-.elementor-widget-mf-url .mf-input-wrapper .mf-error-message {
+.zyber-widget-mf-url .mf-input-wrapper .mf-error-message {
     color: red
 }
 

@@ -70,11 +70,11 @@
     n.p = "",
     n(n.s = 0)
 }([function(e, t) {
-    class n extends elementorModules.frontend.handlers.Base {
+    class n extends zyberModules.frontend.handlers.Base {
         getDefaultSettings() {
             return {
                 selectors: {
-                    wrapper: ".jeg-elementor-kit.jkit-testimonials",
+                    wrapper: ".jeg-zyber-kit.jkit-testimonials",
                     items: ".testimonials-track"
                 }
             }
@@ -139,9 +139,9 @@
             a.navText = ['<i class="' + n.navigation_left + '" aria-hidden="true"></i>', '<i class="' + n.navigation_right + '" aria-hidden="true"></i>'])
         }
     }
-    jQuery(window).on("elementor/frontend/init", ( () => {
-        elementorFrontend.hooks.addAction("frontend/element_ready/jkit_testimonials.default", (e => {
-            elementorFrontend.elementsHandler.addHandler(n, {
+    jQuery(window).on("zyber/frontend/init", ( () => {
+        zyberFrontend.hooks.addAction("frontend/element_ready/jkit_testimonials.default", (e => {
+            zyberFrontend.elementsHandler.addHandler(n, {
                 $element: e
             })
         }

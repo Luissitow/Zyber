@@ -1,13 +1,13 @@
-/*! elementor - v3.26.0 - 07-01-2025 */
-.elementor-hidden {
+/*! zyber - v3.26.0 - 07-01-2025 */
+.zyber-hidden {
     display: none
 }
 
-.elementor-visibility-hidden {
+.zyber-visibility-hidden {
     visibility: hidden
 }
 
-.elementor-screen-only,.screen-reader-text,.screen-reader-text span,.ui-helper-hidden-accessible {
+.zyber-screen-only,.screen-reader-text,.screen-reader-text span,.ui-helper-hidden-accessible {
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -19,7 +19,7 @@
     border: 0
 }
 
-.elementor-clearfix:after {
+.zyber-clearfix:after {
     clear: both;
     content: "";
     display: block;
@@ -40,21 +40,21 @@
     font-size: 1em
 }
 
-.elementor *,.elementor :after,.elementor :before {
+.zyber *,.zyber :after,.zyber :before {
     box-sizing: border-box
 }
 
-.elementor a {
+.zyber a {
     box-shadow: none;
     text-decoration: none
 }
 
-.elementor hr {
+.zyber hr {
     background-color: transparent;
     margin: 0
 }
 
-.elementor img {
+.zyber img {
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -62,11 +62,11 @@
     max-width: 100%
 }
 
-.elementor .elementor-widget:not(.elementor-widget-text-editor):not(.elementor-widget-theme-post-content) figure {
+.zyber .zyber-widget:not(.zyber-widget-text-editor):not(.zyber-widget-theme-post-content) figure {
     margin: 0
 }
 
-.elementor embed,.elementor iframe,.elementor object,.elementor video {
+.zyber embed,.zyber iframe,.zyber object,.zyber video {
     border: none;
     line-height: 1;
     margin: 0;
@@ -74,7 +74,7 @@
     width: 100%
 }
 
-.elementor .elementor-background,.elementor .elementor-background-holder,.elementor .elementor-background-video-container {
+.zyber .zyber-background,.zyber .zyber-background-holder,.zyber .zyber-background-video-container {
     direction: ltr;
     inset: 0;
     overflow: hidden;
@@ -82,78 +82,78 @@
     z-index: 0
 }
 
-.elementor .elementor-background-video-container {
+.zyber .zyber-background-video-container {
     pointer-events: none;
     transition: opacity 1s
 }
 
-.elementor .elementor-background-video-container.elementor-loading {
+.zyber .zyber-background-video-container.zyber-loading {
     opacity: 0
 }
 
-.elementor .elementor-background-video-embed {
+.zyber .zyber-background-video-embed {
     max-width: none
 }
 
-.elementor .elementor-background-video,.elementor .elementor-background-video-embed,.elementor .elementor-background-video-hosted {
+.zyber .zyber-background-video,.zyber .zyber-background-video-embed,.zyber .zyber-background-video-hosted {
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%)
 }
 
-.elementor .elementor-background-video {
+.zyber .zyber-background-video {
     max-width: none
 }
 
-.elementor .elementor-html5-video {
+.zyber .zyber-html5-video {
     -o-object-fit: cover;
     object-fit: cover
 }
 
-.elementor .elementor-background-overlay {
+.zyber .zyber-background-overlay {
     inset: 0;
     position: absolute
 }
 
-.elementor .elementor-background-slideshow {
+.zyber .zyber-background-slideshow {
     inset: 0;
     position: absolute;
     z-index: 0
 }
 
-.elementor .elementor-background-slideshow__slide__image {
+.zyber .zyber-background-slideshow__slide__image {
     background-position: 50%;
     background-size: cover;
     height: 100%;
     width: 100%
 }
 
-.e-con-inner>.elementor-element.elementor-absolute,.e-con>.elementor-element.elementor-absolute,.elementor-widget-wrap>.elementor-element.elementor-absolute {
+.e-con-inner>.zyber-element.zyber-absolute,.e-con>.zyber-element.zyber-absolute,.zyber-widget-wrap>.zyber-element.zyber-absolute {
     position: absolute
 }
 
-.e-con-inner>.elementor-element.elementor-fixed,.e-con>.elementor-element.elementor-fixed,.elementor-widget-wrap>.elementor-element.elementor-fixed {
+.e-con-inner>.zyber-element.zyber-fixed,.e-con>.zyber-element.zyber-fixed,.zyber-widget-wrap>.zyber-element.zyber-fixed {
     position: fixed
 }
 
-.elementor-widget-wrap .elementor-element.elementor-widget__width-auto,.elementor-widget-wrap .elementor-element.elementor-widget__width-initial {
+.zyber-widget-wrap .zyber-element.zyber-widget__width-auto,.zyber-widget-wrap .zyber-element.zyber-widget__width-initial {
     max-width: 100%
 }
 
 @media (max-width: 1024px) {
-    .elementor-widget-wrap .elementor-element.elementor-widget-tablet__width-auto,.elementor-widget-wrap .elementor-element.elementor-widget-tablet__width-initial {
+    .zyber-widget-wrap .zyber-element.zyber-widget-tablet__width-auto,.zyber-widget-wrap .zyber-element.zyber-widget-tablet__width-initial {
         max-width:100%
     }
 }
 
 @media (max-width: 767px) {
-    .elementor-widget-wrap .elementor-element.elementor-widget-mobile__width-auto,.elementor-widget-wrap .elementor-element.elementor-widget-mobile__width-initial {
+    .zyber-widget-wrap .zyber-element.zyber-widget-mobile__width-auto,.zyber-widget-wrap .zyber-element.zyber-widget-mobile__width-initial {
         max-width:100%
     }
 }
 
-.elementor-element {
+.zyber-element {
     --flex-direction: initial;
     --flex-wrap: initial;
     --justify-content: initial;
@@ -172,11 +172,11 @@
     order: var(--order)
 }
 
-.elementor-element.elementor-absolute,.elementor-element.elementor-fixed {
+.zyber-element.zyber-absolute,.zyber-element.zyber-fixed {
     z-index: 1
 }
 
-.elementor-element:where(.e-con-full,.elementor-widget) {
+.zyber-element:where(.e-con-full,.zyber-widget) {
     align-content: var(--align-content);
     align-items: var(--align-items);
     flex-direction: var(--flex-direction);
@@ -185,219 +185,219 @@
     justify-content: var(--justify-content)
 }
 
-.elementor-invisible {
+.zyber-invisible {
     visibility: hidden
 }
 
-.elementor-align-center {
+.zyber-align-center {
     text-align: center
 }
 
-.elementor-align-right {
+.zyber-align-right {
     text-align: right
 }
 
-.elementor-align-left {
+.zyber-align-left {
     text-align: left
 }
 
-.elementor-align-center .elementor-button,.elementor-align-left .elementor-button,.elementor-align-right .elementor-button {
+.zyber-align-center .zyber-button,.zyber-align-left .zyber-button,.zyber-align-right .zyber-button {
     width: auto
 }
 
-.elementor-align-justify .elementor-button {
+.zyber-align-justify .zyber-button {
     width: 100%
 }
 
-.elementor-custom-embed-play {
+.zyber-custom-embed-play {
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%)
 }
 
-.elementor-custom-embed-play i {
+.zyber-custom-embed-play i {
     color: #fff;
     font-size: 100px;
     text-shadow: 1px 0 6px rgba(0,0,0,.3)
 }
 
-.elementor-custom-embed-play svg {
+.zyber-custom-embed-play svg {
     height: 100px;
     width: 100px;
     fill: #fff;
     filter: drop-shadow(1px 0 6px rgba(0,0,0,.3))
 }
 
-.elementor-custom-embed-play i,.elementor-custom-embed-play svg {
+.zyber-custom-embed-play i,.zyber-custom-embed-play svg {
     opacity: .8;
     transition: all .5s
 }
 
-.elementor-custom-embed-play.elementor-playing i {
+.zyber-custom-embed-play.zyber-playing i {
     font-family: eicons
 }
 
-.elementor-custom-embed-play.elementor-playing i:before {
+.zyber-custom-embed-play.zyber-playing i:before {
     content: "\e8fb"
 }
 
-.elementor-custom-embed-play.elementor-playing i,.elementor-custom-embed-play.elementor-playing svg {
+.zyber-custom-embed-play.zyber-playing i,.zyber-custom-embed-play.zyber-playing svg {
     animation: eicon-spin 2s linear infinite
 }
 
-.elementor-tag {
+.zyber-tag {
     display: inline-flex
 }
 
-.elementor-ken-burns {
+.zyber-ken-burns {
     transition-duration: 10s;
     transition-property: transform;
     transition-timing-function: linear
 }
 
-.elementor-ken-burns--out {
+.zyber-ken-burns--out {
     transform: scale(1.3)
 }
 
-.elementor-ken-burns--active {
+.zyber-ken-burns--active {
     transition-duration: 20s
 }
 
-.elementor-ken-burns--active.elementor-ken-burns--out {
+.zyber-ken-burns--active.zyber-ken-burns--out {
     transform: scale(1)
 }
 
-.elementor-ken-burns--active.elementor-ken-burns--in {
+.zyber-ken-burns--active.zyber-ken-burns--in {
     transform: scale(1.3)
 }
 
 @media (min-width: -1) {
-    .elementor-widescreen-align-center {
+    .zyber-widescreen-align-center {
         text-align:center
     }
 
-    .elementor-widescreen-align-right {
+    .zyber-widescreen-align-right {
         text-align: right
     }
 
-    .elementor-widescreen-align-left {
+    .zyber-widescreen-align-left {
         text-align: left
     }
 
-    .elementor-widescreen-align-center .elementor-button,.elementor-widescreen-align-left .elementor-button,.elementor-widescreen-align-right .elementor-button {
+    .zyber-widescreen-align-center .zyber-button,.zyber-widescreen-align-left .zyber-button,.zyber-widescreen-align-right .zyber-button {
         width: auto
     }
 
-    .elementor-widescreen-align-justify .elementor-button {
+    .zyber-widescreen-align-justify .zyber-button {
         width: 100%
     }
 }
 
 @media (max-width: -1) {
-    .elementor-laptop-align-center {
+    .zyber-laptop-align-center {
         text-align:center
     }
 
-    .elementor-laptop-align-right {
+    .zyber-laptop-align-right {
         text-align: right
     }
 
-    .elementor-laptop-align-left {
+    .zyber-laptop-align-left {
         text-align: left
     }
 
-    .elementor-laptop-align-center .elementor-button,.elementor-laptop-align-left .elementor-button,.elementor-laptop-align-right .elementor-button {
+    .zyber-laptop-align-center .zyber-button,.zyber-laptop-align-left .zyber-button,.zyber-laptop-align-right .zyber-button {
         width: auto
     }
 
-    .elementor-laptop-align-justify .elementor-button {
+    .zyber-laptop-align-justify .zyber-button {
         width: 100%
     }
 
-    .elementor-tablet_extra-align-center {
+    .zyber-tablet_extra-align-center {
         text-align: center
     }
 
-    .elementor-tablet_extra-align-right {
+    .zyber-tablet_extra-align-right {
         text-align: right
     }
 
-    .elementor-tablet_extra-align-left {
+    .zyber-tablet_extra-align-left {
         text-align: left
     }
 
-    .elementor-tablet_extra-align-center .elementor-button,.elementor-tablet_extra-align-left .elementor-button,.elementor-tablet_extra-align-right .elementor-button {
+    .zyber-tablet_extra-align-center .zyber-button,.zyber-tablet_extra-align-left .zyber-button,.zyber-tablet_extra-align-right .zyber-button {
         width: auto
     }
 
-    .elementor-tablet_extra-align-justify .elementor-button {
+    .zyber-tablet_extra-align-justify .zyber-button {
         width: 100%
     }
 }
 
 @media (max-width: 1024px) {
-    .elementor-tablet-align-center {
+    .zyber-tablet-align-center {
         text-align:center
     }
 
-    .elementor-tablet-align-right {
+    .zyber-tablet-align-right {
         text-align: right
     }
 
-    .elementor-tablet-align-left {
+    .zyber-tablet-align-left {
         text-align: left
     }
 
-    .elementor-tablet-align-center .elementor-button,.elementor-tablet-align-left .elementor-button,.elementor-tablet-align-right .elementor-button {
+    .zyber-tablet-align-center .zyber-button,.zyber-tablet-align-left .zyber-button,.zyber-tablet-align-right .zyber-button {
         width: auto
     }
 
-    .elementor-tablet-align-justify .elementor-button {
+    .zyber-tablet-align-justify .zyber-button {
         width: 100%
     }
 }
 
 @media (max-width: -1) {
-    .elementor-mobile_extra-align-center {
+    .zyber-mobile_extra-align-center {
         text-align:center
     }
 
-    .elementor-mobile_extra-align-right {
+    .zyber-mobile_extra-align-right {
         text-align: right
     }
 
-    .elementor-mobile_extra-align-left {
+    .zyber-mobile_extra-align-left {
         text-align: left
     }
 
-    .elementor-mobile_extra-align-center .elementor-button,.elementor-mobile_extra-align-left .elementor-button,.elementor-mobile_extra-align-right .elementor-button {
+    .zyber-mobile_extra-align-center .zyber-button,.zyber-mobile_extra-align-left .zyber-button,.zyber-mobile_extra-align-right .zyber-button {
         width: auto
     }
 
-    .elementor-mobile_extra-align-justify .elementor-button {
+    .zyber-mobile_extra-align-justify .zyber-button {
         width: 100%
     }
 }
 
 @media (max-width: 767px) {
-    .elementor-mobile-align-center {
+    .zyber-mobile-align-center {
         text-align:center
     }
 
-    .elementor-mobile-align-right {
+    .zyber-mobile-align-right {
         text-align: right
     }
 
-    .elementor-mobile-align-left {
+    .zyber-mobile-align-left {
         text-align: left
     }
 
-    .elementor-mobile-align-center .elementor-button,.elementor-mobile-align-left .elementor-button,.elementor-mobile-align-right .elementor-button {
+    .zyber-mobile-align-center .zyber-button,.zyber-mobile-align-left .zyber-button,.zyber-mobile-align-right .zyber-button {
         width: auto
     }
 
-    .elementor-mobile-align-justify .elementor-button {
+    .zyber-mobile-align-justify .zyber-button {
         width: 100%
     }
 }
@@ -406,7 +406,7 @@
     --page-title-display: block
 }
 
-.elementor-page-title,h1.entry-title {
+.zyber-page-title,h1.entry-title {
     display: var(--page-title-display)
 }
 
@@ -424,11 +424,11 @@
     animation: eicon-spin 2s linear infinite
 }
 
-.elementor-section {
+.zyber-section {
     position: relative
 }
 
-.elementor-section .elementor-container {
+.zyber-section .zyber-container {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -436,1255 +436,1255 @@
 }
 
 @media (max-width: 1024px) {
-    .elementor-section .elementor-container {
+    .zyber-section .zyber-container {
         flex-wrap:wrap
     }
 }
 
-.elementor-section.elementor-section-boxed>.elementor-container {
+.zyber-section.zyber-section-boxed>.zyber-container {
     max-width: 1140px
 }
 
-.elementor-section.elementor-section-stretched {
+.zyber-section.zyber-section-stretched {
     position: relative;
     width: 100%
 }
 
-.elementor-section.elementor-section-items-top>.elementor-container {
+.zyber-section.zyber-section-items-top>.zyber-container {
     align-items: flex-start
 }
 
-.elementor-section.elementor-section-items-middle>.elementor-container {
+.zyber-section.zyber-section-items-middle>.zyber-container {
     align-items: center
 }
 
-.elementor-section.elementor-section-items-bottom>.elementor-container {
+.zyber-section.zyber-section-items-bottom>.zyber-container {
     align-items: flex-end
 }
 
 @media (min-width: 768px) {
-    .elementor-section.elementor-section-height-full {
+    .zyber-section.zyber-section-height-full {
         height:100vh
     }
 
-    .elementor-section.elementor-section-height-full>.elementor-container {
+    .zyber-section.zyber-section-height-full>.zyber-container {
         height: 100%
     }
 }
 
-.elementor-bc-flex-widget .elementor-section-content-top>.elementor-container>.elementor-column>.elementor-widget-wrap {
+.zyber-bc-flex-widget .zyber-section-content-top>.zyber-container>.zyber-column>.zyber-widget-wrap {
     align-items: flex-start
 }
 
-.elementor-bc-flex-widget .elementor-section-content-middle>.elementor-container>.elementor-column>.elementor-widget-wrap {
+.zyber-bc-flex-widget .zyber-section-content-middle>.zyber-container>.zyber-column>.zyber-widget-wrap {
     align-items: center
 }
 
-.elementor-bc-flex-widget .elementor-section-content-bottom>.elementor-container>.elementor-column>.elementor-widget-wrap {
+.zyber-bc-flex-widget .zyber-section-content-bottom>.zyber-container>.zyber-column>.zyber-widget-wrap {
     align-items: flex-end
 }
 
-.elementor-widget-wrap {
+.zyber-widget-wrap {
     align-content: flex-start;
     flex-wrap: wrap;
     position: relative;
     width: 100%
 }
 
-.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+.zyber:not(.zyber-bc-flex-widget) .zyber-widget-wrap {
     display: flex
 }
 
-.elementor-widget-wrap>.elementor-element {
+.zyber-widget-wrap>.zyber-element {
     width: 100%
 }
 
-.elementor-widget-wrap.e-swiper-container {
+.zyber-widget-wrap.e-swiper-container {
     width: calc(100% - (var(--e-column-margin-left, 0px) + var(--e-column-margin-right, 0px)))
 }
 
-.elementor-widget {
+.zyber-widget {
     position: relative
 }
 
-.elementor-widget:not(:last-child) {
+.zyber-widget:not(:last-child) {
     margin-bottom: var(--kit-widget-spacing,20px)
 }
 
-.elementor-widget:not(:last-child).elementor-absolute,.elementor-widget:not(:last-child).elementor-widget__width-auto,.elementor-widget:not(:last-child).elementor-widget__width-initial {
+.zyber-widget:not(:last-child).zyber-absolute,.zyber-widget:not(:last-child).zyber-widget__width-auto,.zyber-widget:not(:last-child).zyber-widget__width-initial {
     margin-bottom: 0
 }
 
-.elementor-column {
+.zyber-column {
     display: flex;
     min-height: 1px;
     position: relative
 }
 
-.elementor-column-gap-narrow>.elementor-column>.elementor-element-populated {
+.zyber-column-gap-narrow>.zyber-column>.zyber-element-populated {
     padding: 5px
 }
 
-.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+.zyber-column-gap-default>.zyber-column>.zyber-element-populated {
     padding: 10px
 }
 
-.elementor-column-gap-extended>.elementor-column>.elementor-element-populated {
+.zyber-column-gap-extended>.zyber-column>.zyber-element-populated {
     padding: 15px
 }
 
-.elementor-column-gap-wide>.elementor-column>.elementor-element-populated {
+.zyber-column-gap-wide>.zyber-column>.zyber-element-populated {
     padding: 20px
 }
 
-.elementor-column-gap-wider>.elementor-column>.elementor-element-populated {
+.zyber-column-gap-wider>.zyber-column>.zyber-element-populated {
     padding: 30px
 }
 
-.elementor-inner-section .elementor-column-gap-no .elementor-element-populated {
+.zyber-inner-section .zyber-column-gap-no .zyber-element-populated {
     padding: 0
 }
 
 @media (min-width: 768px) {
-    .elementor-column.elementor-col-10,.elementor-column[data-col="10"] {
+    .zyber-column.zyber-col-10,.zyber-column[data-col="10"] {
         width:10%
     }
 
-    .elementor-column.elementor-col-11,.elementor-column[data-col="11"] {
+    .zyber-column.zyber-col-11,.zyber-column[data-col="11"] {
         width: 11.111%
     }
 
-    .elementor-column.elementor-col-12,.elementor-column[data-col="12"] {
+    .zyber-column.zyber-col-12,.zyber-column[data-col="12"] {
         width: 12.5%
     }
 
-    .elementor-column.elementor-col-14,.elementor-column[data-col="14"] {
+    .zyber-column.zyber-col-14,.zyber-column[data-col="14"] {
         width: 14.285%
     }
 
-    .elementor-column.elementor-col-16,.elementor-column[data-col="16"] {
+    .zyber-column.zyber-col-16,.zyber-column[data-col="16"] {
         width: 16.666%
     }
 
-    .elementor-column.elementor-col-20,.elementor-column[data-col="20"] {
+    .zyber-column.zyber-col-20,.zyber-column[data-col="20"] {
         width: 20%
     }
 
-    .elementor-column.elementor-col-25,.elementor-column[data-col="25"] {
+    .zyber-column.zyber-col-25,.zyber-column[data-col="25"] {
         width: 25%
     }
 
-    .elementor-column.elementor-col-30,.elementor-column[data-col="30"] {
+    .zyber-column.zyber-col-30,.zyber-column[data-col="30"] {
         width: 30%
     }
 
-    .elementor-column.elementor-col-33,.elementor-column[data-col="33"] {
+    .zyber-column.zyber-col-33,.zyber-column[data-col="33"] {
         width: 33.333%
     }
 
-    .elementor-column.elementor-col-40,.elementor-column[data-col="40"] {
+    .zyber-column.zyber-col-40,.zyber-column[data-col="40"] {
         width: 40%
     }
 
-    .elementor-column.elementor-col-50,.elementor-column[data-col="50"] {
+    .zyber-column.zyber-col-50,.zyber-column[data-col="50"] {
         width: 50%
     }
 
-    .elementor-column.elementor-col-60,.elementor-column[data-col="60"] {
+    .zyber-column.zyber-col-60,.zyber-column[data-col="60"] {
         width: 60%
     }
 
-    .elementor-column.elementor-col-66,.elementor-column[data-col="66"] {
+    .zyber-column.zyber-col-66,.zyber-column[data-col="66"] {
         width: 66.666%
     }
 
-    .elementor-column.elementor-col-70,.elementor-column[data-col="70"] {
+    .zyber-column.zyber-col-70,.zyber-column[data-col="70"] {
         width: 70%
     }
 
-    .elementor-column.elementor-col-75,.elementor-column[data-col="75"] {
+    .zyber-column.zyber-col-75,.zyber-column[data-col="75"] {
         width: 75%
     }
 
-    .elementor-column.elementor-col-80,.elementor-column[data-col="80"] {
+    .zyber-column.zyber-col-80,.zyber-column[data-col="80"] {
         width: 80%
     }
 
-    .elementor-column.elementor-col-83,.elementor-column[data-col="83"] {
+    .zyber-column.zyber-col-83,.zyber-column[data-col="83"] {
         width: 83.333%
     }
 
-    .elementor-column.elementor-col-90,.elementor-column[data-col="90"] {
+    .zyber-column.zyber-col-90,.zyber-column[data-col="90"] {
         width: 90%
     }
 
-    .elementor-column.elementor-col-100,.elementor-column[data-col="100"] {
+    .zyber-column.zyber-col-100,.zyber-column[data-col="100"] {
         width: 100%
     }
 }
 
 @media (max-width: 479px) {
-    .elementor-column.elementor-xs-10 {
+    .zyber-column.zyber-xs-10 {
         width:10%
     }
 
-    .elementor-column.elementor-xs-11 {
+    .zyber-column.zyber-xs-11 {
         width: 11.111%
     }
 
-    .elementor-column.elementor-xs-12 {
+    .zyber-column.zyber-xs-12 {
         width: 12.5%
     }
 
-    .elementor-column.elementor-xs-14 {
+    .zyber-column.zyber-xs-14 {
         width: 14.285%
     }
 
-    .elementor-column.elementor-xs-16 {
+    .zyber-column.zyber-xs-16 {
         width: 16.666%
     }
 
-    .elementor-column.elementor-xs-20 {
+    .zyber-column.zyber-xs-20 {
         width: 20%
     }
 
-    .elementor-column.elementor-xs-25 {
+    .zyber-column.zyber-xs-25 {
         width: 25%
     }
 
-    .elementor-column.elementor-xs-30 {
+    .zyber-column.zyber-xs-30 {
         width: 30%
     }
 
-    .elementor-column.elementor-xs-33 {
+    .zyber-column.zyber-xs-33 {
         width: 33.333%
     }
 
-    .elementor-column.elementor-xs-40 {
+    .zyber-column.zyber-xs-40 {
         width: 40%
     }
 
-    .elementor-column.elementor-xs-50 {
+    .zyber-column.zyber-xs-50 {
         width: 50%
     }
 
-    .elementor-column.elementor-xs-60 {
+    .zyber-column.zyber-xs-60 {
         width: 60%
     }
 
-    .elementor-column.elementor-xs-66 {
+    .zyber-column.zyber-xs-66 {
         width: 66.666%
     }
 
-    .elementor-column.elementor-xs-70 {
+    .zyber-column.zyber-xs-70 {
         width: 70%
     }
 
-    .elementor-column.elementor-xs-75 {
+    .zyber-column.zyber-xs-75 {
         width: 75%
     }
 
-    .elementor-column.elementor-xs-80 {
+    .zyber-column.zyber-xs-80 {
         width: 80%
     }
 
-    .elementor-column.elementor-xs-83 {
+    .zyber-column.zyber-xs-83 {
         width: 83.333%
     }
 
-    .elementor-column.elementor-xs-90 {
+    .zyber-column.zyber-xs-90 {
         width: 90%
     }
 
-    .elementor-column.elementor-xs-100 {
+    .zyber-column.zyber-xs-100 {
         width: 100%
     }
 }
 
 @media (max-width: 767px) {
-    .elementor-column.elementor-sm-10 {
+    .zyber-column.zyber-sm-10 {
         width:10%
     }
 
-    .elementor-column.elementor-sm-11 {
+    .zyber-column.zyber-sm-11 {
         width: 11.111%
     }
 
-    .elementor-column.elementor-sm-12 {
+    .zyber-column.zyber-sm-12 {
         width: 12.5%
     }
 
-    .elementor-column.elementor-sm-14 {
+    .zyber-column.zyber-sm-14 {
         width: 14.285%
     }
 
-    .elementor-column.elementor-sm-16 {
+    .zyber-column.zyber-sm-16 {
         width: 16.666%
     }
 
-    .elementor-column.elementor-sm-20 {
+    .zyber-column.zyber-sm-20 {
         width: 20%
     }
 
-    .elementor-column.elementor-sm-25 {
+    .zyber-column.zyber-sm-25 {
         width: 25%
     }
 
-    .elementor-column.elementor-sm-30 {
+    .zyber-column.zyber-sm-30 {
         width: 30%
     }
 
-    .elementor-column.elementor-sm-33 {
+    .zyber-column.zyber-sm-33 {
         width: 33.333%
     }
 
-    .elementor-column.elementor-sm-40 {
+    .zyber-column.zyber-sm-40 {
         width: 40%
     }
 
-    .elementor-column.elementor-sm-50 {
+    .zyber-column.zyber-sm-50 {
         width: 50%
     }
 
-    .elementor-column.elementor-sm-60 {
+    .zyber-column.zyber-sm-60 {
         width: 60%
     }
 
-    .elementor-column.elementor-sm-66 {
+    .zyber-column.zyber-sm-66 {
         width: 66.666%
     }
 
-    .elementor-column.elementor-sm-70 {
+    .zyber-column.zyber-sm-70 {
         width: 70%
     }
 
-    .elementor-column.elementor-sm-75 {
+    .zyber-column.zyber-sm-75 {
         width: 75%
     }
 
-    .elementor-column.elementor-sm-80 {
+    .zyber-column.zyber-sm-80 {
         width: 80%
     }
 
-    .elementor-column.elementor-sm-83 {
+    .zyber-column.zyber-sm-83 {
         width: 83.333%
     }
 
-    .elementor-column.elementor-sm-90 {
+    .zyber-column.zyber-sm-90 {
         width: 90%
     }
 
-    .elementor-column.elementor-sm-100 {
+    .zyber-column.zyber-sm-100 {
         width: 100%
     }
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
-    .elementor-column.elementor-md-10 {
+    .zyber-column.zyber-md-10 {
         width:10%
     }
 
-    .elementor-column.elementor-md-11 {
+    .zyber-column.zyber-md-11 {
         width: 11.111%
     }
 
-    .elementor-column.elementor-md-12 {
+    .zyber-column.zyber-md-12 {
         width: 12.5%
     }
 
-    .elementor-column.elementor-md-14 {
+    .zyber-column.zyber-md-14 {
         width: 14.285%
     }
 
-    .elementor-column.elementor-md-16 {
+    .zyber-column.zyber-md-16 {
         width: 16.666%
     }
 
-    .elementor-column.elementor-md-20 {
+    .zyber-column.zyber-md-20 {
         width: 20%
     }
 
-    .elementor-column.elementor-md-25 {
+    .zyber-column.zyber-md-25 {
         width: 25%
     }
 
-    .elementor-column.elementor-md-30 {
+    .zyber-column.zyber-md-30 {
         width: 30%
     }
 
-    .elementor-column.elementor-md-33 {
+    .zyber-column.zyber-md-33 {
         width: 33.333%
     }
 
-    .elementor-column.elementor-md-40 {
+    .zyber-column.zyber-md-40 {
         width: 40%
     }
 
-    .elementor-column.elementor-md-50 {
+    .zyber-column.zyber-md-50 {
         width: 50%
     }
 
-    .elementor-column.elementor-md-60 {
+    .zyber-column.zyber-md-60 {
         width: 60%
     }
 
-    .elementor-column.elementor-md-66 {
+    .zyber-column.zyber-md-66 {
         width: 66.666%
     }
 
-    .elementor-column.elementor-md-70 {
+    .zyber-column.zyber-md-70 {
         width: 70%
     }
 
-    .elementor-column.elementor-md-75 {
+    .zyber-column.zyber-md-75 {
         width: 75%
     }
 
-    .elementor-column.elementor-md-80 {
+    .zyber-column.zyber-md-80 {
         width: 80%
     }
 
-    .elementor-column.elementor-md-83 {
+    .zyber-column.zyber-md-83 {
         width: 83.333%
     }
 
-    .elementor-column.elementor-md-90 {
+    .zyber-column.zyber-md-90 {
         width: 90%
     }
 
-    .elementor-column.elementor-md-100 {
+    .zyber-column.zyber-md-100 {
         width: 100%
     }
 }
 
 @media (min-width: -1) {
-    .elementor-reverse-widescreen>.elementor-container>:first-child {
+    .zyber-reverse-widescreen>.zyber-container>:first-child {
         order:10
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(2) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(3) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(4) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(5) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(6) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(7) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(8) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(9) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-widescreen>.elementor-container>:nth-child(10) {
+    .zyber-reverse-widescreen>.zyber-container>:nth-child(10) {
         order: 1
     }
 }
 
 @media (min-width: 1025px) and (max-width:-1) {
-    .elementor-reverse-laptop>.elementor-container>:first-child {
+    .zyber-reverse-laptop>.zyber-container>:first-child {
         order:10
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(2) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(3) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(4) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(5) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(6) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(7) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(8) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(9) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(10) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(10) {
         order: 1
     }
 }
 
 @media (min-width: -1) and (max-width:-1) {
-    .elementor-reverse-laptop>.elementor-container>:first-child {
+    .zyber-reverse-laptop>.zyber-container>:first-child {
         order:10
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(2) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(3) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(4) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(5) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(6) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(7) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(8) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(9) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-laptop>.elementor-container>:nth-child(10) {
+    .zyber-reverse-laptop>.zyber-container>:nth-child(10) {
         order: 1
     }
 }
 
 @media (min-width: 1025px) and (max-width:-1) {
-    .elementor-reverse-laptop>.elementor-container>:first-child,.elementor-reverse-laptop>.elementor-container>:nth-child(10),.elementor-reverse-laptop>.elementor-container>:nth-child(2),.elementor-reverse-laptop>.elementor-container>:nth-child(3),.elementor-reverse-laptop>.elementor-container>:nth-child(4),.elementor-reverse-laptop>.elementor-container>:nth-child(5),.elementor-reverse-laptop>.elementor-container>:nth-child(6),.elementor-reverse-laptop>.elementor-container>:nth-child(7),.elementor-reverse-laptop>.elementor-container>:nth-child(8),.elementor-reverse-laptop>.elementor-container>:nth-child(9) {
+    .zyber-reverse-laptop>.zyber-container>:first-child,.zyber-reverse-laptop>.zyber-container>:nth-child(10),.zyber-reverse-laptop>.zyber-container>:nth-child(2),.zyber-reverse-laptop>.zyber-container>:nth-child(3),.zyber-reverse-laptop>.zyber-container>:nth-child(4),.zyber-reverse-laptop>.zyber-container>:nth-child(5),.zyber-reverse-laptop>.zyber-container>:nth-child(6),.zyber-reverse-laptop>.zyber-container>:nth-child(7),.zyber-reverse-laptop>.zyber-container>:nth-child(8),.zyber-reverse-laptop>.zyber-container>:nth-child(9) {
         order:0
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:first-child {
+    .zyber-reverse-tablet_extra>.zyber-container>:first-child {
         order: 10
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(2) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(3) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(4) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(5) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(6) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(7) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(8) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(9) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-tablet_extra>.elementor-container>:nth-child(10) {
+    .zyber-reverse-tablet_extra>.zyber-container>:nth-child(10) {
         order: 1
     }
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
-    .elementor-reverse-tablet>.elementor-container>:first-child {
+    .zyber-reverse-tablet>.zyber-container>:first-child {
         order:10
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(2) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(3) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(4) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(5) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(6) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(7) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(8) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(9) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(10) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(10) {
         order: 1
     }
 }
 
 @media (min-width: -1) and (max-width:1024px) {
-    .elementor-reverse-tablet>.elementor-container>:first-child {
+    .zyber-reverse-tablet>.zyber-container>:first-child {
         order:10
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(2) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(3) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(4) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(5) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(6) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(7) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(8) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(9) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-tablet>.elementor-container>:nth-child(10) {
+    .zyber-reverse-tablet>.zyber-container>:nth-child(10) {
         order: 1
     }
 }
 
 @media (min-width: 768px) and (max-width:-1) {
-    .elementor-reverse-tablet>.elementor-container>:first-child,.elementor-reverse-tablet>.elementor-container>:nth-child(10),.elementor-reverse-tablet>.elementor-container>:nth-child(2),.elementor-reverse-tablet>.elementor-container>:nth-child(3),.elementor-reverse-tablet>.elementor-container>:nth-child(4),.elementor-reverse-tablet>.elementor-container>:nth-child(5),.elementor-reverse-tablet>.elementor-container>:nth-child(6),.elementor-reverse-tablet>.elementor-container>:nth-child(7),.elementor-reverse-tablet>.elementor-container>:nth-child(8),.elementor-reverse-tablet>.elementor-container>:nth-child(9) {
+    .zyber-reverse-tablet>.zyber-container>:first-child,.zyber-reverse-tablet>.zyber-container>:nth-child(10),.zyber-reverse-tablet>.zyber-container>:nth-child(2),.zyber-reverse-tablet>.zyber-container>:nth-child(3),.zyber-reverse-tablet>.zyber-container>:nth-child(4),.zyber-reverse-tablet>.zyber-container>:nth-child(5),.zyber-reverse-tablet>.zyber-container>:nth-child(6),.zyber-reverse-tablet>.zyber-container>:nth-child(7),.zyber-reverse-tablet>.zyber-container>:nth-child(8),.zyber-reverse-tablet>.zyber-container>:nth-child(9) {
         order:0
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:first-child {
+    .zyber-reverse-mobile_extra>.zyber-container>:first-child {
         order: 10
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(2) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(3) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(4) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(5) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(6) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(7) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(8) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(9) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-mobile_extra>.elementor-container>:nth-child(10) {
+    .zyber-reverse-mobile_extra>.zyber-container>:nth-child(10) {
         order: 1
     }
 }
 
 @media (max-width: 767px) {
-    .elementor-reverse-mobile>.elementor-container>:first-child {
+    .zyber-reverse-mobile>.zyber-container>:first-child {
         order:10
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(2) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(2) {
         order: 9
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(3) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(3) {
         order: 8
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(4) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(4) {
         order: 7
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(5) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(5) {
         order: 6
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(6) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(6) {
         order: 5
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(7) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(7) {
         order: 4
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(8) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(8) {
         order: 3
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(9) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(9) {
         order: 2
     }
 
-    .elementor-reverse-mobile>.elementor-container>:nth-child(10) {
+    .zyber-reverse-mobile>.zyber-container>:nth-child(10) {
         order: 1
     }
 
-    .elementor-column {
+    .zyber-column {
         width: 100%
     }
 }
 
-.elementor-grid {
+.zyber-grid {
     display: grid;
     grid-column-gap: var(--grid-column-gap);
     grid-row-gap: var(--grid-row-gap)
 }
 
-.elementor-grid .elementor-grid-item {
+.zyber-grid .zyber-grid-item {
     min-width: 0
 }
 
-.elementor-grid-0 .elementor-grid {
+.zyber-grid-0 .zyber-grid {
     display: inline-block;
     margin-bottom: calc(-1 * var(--grid-row-gap));
     width: 100%;
     word-spacing: var(--grid-column-gap)
 }
 
-.elementor-grid-0 .elementor-grid .elementor-grid-item {
+.zyber-grid-0 .zyber-grid .zyber-grid-item {
     display: inline-block;
     margin-bottom: var(--grid-row-gap);
     word-break: break-word
 }
 
-.elementor-grid-1 .elementor-grid {
+.zyber-grid-1 .zyber-grid {
     grid-template-columns: repeat(1,1fr)
 }
 
-.elementor-grid-2 .elementor-grid {
+.zyber-grid-2 .zyber-grid {
     grid-template-columns: repeat(2,1fr)
 }
 
-.elementor-grid-3 .elementor-grid {
+.zyber-grid-3 .zyber-grid {
     grid-template-columns: repeat(3,1fr)
 }
 
-.elementor-grid-4 .elementor-grid {
+.zyber-grid-4 .zyber-grid {
     grid-template-columns: repeat(4,1fr)
 }
 
-.elementor-grid-5 .elementor-grid {
+.zyber-grid-5 .zyber-grid {
     grid-template-columns: repeat(5,1fr)
 }
 
-.elementor-grid-6 .elementor-grid {
+.zyber-grid-6 .zyber-grid {
     grid-template-columns: repeat(6,1fr)
 }
 
-.elementor-grid-7 .elementor-grid {
+.zyber-grid-7 .zyber-grid {
     grid-template-columns: repeat(7,1fr)
 }
 
-.elementor-grid-8 .elementor-grid {
+.zyber-grid-8 .zyber-grid {
     grid-template-columns: repeat(8,1fr)
 }
 
-.elementor-grid-9 .elementor-grid {
+.zyber-grid-9 .zyber-grid {
     grid-template-columns: repeat(9,1fr)
 }
 
-.elementor-grid-10 .elementor-grid {
+.zyber-grid-10 .zyber-grid {
     grid-template-columns: repeat(10,1fr)
 }
 
-.elementor-grid-11 .elementor-grid {
+.zyber-grid-11 .zyber-grid {
     grid-template-columns: repeat(11,1fr)
 }
 
-.elementor-grid-12 .elementor-grid {
+.zyber-grid-12 .zyber-grid {
     grid-template-columns: repeat(12,1fr)
 }
 
 @media (min-width: -1) {
-    .elementor-grid-widescreen-0 .elementor-grid {
+    .zyber-grid-widescreen-0 .zyber-grid {
         display:inline-block;
         margin-bottom: calc(-1 * var(--grid-row-gap));
         width: 100%;
         word-spacing: var(--grid-column-gap)
     }
 
-    .elementor-grid-widescreen-0 .elementor-grid .elementor-grid-item {
+    .zyber-grid-widescreen-0 .zyber-grid .zyber-grid-item {
         display: inline-block;
         margin-bottom: var(--grid-row-gap);
         word-break: break-word
     }
 
-    .elementor-grid-widescreen-1 .elementor-grid {
+    .zyber-grid-widescreen-1 .zyber-grid {
         grid-template-columns: repeat(1,1fr)
     }
 
-    .elementor-grid-widescreen-2 .elementor-grid {
+    .zyber-grid-widescreen-2 .zyber-grid {
         grid-template-columns: repeat(2,1fr)
     }
 
-    .elementor-grid-widescreen-3 .elementor-grid {
+    .zyber-grid-widescreen-3 .zyber-grid {
         grid-template-columns: repeat(3,1fr)
     }
 
-    .elementor-grid-widescreen-4 .elementor-grid {
+    .zyber-grid-widescreen-4 .zyber-grid {
         grid-template-columns: repeat(4,1fr)
     }
 
-    .elementor-grid-widescreen-5 .elementor-grid {
+    .zyber-grid-widescreen-5 .zyber-grid {
         grid-template-columns: repeat(5,1fr)
     }
 
-    .elementor-grid-widescreen-6 .elementor-grid {
+    .zyber-grid-widescreen-6 .zyber-grid {
         grid-template-columns: repeat(6,1fr)
     }
 
-    .elementor-grid-widescreen-7 .elementor-grid {
+    .zyber-grid-widescreen-7 .zyber-grid {
         grid-template-columns: repeat(7,1fr)
     }
 
-    .elementor-grid-widescreen-8 .elementor-grid {
+    .zyber-grid-widescreen-8 .zyber-grid {
         grid-template-columns: repeat(8,1fr)
     }
 
-    .elementor-grid-widescreen-9 .elementor-grid {
+    .zyber-grid-widescreen-9 .zyber-grid {
         grid-template-columns: repeat(9,1fr)
     }
 
-    .elementor-grid-widescreen-10 .elementor-grid {
+    .zyber-grid-widescreen-10 .zyber-grid {
         grid-template-columns: repeat(10,1fr)
     }
 
-    .elementor-grid-widescreen-11 .elementor-grid {
+    .zyber-grid-widescreen-11 .zyber-grid {
         grid-template-columns: repeat(11,1fr)
     }
 
-    .elementor-grid-widescreen-12 .elementor-grid {
+    .zyber-grid-widescreen-12 .zyber-grid {
         grid-template-columns: repeat(12,1fr)
     }
 }
 
 @media (max-width: -1) {
-    .elementor-grid-laptop-0 .elementor-grid {
+    .zyber-grid-laptop-0 .zyber-grid {
         display:inline-block;
         margin-bottom: calc(-1 * var(--grid-row-gap));
         width: 100%;
         word-spacing: var(--grid-column-gap)
     }
 
-    .elementor-grid-laptop-0 .elementor-grid .elementor-grid-item {
+    .zyber-grid-laptop-0 .zyber-grid .zyber-grid-item {
         display: inline-block;
         margin-bottom: var(--grid-row-gap);
         word-break: break-word
     }
 
-    .elementor-grid-laptop-1 .elementor-grid {
+    .zyber-grid-laptop-1 .zyber-grid {
         grid-template-columns: repeat(1,1fr)
     }
 
-    .elementor-grid-laptop-2 .elementor-grid {
+    .zyber-grid-laptop-2 .zyber-grid {
         grid-template-columns: repeat(2,1fr)
     }
 
-    .elementor-grid-laptop-3 .elementor-grid {
+    .zyber-grid-laptop-3 .zyber-grid {
         grid-template-columns: repeat(3,1fr)
     }
 
-    .elementor-grid-laptop-4 .elementor-grid {
+    .zyber-grid-laptop-4 .zyber-grid {
         grid-template-columns: repeat(4,1fr)
     }
 
-    .elementor-grid-laptop-5 .elementor-grid {
+    .zyber-grid-laptop-5 .zyber-grid {
         grid-template-columns: repeat(5,1fr)
     }
 
-    .elementor-grid-laptop-6 .elementor-grid {
+    .zyber-grid-laptop-6 .zyber-grid {
         grid-template-columns: repeat(6,1fr)
     }
 
-    .elementor-grid-laptop-7 .elementor-grid {
+    .zyber-grid-laptop-7 .zyber-grid {
         grid-template-columns: repeat(7,1fr)
     }
 
-    .elementor-grid-laptop-8 .elementor-grid {
+    .zyber-grid-laptop-8 .zyber-grid {
         grid-template-columns: repeat(8,1fr)
     }
 
-    .elementor-grid-laptop-9 .elementor-grid {
+    .zyber-grid-laptop-9 .zyber-grid {
         grid-template-columns: repeat(9,1fr)
     }
 
-    .elementor-grid-laptop-10 .elementor-grid {
+    .zyber-grid-laptop-10 .zyber-grid {
         grid-template-columns: repeat(10,1fr)
     }
 
-    .elementor-grid-laptop-11 .elementor-grid {
+    .zyber-grid-laptop-11 .zyber-grid {
         grid-template-columns: repeat(11,1fr)
     }
 
-    .elementor-grid-laptop-12 .elementor-grid {
+    .zyber-grid-laptop-12 .zyber-grid {
         grid-template-columns: repeat(12,1fr)
     }
 
-    .elementor-grid-tablet_extra-0 .elementor-grid {
+    .zyber-grid-tablet_extra-0 .zyber-grid {
         display: inline-block;
         margin-bottom: calc(-1 * var(--grid-row-gap));
         width: 100%;
         word-spacing: var(--grid-column-gap)
     }
 
-    .elementor-grid-tablet_extra-0 .elementor-grid .elementor-grid-item {
+    .zyber-grid-tablet_extra-0 .zyber-grid .zyber-grid-item {
         display: inline-block;
         margin-bottom: var(--grid-row-gap);
         word-break: break-word
     }
 
-    .elementor-grid-tablet_extra-1 .elementor-grid {
+    .zyber-grid-tablet_extra-1 .zyber-grid {
         grid-template-columns: repeat(1,1fr)
     }
 
-    .elementor-grid-tablet_extra-2 .elementor-grid {
+    .zyber-grid-tablet_extra-2 .zyber-grid {
         grid-template-columns: repeat(2,1fr)
     }
 
-    .elementor-grid-tablet_extra-3 .elementor-grid {
+    .zyber-grid-tablet_extra-3 .zyber-grid {
         grid-template-columns: repeat(3,1fr)
     }
 
-    .elementor-grid-tablet_extra-4 .elementor-grid {
+    .zyber-grid-tablet_extra-4 .zyber-grid {
         grid-template-columns: repeat(4,1fr)
     }
 
-    .elementor-grid-tablet_extra-5 .elementor-grid {
+    .zyber-grid-tablet_extra-5 .zyber-grid {
         grid-template-columns: repeat(5,1fr)
     }
 
-    .elementor-grid-tablet_extra-6 .elementor-grid {
+    .zyber-grid-tablet_extra-6 .zyber-grid {
         grid-template-columns: repeat(6,1fr)
     }
 
-    .elementor-grid-tablet_extra-7 .elementor-grid {
+    .zyber-grid-tablet_extra-7 .zyber-grid {
         grid-template-columns: repeat(7,1fr)
     }
 
-    .elementor-grid-tablet_extra-8 .elementor-grid {
+    .zyber-grid-tablet_extra-8 .zyber-grid {
         grid-template-columns: repeat(8,1fr)
     }
 
-    .elementor-grid-tablet_extra-9 .elementor-grid {
+    .zyber-grid-tablet_extra-9 .zyber-grid {
         grid-template-columns: repeat(9,1fr)
     }
 
-    .elementor-grid-tablet_extra-10 .elementor-grid {
+    .zyber-grid-tablet_extra-10 .zyber-grid {
         grid-template-columns: repeat(10,1fr)
     }
 
-    .elementor-grid-tablet_extra-11 .elementor-grid {
+    .zyber-grid-tablet_extra-11 .zyber-grid {
         grid-template-columns: repeat(11,1fr)
     }
 
-    .elementor-grid-tablet_extra-12 .elementor-grid {
+    .zyber-grid-tablet_extra-12 .zyber-grid {
         grid-template-columns: repeat(12,1fr)
     }
 }
 
 @media (max-width: 1024px) {
-    .elementor-grid-tablet-0 .elementor-grid {
+    .zyber-grid-tablet-0 .zyber-grid {
         display:inline-block;
         margin-bottom: calc(-1 * var(--grid-row-gap));
         width: 100%;
         word-spacing: var(--grid-column-gap)
     }
 
-    .elementor-grid-tablet-0 .elementor-grid .elementor-grid-item {
+    .zyber-grid-tablet-0 .zyber-grid .zyber-grid-item {
         display: inline-block;
         margin-bottom: var(--grid-row-gap);
         word-break: break-word
     }
 
-    .elementor-grid-tablet-1 .elementor-grid {
+    .zyber-grid-tablet-1 .zyber-grid {
         grid-template-columns: repeat(1,1fr)
     }
 
-    .elementor-grid-tablet-2 .elementor-grid {
+    .zyber-grid-tablet-2 .zyber-grid {
         grid-template-columns: repeat(2,1fr)
     }
 
-    .elementor-grid-tablet-3 .elementor-grid {
+    .zyber-grid-tablet-3 .zyber-grid {
         grid-template-columns: repeat(3,1fr)
     }
 
-    .elementor-grid-tablet-4 .elementor-grid {
+    .zyber-grid-tablet-4 .zyber-grid {
         grid-template-columns: repeat(4,1fr)
     }
 
-    .elementor-grid-tablet-5 .elementor-grid {
+    .zyber-grid-tablet-5 .zyber-grid {
         grid-template-columns: repeat(5,1fr)
     }
 
-    .elementor-grid-tablet-6 .elementor-grid {
+    .zyber-grid-tablet-6 .zyber-grid {
         grid-template-columns: repeat(6,1fr)
     }
 
-    .elementor-grid-tablet-7 .elementor-grid {
+    .zyber-grid-tablet-7 .zyber-grid {
         grid-template-columns: repeat(7,1fr)
     }
 
-    .elementor-grid-tablet-8 .elementor-grid {
+    .zyber-grid-tablet-8 .zyber-grid {
         grid-template-columns: repeat(8,1fr)
     }
 
-    .elementor-grid-tablet-9 .elementor-grid {
+    .zyber-grid-tablet-9 .zyber-grid {
         grid-template-columns: repeat(9,1fr)
     }
 
-    .elementor-grid-tablet-10 .elementor-grid {
+    .zyber-grid-tablet-10 .zyber-grid {
         grid-template-columns: repeat(10,1fr)
     }
 
-    .elementor-grid-tablet-11 .elementor-grid {
+    .zyber-grid-tablet-11 .zyber-grid {
         grid-template-columns: repeat(11,1fr)
     }
 
-    .elementor-grid-tablet-12 .elementor-grid {
+    .zyber-grid-tablet-12 .zyber-grid {
         grid-template-columns: repeat(12,1fr)
     }
 }
 
 @media (max-width: -1) {
-    .elementor-grid-mobile_extra-0 .elementor-grid {
+    .zyber-grid-mobile_extra-0 .zyber-grid {
         display:inline-block;
         margin-bottom: calc(-1 * var(--grid-row-gap));
         width: 100%;
         word-spacing: var(--grid-column-gap)
     }
 
-    .elementor-grid-mobile_extra-0 .elementor-grid .elementor-grid-item {
+    .zyber-grid-mobile_extra-0 .zyber-grid .zyber-grid-item {
         display: inline-block;
         margin-bottom: var(--grid-row-gap);
         word-break: break-word
     }
 
-    .elementor-grid-mobile_extra-1 .elementor-grid {
+    .zyber-grid-mobile_extra-1 .zyber-grid {
         grid-template-columns: repeat(1,1fr)
     }
 
-    .elementor-grid-mobile_extra-2 .elementor-grid {
+    .zyber-grid-mobile_extra-2 .zyber-grid {
         grid-template-columns: repeat(2,1fr)
     }
 
-    .elementor-grid-mobile_extra-3 .elementor-grid {
+    .zyber-grid-mobile_extra-3 .zyber-grid {
         grid-template-columns: repeat(3,1fr)
     }
 
-    .elementor-grid-mobile_extra-4 .elementor-grid {
+    .zyber-grid-mobile_extra-4 .zyber-grid {
         grid-template-columns: repeat(4,1fr)
     }
 
-    .elementor-grid-mobile_extra-5 .elementor-grid {
+    .zyber-grid-mobile_extra-5 .zyber-grid {
         grid-template-columns: repeat(5,1fr)
     }
 
-    .elementor-grid-mobile_extra-6 .elementor-grid {
+    .zyber-grid-mobile_extra-6 .zyber-grid {
         grid-template-columns: repeat(6,1fr)
     }
 
-    .elementor-grid-mobile_extra-7 .elementor-grid {
+    .zyber-grid-mobile_extra-7 .zyber-grid {
         grid-template-columns: repeat(7,1fr)
     }
 
-    .elementor-grid-mobile_extra-8 .elementor-grid {
+    .zyber-grid-mobile_extra-8 .zyber-grid {
         grid-template-columns: repeat(8,1fr)
     }
 
-    .elementor-grid-mobile_extra-9 .elementor-grid {
+    .zyber-grid-mobile_extra-9 .zyber-grid {
         grid-template-columns: repeat(9,1fr)
     }
 
-    .elementor-grid-mobile_extra-10 .elementor-grid {
+    .zyber-grid-mobile_extra-10 .zyber-grid {
         grid-template-columns: repeat(10,1fr)
     }
 
-    .elementor-grid-mobile_extra-11 .elementor-grid {
+    .zyber-grid-mobile_extra-11 .zyber-grid {
         grid-template-columns: repeat(11,1fr)
     }
 
-    .elementor-grid-mobile_extra-12 .elementor-grid {
+    .zyber-grid-mobile_extra-12 .zyber-grid {
         grid-template-columns: repeat(12,1fr)
     }
 }
 
 @media (max-width: 767px) {
-    .elementor-grid-mobile-0 .elementor-grid {
+    .zyber-grid-mobile-0 .zyber-grid {
         display:inline-block;
         margin-bottom: calc(-1 * var(--grid-row-gap));
         width: 100%;
         word-spacing: var(--grid-column-gap)
     }
 
-    .elementor-grid-mobile-0 .elementor-grid .elementor-grid-item {
+    .zyber-grid-mobile-0 .zyber-grid .zyber-grid-item {
         display: inline-block;
         margin-bottom: var(--grid-row-gap);
         word-break: break-word
     }
 
-    .elementor-grid-mobile-1 .elementor-grid {
+    .zyber-grid-mobile-1 .zyber-grid {
         grid-template-columns: repeat(1,1fr)
     }
 
-    .elementor-grid-mobile-2 .elementor-grid {
+    .zyber-grid-mobile-2 .zyber-grid {
         grid-template-columns: repeat(2,1fr)
     }
 
-    .elementor-grid-mobile-3 .elementor-grid {
+    .zyber-grid-mobile-3 .zyber-grid {
         grid-template-columns: repeat(3,1fr)
     }
 
-    .elementor-grid-mobile-4 .elementor-grid {
+    .zyber-grid-mobile-4 .zyber-grid {
         grid-template-columns: repeat(4,1fr)
     }
 
-    .elementor-grid-mobile-5 .elementor-grid {
+    .zyber-grid-mobile-5 .zyber-grid {
         grid-template-columns: repeat(5,1fr)
     }
 
-    .elementor-grid-mobile-6 .elementor-grid {
+    .zyber-grid-mobile-6 .zyber-grid {
         grid-template-columns: repeat(6,1fr)
     }
 
-    .elementor-grid-mobile-7 .elementor-grid {
+    .zyber-grid-mobile-7 .zyber-grid {
         grid-template-columns: repeat(7,1fr)
     }
 
-    .elementor-grid-mobile-8 .elementor-grid {
+    .zyber-grid-mobile-8 .zyber-grid {
         grid-template-columns: repeat(8,1fr)
     }
 
-    .elementor-grid-mobile-9 .elementor-grid {
+    .zyber-grid-mobile-9 .zyber-grid {
         grid-template-columns: repeat(9,1fr)
     }
 
-    .elementor-grid-mobile-10 .elementor-grid {
+    .zyber-grid-mobile-10 .zyber-grid {
         grid-template-columns: repeat(10,1fr)
     }
 
-    .elementor-grid-mobile-11 .elementor-grid {
+    .zyber-grid-mobile-11 .zyber-grid {
         grid-template-columns: repeat(11,1fr)
     }
 
-    .elementor-grid-mobile-12 .elementor-grid {
+    .zyber-grid-mobile-12 .zyber-grid {
         grid-template-columns: repeat(12,1fr)
     }
 }
 
 @media (min-width: 1025px) {
-    #elementor-device-mode:after {
+    #zyber-device-mode:after {
         content:"desktop"
     }
 }
 
 @media (min-width: -1) {
-    #elementor-device-mode:after {
+    #zyber-device-mode:after {
         content:"widescreen"
     }
 }
 
 @media (max-width: -1) {
-    #elementor-device-mode:after {
+    #zyber-device-mode:after {
         content:"laptop";
         content: "tablet_extra"
     }
 }
 
 @media (max-width: 1024px) {
-    #elementor-device-mode:after {
+    #zyber-device-mode:after {
         content:"tablet"
     }
 }
 
 @media (max-width: -1) {
-    #elementor-device-mode:after {
+    #zyber-device-mode:after {
         content:"mobile_extra"
     }
 }
 
 @media (max-width: 767px) {
-    #elementor-device-mode:after {
+    #zyber-device-mode:after {
         content:"mobile"
     }
 }
@@ -1847,16 +1847,16 @@ body.rtl .e-con {
     padding-inline-end:0;padding-inline-start:0;width: 100%
 }
 
-:is(.elementor-section-wrap,[data-elementor-id])>.e-con {
+:is(.zyber-section-wrap,[data-zyber-id])>.e-con {
     --margin-left: auto;
     --margin-right: auto;
     max-width: min(100%,var(--width))
 }
 
-.e-con .elementor-widget.elementor-widget {
+.e-con .zyber-widget.zyber-widget {
     margin-block-end:0}
 
-.e-con:before,.e-con>.elementor-background-slideshow:before,.e-con>.elementor-motion-effects-container>.elementor-motion-effects-layer:before,:is(.e-con,.e-con>.e-con-inner)>.elementor-background-video-container:before {
+.e-con:before,.e-con>.zyber-background-slideshow:before,.e-con>.zyber-motion-effects-container>.zyber-motion-effects-layer:before,:is(.e-con,.e-con>.e-con-inner)>.zyber-background-video-container:before {
     border-block-end-width:var(--border-block-end-width);border-block-start-width: var(--border-block-start-width);
     border-color: var(--border-color);
     border-inline-end-width:var(--border-inline-end-width);border-inline-start-width: var(--border-inline-start-width);
@@ -1878,7 +1878,7 @@ body.rtl .e-con {
     transition: background var(--overlay-transition,.3s),border-radius var(--border-transition,.3s),opacity var(--overlay-transition,.3s)
 }
 
-.e-con>.elementor-background-slideshow,:is(.e-con,.e-con>.e-con-inner)>.elementor-background-video-container {
+.e-con>.zyber-background-slideshow,:is(.e-con,.e-con>.e-con-inner)>.zyber-background-video-container {
     border-block-end-width:var(--border-block-end-width);border-block-start-width: var(--border-block-start-width);
     border-color: var(--border-color);
     border-inline-end-width:var(--border-inline-end-width);border-inline-start-width: var(--border-inline-start-width);
@@ -1891,36 +1891,36 @@ body.rtl .e-con {
 }
 
 @media (max-width: 767px) {
-    :is(.e-con,.e-con>.e-con-inner)>.elementor-background-video-container.elementor-hidden-mobile {
+    :is(.e-con,.e-con>.e-con-inner)>.zyber-background-video-container.zyber-hidden-mobile {
         display:none
     }
 }
 
-:is(.e-con,.e-con>.e-con-inner)>.elementor-background-video-container:before {
+:is(.e-con,.e-con>.e-con-inner)>.zyber-background-video-container:before {
     z-index: 1
 }
 
-:is(.e-con,.e-con>.e-con-inner)>.elementor-background-slideshow:before {
+:is(.e-con,.e-con>.e-con-inner)>.zyber-background-slideshow:before {
     z-index: 2
 }
 
-.e-con .elementor-widget {
+.e-con .zyber-widget {
     min-width: 0
 }
 
-.e-con .elementor-widget-empty,.e-con .elementor-widget-google_maps,.e-con .elementor-widget-video,.e-con .elementor-widget.e-widget-swiper {
+.e-con .zyber-widget-empty,.e-con .zyber-widget-google_maps,.e-con .zyber-widget-video,.e-con .zyber-widget.e-widget-swiper {
     width: 100%
 }
 
-.e-con>.e-con-inner>.elementor-widget>.elementor-widget-container,.e-con>.elementor-widget>.elementor-widget-container {
+.e-con>.e-con-inner>.zyber-widget>.zyber-widget-container,.e-con>.zyber-widget>.zyber-widget-container {
     height: 100%
 }
 
-.e-con.e-con>.e-con-inner>.elementor-widget,.elementor.elementor .e-con>.elementor-widget {
+.e-con.e-con>.e-con-inner>.zyber-widget,.zyber.zyber .e-con>.zyber-widget {
     max-width: 100%
 }
 
-.e-con .elementor-widget:not(:last-child) {
+.e-con .zyber-widget:not(:last-child) {
     --kit-widget-spacing: 0px
 }
 
@@ -1930,35 +1930,35 @@ body.rtl .e-con {
         --flex-wrap: var(--flex-wrap-mobile)
     }
 
-    .e-con.e-flex .elementor-widget-archive-posts {
+    .e-con.e-flex .zyber-widget-archive-posts {
         width: 100%
     }
 }
 
-.elementor-form-fields-wrapper {
+.zyber-form-fields-wrapper {
     display: flex;
     flex-wrap: wrap
 }
 
-.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-group .elementor-field-subgroup,.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-group>.elementor-select-wrapper,.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-group>input,.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-group>textarea {
+.zyber-form-fields-wrapper.zyber-labels-above .zyber-field-group .zyber-field-subgroup,.zyber-form-fields-wrapper.zyber-labels-above .zyber-field-group>.zyber-select-wrapper,.zyber-form-fields-wrapper.zyber-labels-above .zyber-field-group>input,.zyber-form-fields-wrapper.zyber-labels-above .zyber-field-group>textarea {
     flex-basis: 100%;
     max-width: 100%
 }
 
-.elementor-form-fields-wrapper.elementor-labels-inline>.elementor-field-group .elementor-select-wrapper,.elementor-form-fields-wrapper.elementor-labels-inline>.elementor-field-group>input {
+.zyber-form-fields-wrapper.zyber-labels-inline>.zyber-field-group .zyber-select-wrapper,.zyber-form-fields-wrapper.zyber-labels-inline>.zyber-field-group>input {
     flex-grow: 1
 }
 
-.elementor-field-group {
+.zyber-field-group {
     align-items: center;
     flex-wrap: wrap
 }
 
-.elementor-field-group.elementor-field-type-submit {
+.zyber-field-group.zyber-field-type-submit {
     align-items: flex-end
 }
 
-.elementor-field-group .elementor-field-textual {
+.zyber-field-group .zyber-field-textual {
     background-color: transparent;
     border: 1px solid #69727d;
     color: #1f2124;
@@ -1968,30 +1968,30 @@ body.rtl .e-con {
     width: 100%
 }
 
-.elementor-field-group .elementor-field-textual:focus {
+.zyber-field-group .zyber-field-textual:focus {
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.1);
     outline: 0
 }
 
-.elementor-field-group .elementor-field-textual::-moz-placeholder {
+.zyber-field-group .zyber-field-textual::-moz-placeholder {
     color: inherit;
     font-family: inherit;
     opacity: .6
 }
 
-.elementor-field-group .elementor-field-textual::placeholder {
+.zyber-field-group .zyber-field-textual::placeholder {
     color: inherit;
     font-family: inherit;
     opacity: .6
 }
 
-.elementor-field-group .elementor-select-wrapper {
+.zyber-field-group .zyber-select-wrapper {
     display: flex;
     position: relative;
     width: 100%
 }
 
-.elementor-field-group .elementor-select-wrapper select {
+.zyber-field-group .zyber-select-wrapper select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -2006,7 +2006,7 @@ body.rtl .e-con {
     padding-inline-end:20px;text-transform: inherit
 }
 
-.elementor-field-group .elementor-select-wrapper:before {
+.zyber-field-group .zyber-select-wrapper:before {
     content: "\e92a";
     font-family: eicons;
     font-size: 15px;
@@ -2018,40 +2018,40 @@ body.rtl .e-con {
     transform: translateY(-50%)
 }
 
-.elementor-field-group.elementor-field-type-select-multiple .elementor-select-wrapper:before {
+.zyber-field-group.zyber-field-type-select-multiple .zyber-select-wrapper:before {
     content: ""
 }
 
-.elementor-field-subgroup {
+.zyber-field-subgroup {
     display: flex;
     flex-wrap: wrap
 }
 
-.elementor-field-subgroup .elementor-field-option label {
+.zyber-field-subgroup .zyber-field-option label {
     display: inline-block
 }
 
-.elementor-field-subgroup.elementor-subgroup-inline .elementor-field-option {
+.zyber-field-subgroup.zyber-subgroup-inline .zyber-field-option {
     padding-inline-end:10px}
 
-.elementor-field-subgroup:not(.elementor-subgroup-inline) .elementor-field-option {
+.zyber-field-subgroup:not(.zyber-subgroup-inline) .zyber-field-option {
     flex-basis: 100%
 }
 
-.elementor-field-type-acceptance .elementor-field-subgroup .elementor-field-option input,.elementor-field-type-acceptance .elementor-field-subgroup .elementor-field-option label,.elementor-field-type-checkbox .elementor-field-subgroup .elementor-field-option input,.elementor-field-type-checkbox .elementor-field-subgroup .elementor-field-option label,.elementor-field-type-radio .elementor-field-subgroup .elementor-field-option input,.elementor-field-type-radio .elementor-field-subgroup .elementor-field-option label {
+.zyber-field-type-acceptance .zyber-field-subgroup .zyber-field-option input,.zyber-field-type-acceptance .zyber-field-subgroup .zyber-field-option label,.zyber-field-type-checkbox .zyber-field-subgroup .zyber-field-option input,.zyber-field-type-checkbox .zyber-field-subgroup .zyber-field-option label,.zyber-field-type-radio .zyber-field-subgroup .zyber-field-option input,.zyber-field-type-radio .zyber-field-subgroup .zyber-field-option label {
     display: inline
 }
 
-.elementor-field-label {
+.zyber-field-label {
     cursor: pointer
 }
 
-.elementor-mark-required .elementor-field-label:after {
+.zyber-mark-required .zyber-field-label:after {
     color: red;
     content: "*";
     padding-inline-start:.2em}
 
-.elementor-field-textual {
+.zyber-field-textual {
     border-radius: 3px;
     font-size: 15px;
     line-height: 1.4;
@@ -2059,165 +2059,165 @@ body.rtl .e-con {
     padding: 5px 14px
 }
 
-.elementor-field-textual.elementor-size-xs {
+.zyber-field-textual.zyber-size-xs {
     border-radius: 2px;
     font-size: 13px;
     min-height: 33px;
     padding: 4px 12px
 }
 
-.elementor-field-textual.elementor-size-md {
+.zyber-field-textual.zyber-size-md {
     border-radius: 4px;
     font-size: 16px;
     min-height: 47px;
     padding: 6px 16px
 }
 
-.elementor-field-textual.elementor-size-lg {
+.zyber-field-textual.zyber-size-lg {
     border-radius: 5px;
     font-size: 18px;
     min-height: 59px;
     padding: 7px 20px
 }
 
-.elementor-field-textual.elementor-size-xl {
+.zyber-field-textual.zyber-size-xl {
     border-radius: 6px;
     font-size: 20px;
     min-height: 72px;
     padding: 8px 24px
 }
 
-.elementor-button-align-stretch .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button {
+.zyber-button-align-stretch .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button {
     flex-basis: 100%
 }
 
-.elementor-button-align-stretch .e-form__buttons__wrapper {
+.zyber-button-align-stretch .e-form__buttons__wrapper {
     flex-basis: 50%;
     flex-grow: 1
 }
 
-.elementor-button-align-stretch .e-form__buttons__wrapper__button {
+.zyber-button-align-stretch .e-form__buttons__wrapper__button {
     flex-basis: 100%
 }
 
-.elementor-button-align-center .e-form__buttons,.elementor-button-align-center .elementor-field-type-submit {
+.zyber-button-align-center .e-form__buttons,.zyber-button-align-center .zyber-field-type-submit {
     justify-content: center
 }
 
-.elementor-button-align-start .e-form__buttons,.elementor-button-align-start .elementor-field-type-submit {
+.zyber-button-align-start .e-form__buttons,.zyber-button-align-start .zyber-field-type-submit {
     justify-content: flex-start
 }
 
-.elementor-button-align-end .e-form__buttons,.elementor-button-align-end .elementor-field-type-submit {
+.zyber-button-align-end .e-form__buttons,.zyber-button-align-end .zyber-field-type-submit {
     justify-content: flex-end
 }
 
-.elementor-button-align-center .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button,.elementor-button-align-end .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button,.elementor-button-align-start .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button {
+.zyber-button-align-center .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button,.zyber-button-align-end .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button,.zyber-button-align-start .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button {
     flex-basis: auto
 }
 
-.elementor-button-align-center .e-form__buttons__wrapper,.elementor-button-align-end .e-form__buttons__wrapper,.elementor-button-align-start .e-form__buttons__wrapper {
+.zyber-button-align-center .e-form__buttons__wrapper,.zyber-button-align-end .e-form__buttons__wrapper,.zyber-button-align-start .e-form__buttons__wrapper {
     flex-grow: 0
 }
 
-.elementor-button-align-center .e-form__buttons__wrapper,.elementor-button-align-center .e-form__buttons__wrapper__button,.elementor-button-align-end .e-form__buttons__wrapper,.elementor-button-align-end .e-form__buttons__wrapper__button,.elementor-button-align-start .e-form__buttons__wrapper,.elementor-button-align-start .e-form__buttons__wrapper__button {
+.zyber-button-align-center .e-form__buttons__wrapper,.zyber-button-align-center .e-form__buttons__wrapper__button,.zyber-button-align-end .e-form__buttons__wrapper,.zyber-button-align-end .e-form__buttons__wrapper__button,.zyber-button-align-start .e-form__buttons__wrapper,.zyber-button-align-start .e-form__buttons__wrapper__button {
     flex-basis: auto
 }
 
 @media screen and (max-width: 1024px) {
-    .elementor-tablet-button-align-stretch .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button {
+    .zyber-tablet-button-align-stretch .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button {
         flex-basis:100%
     }
 
-    .elementor-tablet-button-align-stretch .e-form__buttons__wrapper {
+    .zyber-tablet-button-align-stretch .e-form__buttons__wrapper {
         flex-basis: 50%;
         flex-grow: 1
     }
 
-    .elementor-tablet-button-align-stretch .e-form__buttons__wrapper__button {
+    .zyber-tablet-button-align-stretch .e-form__buttons__wrapper__button {
         flex-basis: 100%
     }
 
-    .elementor-tablet-button-align-center .e-form__buttons,.elementor-tablet-button-align-center .elementor-field-type-submit {
+    .zyber-tablet-button-align-center .e-form__buttons,.zyber-tablet-button-align-center .zyber-field-type-submit {
         justify-content: center
     }
 
-    .elementor-tablet-button-align-start .e-form__buttons,.elementor-tablet-button-align-start .elementor-field-type-submit {
+    .zyber-tablet-button-align-start .e-form__buttons,.zyber-tablet-button-align-start .zyber-field-type-submit {
         justify-content: flex-start
     }
 
-    .elementor-tablet-button-align-end .e-form__buttons,.elementor-tablet-button-align-end .elementor-field-type-submit {
+    .zyber-tablet-button-align-end .e-form__buttons,.zyber-tablet-button-align-end .zyber-field-type-submit {
         justify-content: flex-end
     }
 
-    .elementor-tablet-button-align-center .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button,.elementor-tablet-button-align-end .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button,.elementor-tablet-button-align-start .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button {
+    .zyber-tablet-button-align-center .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button,.zyber-tablet-button-align-end .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button,.zyber-tablet-button-align-start .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button {
         flex-basis: auto
     }
 
-    .elementor-tablet-button-align-center .e-form__buttons__wrapper,.elementor-tablet-button-align-end .e-form__buttons__wrapper,.elementor-tablet-button-align-start .e-form__buttons__wrapper {
+    .zyber-tablet-button-align-center .e-form__buttons__wrapper,.zyber-tablet-button-align-end .e-form__buttons__wrapper,.zyber-tablet-button-align-start .e-form__buttons__wrapper {
         flex-grow: 0
     }
 
-    .elementor-tablet-button-align-center .e-form__buttons__wrapper,.elementor-tablet-button-align-center .e-form__buttons__wrapper__button,.elementor-tablet-button-align-end .e-form__buttons__wrapper,.elementor-tablet-button-align-end .e-form__buttons__wrapper__button,.elementor-tablet-button-align-start .e-form__buttons__wrapper,.elementor-tablet-button-align-start .e-form__buttons__wrapper__button {
+    .zyber-tablet-button-align-center .e-form__buttons__wrapper,.zyber-tablet-button-align-center .e-form__buttons__wrapper__button,.zyber-tablet-button-align-end .e-form__buttons__wrapper,.zyber-tablet-button-align-end .e-form__buttons__wrapper__button,.zyber-tablet-button-align-start .e-form__buttons__wrapper,.zyber-tablet-button-align-start .e-form__buttons__wrapper__button {
         flex-basis: auto
     }
 }
 
 @media screen and (max-width: 767px) {
-    .elementor-mobile-button-align-stretch .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button {
+    .zyber-mobile-button-align-stretch .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button {
         flex-basis:100%
     }
 
-    .elementor-mobile-button-align-stretch .e-form__buttons__wrapper {
+    .zyber-mobile-button-align-stretch .e-form__buttons__wrapper {
         flex-basis: 50%;
         flex-grow: 1
     }
 
-    .elementor-mobile-button-align-stretch .e-form__buttons__wrapper__button {
+    .zyber-mobile-button-align-stretch .e-form__buttons__wrapper__button {
         flex-basis: 100%
     }
 
-    .elementor-mobile-button-align-center .e-form__buttons,.elementor-mobile-button-align-center .elementor-field-type-submit {
+    .zyber-mobile-button-align-center .e-form__buttons,.zyber-mobile-button-align-center .zyber-field-type-submit {
         justify-content: center
     }
 
-    .elementor-mobile-button-align-start .e-form__buttons,.elementor-mobile-button-align-start .elementor-field-type-submit {
+    .zyber-mobile-button-align-start .e-form__buttons,.zyber-mobile-button-align-start .zyber-field-type-submit {
         justify-content: flex-start
     }
 
-    .elementor-mobile-button-align-end .e-form__buttons,.elementor-mobile-button-align-end .elementor-field-type-submit {
+    .zyber-mobile-button-align-end .e-form__buttons,.zyber-mobile-button-align-end .zyber-field-type-submit {
         justify-content: flex-end
     }
 
-    .elementor-mobile-button-align-center .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button,.elementor-mobile-button-align-end .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button,.elementor-mobile-button-align-start .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button {
+    .zyber-mobile-button-align-center .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button,.zyber-mobile-button-align-end .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button,.zyber-mobile-button-align-start .zyber-field-type-submit:not(.e-form__buttons__wrapper) .zyber-button {
         flex-basis: auto
     }
 
-    .elementor-mobile-button-align-center .e-form__buttons__wrapper,.elementor-mobile-button-align-end .e-form__buttons__wrapper,.elementor-mobile-button-align-start .e-form__buttons__wrapper {
+    .zyber-mobile-button-align-center .e-form__buttons__wrapper,.zyber-mobile-button-align-end .e-form__buttons__wrapper,.zyber-mobile-button-align-start .e-form__buttons__wrapper {
         flex-grow: 0
     }
 
-    .elementor-mobile-button-align-center .e-form__buttons__wrapper,.elementor-mobile-button-align-center .e-form__buttons__wrapper__button,.elementor-mobile-button-align-end .e-form__buttons__wrapper,.elementor-mobile-button-align-end .e-form__buttons__wrapper__button,.elementor-mobile-button-align-start .e-form__buttons__wrapper,.elementor-mobile-button-align-start .e-form__buttons__wrapper__button {
+    .zyber-mobile-button-align-center .e-form__buttons__wrapper,.zyber-mobile-button-align-center .e-form__buttons__wrapper__button,.zyber-mobile-button-align-end .e-form__buttons__wrapper,.zyber-mobile-button-align-end .e-form__buttons__wrapper__button,.zyber-mobile-button-align-start .e-form__buttons__wrapper,.zyber-mobile-button-align-start .e-form__buttons__wrapper__button {
         flex-basis: auto
     }
 }
 
-.elementor-error .elementor-field {
+.zyber-error .zyber-field {
     border-color: #d9534f
 }
 
-.elementor-error .help-inline {
+.zyber-error .help-inline {
     color: #d9534f;
     font-size: .9em
 }
 
-.elementor-message {
+.zyber-message {
     font-size: 1em;
     line-height: 1;
     margin: 10px 0
 }
 
-.elementor-message:before {
+.zyber-message:before {
     content: "\e90e";
     display: inline-block;
     font-family: eicons;
@@ -2226,60 +2226,60 @@ body.rtl .e-con {
     margin-inline-end:5px;vertical-align: middle
 }
 
-.elementor-message.elementor-message-danger {
+.zyber-message.zyber-message-danger {
     color: #d9534f
 }
 
-.elementor-message.elementor-message-danger:before {
+.zyber-message.zyber-message-danger:before {
     content: "\e87f"
 }
 
-.elementor-message.form-message-success {
+.zyber-message.form-message-success {
     color: #5cb85c
 }
 
-.elementor-form .elementor-button {
+.zyber-form .zyber-button {
     border: none;
     padding-block-end:0;padding-block-start:0}
 
-.elementor-form .elementor-button-content-wrapper,.elementor-form .elementor-button>span {
+.zyber-form .zyber-button-content-wrapper,.zyber-form .zyber-button>span {
     display: flex;
     flex-direction: row;
     gap: 5px;
     justify-content: center
 }
 
-.elementor-form .elementor-button.elementor-size-xs {
+.zyber-form .zyber-button.zyber-size-xs {
     min-height: 33px
 }
 
-.elementor-form .elementor-button.elementor-size-sm {
+.zyber-form .zyber-button.zyber-size-sm {
     min-height: 40px
 }
 
-.elementor-form .elementor-button.elementor-size-md {
+.zyber-form .zyber-button.zyber-size-md {
     min-height: 47px
 }
 
-.elementor-form .elementor-button.elementor-size-lg {
+.zyber-form .zyber-button.zyber-size-lg {
     min-height: 59px
 }
 
-.elementor-form .elementor-button.elementor-size-xl {
+.zyber-form .zyber-button.zyber-size-xl {
     min-height: 72px
 }
 
-.elementor-element .elementor-widget-container,.elementor-element:not(:has(.elementor-widget-container)) {
+.zyber-element .zyber-widget-container,.zyber-element:not(:has(.zyber-widget-container)) {
     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s)
 }
 
-.elementor-heading-title {
+.zyber-heading-title {
     line-height: 1;
     margin: 0;
     padding: 0
 }
 
-.elementor-button {
+.zyber-button {
     background-color: #69727d;
     border-radius: 3px;
     color: #fff;
@@ -2292,105 +2292,105 @@ body.rtl .e-con {
     transition: all .3s
 }
 
-.elementor-button:focus,.elementor-button:hover,.elementor-button:visited {
+.zyber-button:focus,.zyber-button:hover,.zyber-button:visited {
     color: #fff
 }
 
-.elementor-button-content-wrapper {
+.zyber-button-content-wrapper {
     display: flex;
     flex-direction: row;
     gap: 5px;
     justify-content: center
 }
 
-.elementor-button-icon svg {
+.zyber-button-icon svg {
     height: auto;
     width: 1em
 }
 
-.elementor-button-icon .e-font-icon-svg {
+.zyber-button-icon .e-font-icon-svg {
     height: 1em
 }
 
-.elementor-button-text {
+.zyber-button-text {
     display: inline-block
 }
 
-.elementor-button.elementor-size-xs {
+.zyber-button.zyber-size-xs {
     border-radius: 2px;
     font-size: 13px;
     padding: 10px 20px
 }
 
-.elementor-button.elementor-size-md {
+.zyber-button.zyber-size-md {
     border-radius: 4px;
     font-size: 16px;
     padding: 15px 30px
 }
 
-.elementor-button.elementor-size-lg {
+.zyber-button.zyber-size-lg {
     border-radius: 5px;
     font-size: 18px;
     padding: 20px 40px
 }
 
-.elementor-button.elementor-size-xl {
+.zyber-button.zyber-size-xl {
     border-radius: 6px;
     font-size: 20px;
     padding: 25px 50px
 }
 
-.elementor-button span {
+.zyber-button span {
     text-decoration: inherit
 }
 
-.elementor-element.elementor-button-info .elementor-button {
+.zyber-element.zyber-button-info .zyber-button {
     background-color: #5bc0de
 }
 
-.elementor-element.elementor-button-success .elementor-button {
+.zyber-element.zyber-button-success .zyber-button {
     background-color: #5cb85c
 }
 
-.elementor-element.elementor-button-warning .elementor-button {
+.zyber-element.zyber-button-warning .zyber-button {
     background-color: #f0ad4e
 }
 
-.elementor-element.elementor-button-danger .elementor-button {
+.zyber-element.zyber-button-danger .zyber-button {
     background-color: #d9534f
 }
 
-.elementor-widget-button .elementor-button .elementor-button-info {
+.zyber-widget-button .zyber-button .zyber-button-info {
     background-color: #5bc0de
 }
 
-.elementor-widget-button .elementor-button .elementor-button-success {
+.zyber-widget-button .zyber-button .zyber-button-success {
     background-color: #5cb85c
 }
 
-.elementor-widget-button .elementor-button .elementor-button-warning {
+.zyber-widget-button .zyber-button .zyber-button-warning {
     background-color: #f0ad4e
 }
 
-.elementor-widget-button .elementor-button .elementor-button-danger {
+.zyber-widget-button .zyber-button .zyber-button-danger {
     background-color: #d9534f
 }
 
-.elementor-view-stacked .elementor-icon {
+.zyber-view-stacked .zyber-icon {
     background-color: #69727d;
     color: #fff;
     padding: .5em;
     fill: #fff
 }
 
-.elementor-view-framed .elementor-icon {
+.zyber-view-framed .zyber-icon {
     background-color: transparent;
     border: 3px solid #69727d;
     color: #69727d;
     padding: .5em
 }
 
-.elementor-icon {
+.zyber-icon {
     color: #69727d;
     display: inline-block;
     font-size: 50px;
@@ -2399,40 +2399,40 @@ body.rtl .e-con {
     transition: all .3s
 }
 
-.elementor-icon:hover {
+.zyber-icon:hover {
     color: #69727d
 }
 
-.elementor-icon i,.elementor-icon svg {
+.zyber-icon i,.zyber-icon svg {
     display: block;
     height: 1em;
     position: relative;
     width: 1em
 }
 
-.elementor-icon i:before,.elementor-icon svg:before {
+.zyber-icon i:before,.zyber-icon svg:before {
     left: 50%;
     position: absolute;
     transform: translateX(-50%)
 }
 
-.elementor-icon i.fad {
+.zyber-icon i.fad {
     width: auto
 }
 
-.elementor-shape-square .elementor-icon {
+.zyber-shape-square .zyber-icon {
     border-radius: 0
 }
 
-.elementor-shape-rounded .elementor-icon {
+.zyber-shape-rounded .zyber-icon {
     border-radius: 10%
 }
 
-.elementor-shape-circle .elementor-icon {
+.zyber-shape-circle .zyber-icon {
     border-radius: 50%
 }
 
-.e-transform .elementor-widget-container,.e-transform:not(:has(.elementor-widget-container)) {
+.e-transform .zyber-widget-container,.e-transform:not(:has(.zyber-widget-container)) {
     transform: perspective(var(--e-transform-perspective,0)) rotate(var(--e-transform-rotateZ,0)) rotateX(var(--e-transform-rotateX,0)) rotateY(var(--e-transform-rotateY,0)) translate(var(--e-transform-translate,0)) translateX(var(--e-transform-translateX,0)) translateY(var(--e-transform-translateY,0)) scaleX(calc(var(--e-transform-flipX, 1) * var(--e-transform-scaleX, var(--e-transform-scale, 1)))) scaleY(calc(var(--e-transform-flipY, 1) * var(--e-transform-scaleY, var(--e-transform-scale, 1)))) skewX(var(--e-transform-skewX,0)) skewY(var(--e-transform-skewY,0));
     transform-origin: var(--e-transform-origin-y) var(--e-transform-origin-x)
 }
@@ -2469,42 +2469,42 @@ body.rtl .e-con {
     }
 }
 
-.elementor-post__thumbnail__link {
+.zyber-post__thumbnail__link {
     transition: none
 }
 
 @media (max-width: 767px) {
-    .elementor .elementor-hidden-mobile,.elementor .elementor-hidden-phone {
+    .zyber .zyber-hidden-mobile,.zyber .zyber-hidden-phone {
         display:none
     }
 }
 
 @media (min-width: -1) and (max-width:-1) {
-    .elementor .elementor-hidden-mobile_extra {
+    .zyber .zyber-hidden-mobile_extra {
         display:none
     }
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
-    .elementor .elementor-hidden-tablet {
+    .zyber .zyber-hidden-tablet {
         display:none
     }
 }
 
 @media (min-width: -1) and (max-width:-1) {
-    .elementor .elementor-hidden-laptop,.elementor .elementor-hidden-tablet_extra {
+    .zyber .zyber-hidden-laptop,.zyber .zyber-hidden-tablet_extra {
         display:none
     }
 }
 
 @media (min-width: 1025px) and (max-width:99999px) {
-    .elementor .elementor-hidden-desktop {
+    .zyber .zyber-hidden-desktop {
         display:none
     }
 }
 
 @media (min-width: -1) {
-    .elementor .elementor-hidden-widescreen {
+    .zyber .zyber-hidden-widescreen {
         display:none
     }
 }

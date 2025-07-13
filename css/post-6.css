@@ -1,4 +1,4 @@
-.elementor-kit-6 {
+.zyber-kit-6 {
     --e-global-color-primary: #D1D1D1;
     --e-global-color-secondary: #040404;
     --e-global-color-text: #8B8B8B;
@@ -66,15 +66,15 @@
     overscroll-behavior: auto;
 }
 
-.elementor-kit-6 a {
+.zyber-kit-6 a {
     color: var( --e-global-color-e850821 );
 }
 
-.elementor-kit-6 a:hover {
+.zyber-kit-6 a:hover {
     color: var( --e-global-color-text );
 }
 
-.elementor-kit-6 h1 {
+.zyber-kit-6 h1 {
     color: var( --e-global-color-primary );
     font-family: var( --e-global-typography-1e6b325-font-family ), Sans-serif;
     font-size: var( --e-global-typography-1e6b325-font-size );
@@ -84,7 +84,7 @@
     word-spacing: var( --e-global-typography-1e6b325-word-spacing );
 }
 
-.elementor-kit-6 h2 {
+.zyber-kit-6 h2 {
     color: var( --e-global-color-primary );
     font-family: var( --e-global-typography-c998942-font-family ), Sans-serif;
     font-size: var( --e-global-typography-c998942-font-size );
@@ -94,7 +94,7 @@
     word-spacing: var( --e-global-typography-c998942-word-spacing );
 }
 
-.elementor-kit-6 h3 {
+.zyber-kit-6 h3 {
     color: var( --e-global-color-primary );
     font-family: var( --e-global-typography-be2a21e-font-family ), Sans-serif;
     font-size: var( --e-global-typography-be2a21e-font-size );
@@ -104,7 +104,7 @@
     word-spacing: var( --e-global-typography-be2a21e-word-spacing );
 }
 
-.elementor-kit-6 h4 {
+.zyber-kit-6 h4 {
     color: var( --e-global-color-primary );
     font-family: var( --e-global-typography-b9a5205-font-family ), Sans-serif;
     font-size: var( --e-global-typography-b9a5205-font-size );
@@ -114,7 +114,7 @@
     word-spacing: var( --e-global-typography-b9a5205-word-spacing );
 }
 
-.elementor-kit-6 h5 {
+.zyber-kit-6 h5 {
     color: var( --e-global-color-primary );
     font-family: var( --e-global-typography-a003027-font-family ), Sans-serif;
     font-size: var( --e-global-typography-a003027-font-size );
@@ -124,7 +124,7 @@
     word-spacing: var( --e-global-typography-a003027-word-spacing );
 }
 
-.elementor-kit-6 h6 {
+.zyber-kit-6 h6 {
     color: var( --e-global-color-primary );
     font-family: var( --e-global-typography-f70bc22-font-family ), Sans-serif;
     font-size: var( --e-global-typography-f70bc22-font-size );
@@ -134,7 +134,7 @@
     word-spacing: var( --e-global-typography-f70bc22-word-spacing );
 }
 
-.elementor-kit-6 button,.elementor-kit-6 input[type="button"],.elementor-kit-6 input[type="submit"],.elementor-kit-6 .elementor-button {
+.zyber-kit-6 button,.zyber-kit-6 input[type="button"],.zyber-kit-6 input[type="submit"],.zyber-kit-6 .zyber-button {
     font-family: var( --e-global-typography-accent-font-family ), Sans-serif;
     font-size: var( --e-global-typography-accent-font-size );
     font-weight: var( --e-global-typography-accent-font-weight );
@@ -145,13 +145,13 @@
     padding: 20px 30px 20px 30px;
 }
 
-.elementor-kit-6 button:hover,.elementor-kit-6 button:focus,.elementor-kit-6 input[type="button"]:hover,.elementor-kit-6 input[type="button"]:focus,.elementor-kit-6 input[type="submit"]:hover,.elementor-kit-6 input[type="submit"]:focus,.elementor-kit-6 .elementor-button:hover,.elementor-kit-6 .elementor-button:focus {
+.zyber-kit-6 button:hover,.zyber-kit-6 button:focus,.zyber-kit-6 input[type="button"]:hover,.zyber-kit-6 input[type="button"]:focus,.zyber-kit-6 input[type="submit"]:hover,.zyber-kit-6 input[type="submit"]:focus,.zyber-kit-6 .zyber-button:hover,.zyber-kit-6 .zyber-button:focus {
     color: var( --e-global-color-e850821 );
     background-color: var( --e-global-color-b9ab9b6 );
     border-radius: 100px 100px 100px 100px;
 }
 
-.elementor-section.elementor-section-boxed > .elementor-container {
+.zyber-section.zyber-section-boxed > .zyber-container {
     max-width: 1280px;
 }
 
@@ -163,10 +163,10 @@
     --container-default-padding-left: 0px;
 }
 
-.elementor-widget:not(:last-child) {
+.zyber-widget:not(:last-child) {
     margin-block-end:20px;}
 
-.elementor-element {
+.zyber-element {
     --widgets-spacing: 20px 20px;
     --widgets-spacing-row: 20px;
     --widgets-spacing-column: 20px;
@@ -193,13 +193,13 @@ h1.entry-title {
 }
 
 @media(min-width: 1025px) {
-    .elementor-kit-6 {
+    .zyber-kit-6 {
         background-attachment:fixed;
     }
 }
 
 @media(max-width: 1024px) {
-    .elementor-kit-6 {
+    .zyber-kit-6 {
         --e-global-typography-primary-font-size:16px;
         --e-global-typography-text-font-size: 16px;
         --e-global-typography-accent-font-size: 16px;
@@ -216,55 +216,55 @@ h1.entry-title {
         line-height: var( --e-global-typography-text-line-height );
     }
 
-    .elementor-kit-6 h1 {
+    .zyber-kit-6 h1 {
         font-size: var( --e-global-typography-1e6b325-font-size );
         line-height: var( --e-global-typography-1e6b325-line-height );
         letter-spacing: var( --e-global-typography-1e6b325-letter-spacing );
         word-spacing: var( --e-global-typography-1e6b325-word-spacing );
     }
 
-    .elementor-kit-6 h2 {
+    .zyber-kit-6 h2 {
         font-size: var( --e-global-typography-c998942-font-size );
         line-height: var( --e-global-typography-c998942-line-height );
         letter-spacing: var( --e-global-typography-c998942-letter-spacing );
         word-spacing: var( --e-global-typography-c998942-word-spacing );
     }
 
-    .elementor-kit-6 h3 {
+    .zyber-kit-6 h3 {
         font-size: var( --e-global-typography-be2a21e-font-size );
         line-height: var( --e-global-typography-be2a21e-line-height );
         letter-spacing: var( --e-global-typography-be2a21e-letter-spacing );
         word-spacing: var( --e-global-typography-be2a21e-word-spacing );
     }
 
-    .elementor-kit-6 h4 {
+    .zyber-kit-6 h4 {
         font-size: var( --e-global-typography-b9a5205-font-size );
         line-height: var( --e-global-typography-b9a5205-line-height );
         letter-spacing: var( --e-global-typography-b9a5205-letter-spacing );
         word-spacing: var( --e-global-typography-b9a5205-word-spacing );
     }
 
-    .elementor-kit-6 h5 {
+    .zyber-kit-6 h5 {
         font-size: var( --e-global-typography-a003027-font-size );
         line-height: var( --e-global-typography-a003027-line-height );
         letter-spacing: var( --e-global-typography-a003027-letter-spacing );
         word-spacing: var( --e-global-typography-a003027-word-spacing );
     }
 
-    .elementor-kit-6 h6 {
+    .zyber-kit-6 h6 {
         font-size: var( --e-global-typography-f70bc22-font-size );
         line-height: var( --e-global-typography-f70bc22-line-height );
         letter-spacing: var( --e-global-typography-f70bc22-letter-spacing );
         word-spacing: var( --e-global-typography-f70bc22-word-spacing );
     }
 
-    .elementor-kit-6 button,.elementor-kit-6 input[type="button"],.elementor-kit-6 input[type="submit"],.elementor-kit-6 .elementor-button {
+    .zyber-kit-6 button,.zyber-kit-6 input[type="button"],.zyber-kit-6 input[type="submit"],.zyber-kit-6 .zyber-button {
         font-size: var( --e-global-typography-accent-font-size );
         line-height: var( --e-global-typography-accent-line-height );
         padding: 17px 27px 17px 27px;
     }
 
-    .elementor-section.elementor-section-boxed > .elementor-container {
+    .zyber-section.zyber-section-boxed > .zyber-container {
         max-width: 1024px;
     }
 
@@ -274,7 +274,7 @@ h1.entry-title {
 }
 
 @media(max-width: 767px) {
-    .elementor-kit-6 {
+    .zyber-kit-6 {
         --e-global-typography-primary-font-size:14px;
         --e-global-typography-text-font-size: 14px;
         --e-global-typography-accent-font-size: 14px;
@@ -291,55 +291,55 @@ h1.entry-title {
         line-height: var( --e-global-typography-text-line-height );
     }
 
-    .elementor-kit-6 h1 {
+    .zyber-kit-6 h1 {
         font-size: var( --e-global-typography-1e6b325-font-size );
         line-height: var( --e-global-typography-1e6b325-line-height );
         letter-spacing: var( --e-global-typography-1e6b325-letter-spacing );
         word-spacing: var( --e-global-typography-1e6b325-word-spacing );
     }
 
-    .elementor-kit-6 h2 {
+    .zyber-kit-6 h2 {
         font-size: var( --e-global-typography-c998942-font-size );
         line-height: var( --e-global-typography-c998942-line-height );
         letter-spacing: var( --e-global-typography-c998942-letter-spacing );
         word-spacing: var( --e-global-typography-c998942-word-spacing );
     }
 
-    .elementor-kit-6 h3 {
+    .zyber-kit-6 h3 {
         font-size: var( --e-global-typography-be2a21e-font-size );
         line-height: var( --e-global-typography-be2a21e-line-height );
         letter-spacing: var( --e-global-typography-be2a21e-letter-spacing );
         word-spacing: var( --e-global-typography-be2a21e-word-spacing );
     }
 
-    .elementor-kit-6 h4 {
+    .zyber-kit-6 h4 {
         font-size: var( --e-global-typography-b9a5205-font-size );
         line-height: var( --e-global-typography-b9a5205-line-height );
         letter-spacing: var( --e-global-typography-b9a5205-letter-spacing );
         word-spacing: var( --e-global-typography-b9a5205-word-spacing );
     }
 
-    .elementor-kit-6 h5 {
+    .zyber-kit-6 h5 {
         font-size: var( --e-global-typography-a003027-font-size );
         line-height: var( --e-global-typography-a003027-line-height );
         letter-spacing: var( --e-global-typography-a003027-letter-spacing );
         word-spacing: var( --e-global-typography-a003027-word-spacing );
     }
 
-    .elementor-kit-6 h6 {
+    .zyber-kit-6 h6 {
         font-size: var( --e-global-typography-f70bc22-font-size );
         line-height: var( --e-global-typography-f70bc22-line-height );
         letter-spacing: var( --e-global-typography-f70bc22-letter-spacing );
         word-spacing: var( --e-global-typography-f70bc22-word-spacing );
     }
 
-    .elementor-kit-6 button,.elementor-kit-6 input[type="button"],.elementor-kit-6 input[type="submit"],.elementor-kit-6 .elementor-button {
+    .zyber-kit-6 button,.zyber-kit-6 input[type="button"],.zyber-kit-6 input[type="submit"],.zyber-kit-6 .zyber-button {
         font-size: var( --e-global-typography-accent-font-size );
         line-height: var( --e-global-typography-accent-line-height );
         padding: 15px 25px 15px 25px;
     }
 
-    .elementor-section.elementor-section-boxed > .elementor-container {
+    .zyber-section.zyber-section-boxed > .zyber-container {
         max-width: 767px;
     }
 

@@ -70,7 +70,7 @@
     i.p = "",
     i(i.s = 0)
 }([function(e, t) {
-    class i extends elementorModules.frontend.handlers.Base {
+    class i extends zyberModules.frontend.handlers.Base {
         bindEvents() {
             this.$element.data("stickyTop", this.$element.offset().top),
             this.runSticky()
@@ -99,11 +99,11 @@
             i.css("height", e.height),
             i.css("margin", e.margin)) : i.parent().hasClass("wrapper-sticky-fixed") && i.unwrap(),
             t(window).on("load resize scroll", i, (function(c) {
-                const h = t("body").attr("data-elementor-device-mode")
+                const h = t("body").attr("data-zyber-device-mode")
                   , l = t(this).scrollTop();
                 let p = !0;
                 if ("fixed" === o && "resize" === c.type) {
-                    if (elementorFrontend.isEditMode()) {
+                    if (zyberFrontend.isEditMode()) {
                         if (c.target.innerWidth === a)
                             return;
                         a = c.target.innerWidth
@@ -137,7 +137,7 @@
                 p)
                     return i.css("position", "relative"),
                     i.removeClass("sticky-pinned"),
-                    void (i.hasClass("elementor-column") || i.css("width", "unset"));
+                    void (i.hasClass("zyber-column") || i.css("width", "unset"));
                 const u = "down" === n ? l : l + t(this).height()
                   , k = "down" === n ? r : r + i.outerHeight(!0);
                 if (!i.hasClass("sticky-pinned") && (r = i.offset().top,
@@ -181,16 +181,16 @@
             this.runSticky())
         }
     }
-    jQuery(window).on("elementor/frontend/init", ( () => {
+    jQuery(window).on("zyber/frontend/init", ( () => {
         const e = e => {
-            elementorFrontend.elementsHandler.addHandler(i, {
+            zyberFrontend.elementsHandler.addHandler(i, {
                 $element: e
             })
         }
         ;
-        elementorFrontend.hooks.addAction("frontend/element_ready/container", e),
-        elementorFrontend.hooks.addAction("frontend/element_ready/section", e),
-        elementorFrontend.hooks.addAction("frontend/element_ready/column", e)
+        zyberFrontend.hooks.addAction("frontend/element_ready/container", e),
+        zyberFrontend.hooks.addAction("frontend/element_ready/section", e),
+        zyberFrontend.hooks.addAction("frontend/element_ready/column", e)
     }
     ))
 }

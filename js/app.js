@@ -26638,11 +26638,11 @@ PERFORMANCE OF THIS SOFTWARE.
         ,
         Hi = function(e, t) {
             var n = e.find(".mf-multistep-container");
-            0 === n.find(".elementor-section-wrap").length && n.find('div[data-elementor-type="wp-post"]').addClass("elementor-section-wrap");
-            var r = n.find(".e-container--column").length > 0 ? ".e-container--column" : n.find(".e-con").length > 0 ? ".e-con" : ".elementor-top-section";
+            0 === n.find(".zyber-section-wrap").length && n.find('div[data-zyber-type="wp-post"]').addClass("zyber-section-wrap");
+            var r = n.find(".e-container--column").length > 0 ? ".e-container--column" : n.find(".e-con").length > 0 ? ".e-con" : ".zyber-top-section";
             if (".e-con" == r && setTimeout((function() {
-                n.find('div[data-elementor-type="wp-post"]').find(".e-con.active").each((function() {
-                    Bi(this).parent().hasClass('div[data-elementor-type="wp-post"]') || Bi(this).hasClass("e-con") && Bi(this).not('div[data-elementor-type="wp-post"] > .e-con.active').removeClass("active")
+                n.find('div[data-zyber-type="wp-post"]').find(".e-con.active").each((function() {
+                    Bi(this).parent().hasClass('div[data-zyber-type="wp-post"]') || Bi(this).hasClass("e-con") && Bi(this).not('div[data-zyber-type="wp-post"] > .e-con.active').removeClass("active")
                 }
                 ))
             }
@@ -26650,8 +26650,8 @@ PERFORMANCE OF THIS SOFTWARE.
             n.length) {
                 var o = []
                   , i = "";
-                ".e-con" == r ? (i = n.find('div[data-elementor-type="wp-post"] '.concat(r, ":first-child")).parent()[0],
-                i = jQuery(i)) : ".elementor-top-section" == r && (i = n.find('div[data-elementor-type="wp-post"]  '.concat(r, ":first-child")).parent()),
+                ".e-con" == r ? (i = n.find('div[data-zyber-type="wp-post"] '.concat(r, ":first-child")).parent()[0],
+                i = jQuery(i)) : ".zyber-top-section" == r && (i = n.find('div[data-zyber-type="wp-post"]  '.concat(r, ":first-child")).parent()),
                 i.find("> ".concat(r)).each((function(e) {
                     var t = this.getElSettings("metform_multistep_settings_title") || "Step-" + Bi(this).data("id")
                       , r = this.getElSettings("metform_multistep_settings_icon")
@@ -26659,11 +26659,11 @@ PERFORMANCE OF THIS SOFTWARE.
                       , a = "";
                     r && (i = "svg" === r.library ? '<img class="metform-step-svg-icon" src="' + r.value.url + '" alt="SVG Icon" />' : r.value.length ? '<i class="metform-step-icon ' + r.value + '"></i>' : ""),
                     0 === e ? (a = "active",
-                    n.hasClass("mf_slide_direction_vertical") && Bi(this).parents(".elementor-section-wrap").css("height", Bi(this).height())) : 1 === e && (a = "next"),
+                    n.hasClass("mf_slide_direction_vertical") && Bi(this).parents(".zyber-section-wrap").css("height", Bi(this).height())) : 1 === e && (a = "next"),
                     t && o.push("<li class='metform-step-item " + a + "' id='metform-step-item-" + Bi(this).attr("data-id") + "' data-value='" + Bi(this).attr("data-id") + "'>" + i + '<span class="metform-step-title">' + t + "</span></li>")
                 }
                 )),
-                o && (n.find(".metform-form-content .metform-form-main-wrapper > .elementor").before("<ul class='metform-steps'>" + o.join("") + "</ul>"),
+                o && (n.find(".metform-form-content .metform-form-main-wrapper > .zyber").before("<ul class='metform-steps'>" + o.join("") + "</ul>"),
                 n.find("".concat(r, ":first-of-type")).addClass("active"),
                 n.find(".mf-progress-step-bar span").attr("data-portion", 100 / o.length).css("width", 100 / o.length + "%"))
             }
@@ -26702,10 +26702,10 @@ PERFORMANCE OF THIS SOFTWARE.
                     e && (i.find("".concat(r, ".active .metform-btn")).attr("type", "button"),
                     (Bi(o).hasClass("prev") || Bi(o).hasClass("next")) && (Bi(o).addClass("active").removeClass("next prev").prev().addClass("prev").siblings().removeClass("prev").end().end().next().addClass("next").siblings().removeClass("next").end().end().siblings().removeClass("active"),
                     i.find("".concat(r, '[data-id="') + Bi(o).data("value") + '"]').addClass("active").siblings().removeClass("active"),
-                    n.hasClass("mf_slide_direction_vertical") ? (i.find(".elementor-section-wrap ".concat(r)).css({
+                    n.hasClass("mf_slide_direction_vertical") ? (i.find(".zyber-section-wrap ".concat(r)).css({
                         transform: "translateY(" + s + ")"
                     }),
-                    i.find(".elementor-section-wrap").css("height", "calc(" + i.find("".concat(r, '[data-id="') + Bi(o).data("value") + '"]').height() + "px)")) : i.find(".elementor-section-wrap").css({
+                    i.find(".zyber-section-wrap").css("height", "calc(" + i.find("".concat(r, '[data-id="') + Bi(o).data("value") + '"]').height() + "px)")) : i.find(".zyber-section-wrap").css({
                         transform: "translateX(" + s + ")"
                     })),
                     i.find(".mf-progress-step-bar span").css("width", (Bi(o).index() + 1) * i.find(".mf-progress-step-bar span").attr("data-portion") + "%"),
@@ -27233,7 +27233,7 @@ PERFORMANCE OF THIS SOFTWARE.
                             }(t.value, t.match, t.operator));
                             var i = t.mf_conditional_logic_form_if;
                             if (i) {
-                                var s = jQuery("input[name = ".concat(i, "]")).closest(".elementor-element[mf-condition-hidden]").attr("mf-condition-hidden");
+                                var s = jQuery("input[name = ".concat(i, "]")).closest(".zyber-element[mf-condition-hidden]").attr("mf-condition-hidden");
                                 e.parentCondition = s
                             }
                         }
@@ -27251,18 +27251,18 @@ PERFORMANCE OF THIS SOFTWARE.
                             var i;
                             e.el.setAttribute("mf-condition-hidden", !1),
                             e.el.classList.remove("mf-condition--hidden"),
-                            null === (i = e.el.closest(".e-container, .e-con, .elementor-top-section")) || void 0 === i || i.classList.remove("mf-condition--hidden"),
+                            null === (i = e.el.closest(".e-container, .e-con, .zyber-top-section")) || void 0 === i || i.classList.remove("mf-condition--hidden"),
                             e.parentCondition !== undefined && e.el.setAttribute("mf-condition-hidden", e.parentCondition),
                             "noval" === l(t) && c(t, undefined)
                         } else {
                             var s, u;
                             if (e.el.setAttribute("mf-condition-hidden", !0),
-                            !e.el.closest(".elementor-inner-section") && !e.el.closest(".e-container") && !e.el.closest(".e-con"))
-                                Array.isArray(null === (s = Object.values(e.el.closest(".elementor-widget-wrap"))[1]) || void 0 === s ? void 0 : s.children) || e.el.closest(".elementor-top-section").classList.add("mf-condition--hidden");
+                            !e.el.closest(".zyber-inner-section") && !e.el.closest(".e-container") && !e.el.closest(".e-con"))
+                                Array.isArray(null === (s = Object.values(e.el.closest(".zyber-widget-wrap"))[1]) || void 0 === s ? void 0 : s.children) || e.el.closest(".zyber-top-section").classList.add("mf-condition--hidden");
                             if (e.el.closest(".e-container"))
                                 (null === (u = Object.values(e.el.closest(".e-container"))[1]) || void 0 === u || null === (u = u.children) || void 0 === u ? void 0 : u.length) <= 2 && e.el.closest(".e-container").classList.add("mf-condition--hidden");
                             e.el.classList.add("mf-condition--hidden"),
-                            Object.values(e.el.classList).indexOf("elementor-widget-mf-select") > -1 && c(t, "noval")
+                            Object.values(e.el.classList).indexOf("zyber-widget-mf-select") > -1 && c(t, "noval")
                         }
                     }
                     ))
@@ -27373,7 +27373,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 }
                 )),
                 ra(r, "handleSaveProgress", (function(e, t) {
-                    if (!elementorFrontend.isEditMode() && "true" === r.props.saveProgress && !(document.getElementsByName(e)[0].className.includes("mf-captcha-input") || document.getElementsByName(e)[0].className.includes("g-recaptcha-response") || document.getElementsByName(e)[0].className.includes("g-recaptcha-response-v3") || "password" == document.getElementsByName(e)[0].type || document.getElementsByName(e)[0].closest(".mf-credit-card-wrapper") || "file" === document.getElementsByName(e)[0].type)) {
+                    if (!zyberFrontend.isEditMode() && "true" === r.props.saveProgress && !(document.getElementsByName(e)[0].className.includes("mf-captcha-input") || document.getElementsByName(e)[0].className.includes("g-recaptcha-response") || document.getElementsByName(e)[0].className.includes("g-recaptcha-response-v3") || "password" == document.getElementsByName(e)[0].type || document.getElementsByName(e)[0].closest(".mf-credit-card-wrapper") || "file" === document.getElementsByName(e)[0].type)) {
                         var n = new Date;
                         n.setMinutes(n.getMinutes() + 120),
                         null === localStorage.getItem("metform-".concat(r.props.formId)) && localStorage.setItem("metform-".concat(r.props.formId), JSON.stringify({
@@ -27586,7 +27586,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 }
                 )),
                 ra(r, "handleMultiStepBtns", (function(e) {
-                    var t = jQuery(e.currentTarget).parents(".elementor-top-section.active").length > 0 ? ".elementor-top-section" : jQuery(e.currentTarget).parents(".e-container--column.active").length > 0 ? ".e-container--column" : ".e-con"
+                    var t = jQuery(e.currentTarget).parents(".zyber-top-section.active").length > 0 ? ".zyber-top-section" : jQuery(e.currentTarget).parents(".e-container--column.active").length > 0 ? ".e-container--column" : ".e-con"
                       , n = jQuery(e.currentTarget).parents("".concat(t, ".active"))
                       , o = e.currentTarget.dataset.direction
                       , i = n.prev()[0] ? n.prev()[0].dataset : ""
@@ -27698,7 +27698,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 )),
                 ra(r, "activateValidation", (function(e, t, n) {
                     var o, i, a = r.state.formData, s = r.props.validation.register, u = e.type, l = e.required, c = e.message, f = e.minLength, d = e.maxLength, p = e.expression, h = {};
-                    if (t && l && t.closest(".elementor-element") && "true" === t.closest(".elementor-element").getAttribute("mf-condition-hidden"))
+                    if (t && l && t.closest(".zyber-element") && "true" === t.closest(".zyber-element").getAttribute("mf-condition-hidden"))
                         h.required = !1;
                     else {
                         if ((u && "none" !== u || l) && (h.required = !!l && c),
@@ -28048,7 +28048,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 r.interval = null,
                 r.mfRefs = {},
                 setTimeout((function() {
-                    if (!elementorFrontend.isEditMode() && "true" === e.saveProgress) {
+                    if (!zyberFrontend.isEditMode() && "true" === e.saveProgress) {
                         var t, n = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/, o = r.state.formData, i = document.getElementsByClassName("mf-input-repeater")[0], a = null === (t = document.getElementsByClassName("mf-input-repeater-items attr-items")[0]) || void 0 === t ? void 0 : t.outerHTML, s = (new DOMParser).parseFromString(a, "text/html"), u = null, l = 1, c = function() {
                             if ("string" == typeof o[f] && n.test(o[f].split(",")[1])) {
                                 var e, t = (null === (e = document.getElementsByName("".concat(f))[0]) || void 0 === e ? void 0 : e.parentElement.getElementsByTagName("canvas")[0]).getContext("2d"), r = new Image;
@@ -28252,7 +28252,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     var t = this
                       , n = window.grecaptcha
                       , r = ReactDOM.findDOMNode(this)
-                      , o = r.length ? r.querySelectorAll(".elementor-element") : [];
+                      , o = r.length ? r.querySelectorAll(".zyber-element") : [];
                     this.mfRefs.mainForm = r;
                     var i = this.state.formData
                       , a = r.querySelectorAll(".recaptcha_site_key_v3");
@@ -28279,12 +28279,12 @@ PERFORMANCE OF THIS SOFTWARE.
                           , r = e.getAttribute("data-widget_type")
                           , o = null === r ? n : r;
                         e.dataset && e.dataset.settings && (e.dataset.settings = e.dataset.settings.replace(/&quot;/g, '"'));
-                        var i = window.elementorFrontend.hooks;
-                        if (i ? i.doAction("frontend/element_ready/" + o, jQuery(e)) : jQuery(window).on("elementor/frontend/init", (function() {
-                            (i = window.elementorFrontend.hooks).doAction("frontend/element_ready/" + o, jQuery(e))
+                        var i = window.zyberFrontend.hooks;
+                        if (i ? i.doAction("frontend/element_ready/" + o, jQuery(e)) : jQuery(window).on("zyber/frontend/init", (function() {
+                            (i = window.zyberFrontend.hooks).doAction("frontend/element_ready/" + o, jQuery(e))
                         }
                         )),
-                        e.className.search("elementor-widget-mf-") > 0 && e.dataset.settings) {
+                        e.className.search("zyber-widget-mf-") > 0 && e.dataset.settings) {
                             var a = JSON.parse(e.dataset.settings)
                               , s = a.mf_input_name + "-" + e.getAttribute("data-id");
                             t.props.widgets[s] = {
@@ -28415,13 +28415,13 @@ PERFORMANCE OF THIS SOFTWARE.
                 }), t)
             }
         };
-        jQuery(window).on("elementor/frontend/init", (function() {
+        jQuery(window).on("zyber/frontend/init", (function() {
             var e = ["metform", "shortcode", "text-editor"];
-            "metform-form" !== mf.postType || elementorFrontend.isEditMode() ? ("metform-form" === mf.postType && elementorFrontend.isEditMode() && (e = ["mf-date", "mf-time", "mf-select", "mf-multi-select", "mf-range", "mf-file-upload", "mf-mobile", "mf-image-select", "mf-map-location", "mf-color-picker", "mf-signature", "mf-text-editor"]),
+            "metform-form" !== mf.postType || zyberFrontend.isEditMode() ? ("metform-form" === mf.postType && zyberFrontend.isEditMode() && (e = ["mf-date", "mf-time", "mf-select", "mf-multi-select", "mf-range", "mf-file-upload", "mf-mobile", "mf-image-select", "mf-map-location", "mf-color-picker", "mf-signature", "mf-text-editor"]),
             e.forEach((function(e) {
-                elementorFrontend.hooks.addAction("frontend/element_ready/" + e + ".default", sa)
+                zyberFrontend.hooks.addAction("frontend/element_ready/" + e + ".default", sa)
             }
-            ))) : sa(elementorFrontend.elements.$body)
+            ))) : sa(zyberFrontend.elements.$body)
         }
         )).on("load", (function() {
             document.querySelectorAll(".mf-form-shortcode").forEach((function(e) {

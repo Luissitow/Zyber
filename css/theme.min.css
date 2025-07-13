@@ -221,18 +221,18 @@ body.rtl #comments ol.comment-list .children:before,html[dir=rtl] #comments ol.c
     }
 }
 
-.page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=elementor-page-]) .site-main {
+.page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=zyber-page-]) .site-main {
     margin-inline-start:auto;margin-inline-end:auto;width: 100%
 }
 
 @media (max-width: 575px) {
-    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=elementor-page-]) .site-main {
+    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=zyber-page-]) .site-main {
         padding-inline-start:10px;
         padding-inline-end:10px}
 }
 
 @media (min-width: 576px) {
-    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=elementor-page-]) .site-main {
+    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=zyber-page-]) .site-main {
         max-width:500px
     }
 
@@ -242,7 +242,7 @@ body.rtl #comments ol.comment-list .children:before,html[dir=rtl] #comments ol.c
 }
 
 @media (min-width: 768px) {
-    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=elementor-page-]) .site-main {
+    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=zyber-page-]) .site-main {
         max-width:600px
     }
 
@@ -252,7 +252,7 @@ body.rtl #comments ol.comment-list .children:before,html[dir=rtl] #comments ol.c
 }
 
 @media (min-width: 992px) {
-    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=elementor-page-]) .site-main {
+    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=zyber-page-]) .site-main {
         max-width:800px
     }
 
@@ -262,7 +262,7 @@ body.rtl #comments ol.comment-list .children:before,html[dir=rtl] #comments ol.c
 }
 
 @media (min-width: 1200px) {
-    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=elementor-page-]) .site-main {
+    .page-header .entry-title,.site-footer .footer-inner,.site-footer:not(.dynamic-footer),.site-header .header-inner,.site-header:not(.dynamic-header),body:not([class*=zyber-page-]) .site-main {
         max-width:1140px
     }
 
@@ -271,6 +271,6 @@ body.rtl #comments ol.comment-list .children:before,html[dir=rtl] #comments ol.c
     }
 }
 
-.site-header+.elementor {
+.site-header+.zyber {
     min-height: calc(100vh - 320px)
 }

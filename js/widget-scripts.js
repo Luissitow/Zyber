@@ -272,8 +272,8 @@
                         })
                 }
             };
-            jQuery(window).on("elementor/frontend/init", (function() {
-                elementorFrontend.hooks.addAction("frontend/element_ready/elementskit-google-map.default", t)
+            jQuery(window).on("zyber/frontend/init", (function() {
+                zyberFrontend.hooks.addAction("frontend/element_ready/elementskit-google-map.default", t)
             }
             ))
         },
@@ -6278,7 +6278,7 @@
                     e = t(".elementskit-menu-container"),
                     t(e).each((function() {
                         var e = t(this);
-                        "yes" != e.attr("ekit-dom-added") && (0 === e.parents(".elementor-widget-ekit-nav-menu").length && e.parents(".ekit-wid-con").addClass("ekit_menu_responsive_tablet"),
+                        "yes" != e.attr("ekit-dom-added") && (0 === e.parents(".zyber-widget-ekit-nav-menu").length && e.parents(".ekit-wid-con").addClass("ekit_menu_responsive_tablet"),
                         e.attr("ekit-dom-added", "yes"))
                     }
                     )),

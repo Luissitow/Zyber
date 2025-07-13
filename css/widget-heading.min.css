@@ -1,26 +1,26 @@
-/*! elementor - v3.26.0 - 07-01-2025 */
-.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+/*! zyber - v3.26.0 - 07-01-2025 */
+.zyber-widget-heading .zyber-heading-title[class*=zyber-size-]>a {
     color: inherit;
     font-size: inherit;
     line-height: inherit
 }
 
-.elementor-widget-heading .elementor-heading-title.elementor-size-small {
+.zyber-widget-heading .zyber-heading-title.zyber-size-small {
     font-size: 15px
 }
 
-.elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+.zyber-widget-heading .zyber-heading-title.zyber-size-medium {
     font-size: 19px
 }
 
-.elementor-widget-heading .elementor-heading-title.elementor-size-large {
+.zyber-widget-heading .zyber-heading-title.zyber-size-large {
     font-size: 29px
 }
 
-.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+.zyber-widget-heading .zyber-heading-title.zyber-size-xl {
     font-size: 39px
 }
 
-.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+.zyber-widget-heading .zyber-heading-title.zyber-size-xxl {
     font-size: 59px
 }

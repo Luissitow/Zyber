@@ -10,7 +10,7 @@ antes era c82aef y ahora 0097A7
 
 
 post-6.css
-.elementor-kit-6 {
+.zyber-kit-6 {
     --e-global-color-primary: #D1D1D1;
     --e-global-color-secondary: #040404;
     --e-global-color-text: #8B8B8B;
@@ -34,27 +34,27 @@ post-6.css
 
 no se que cambio pero ya lo cambie a azul
 post-11.css
-.elementor-11 .elementor-element.elementor-element-1aa7acbf > .elementor-widget-container {
+.zyber-11 .zyber-element.zyber-element-1aa7acbf > .zyber-widget-container {
     background-color: transparent;
     background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
 }
 
-.elementor-11 .elementor-element.elementor-element-2cd738a2 > .elementor-widget-container {
+.zyber-11 .zyber-element.zyber-element-2cd738a2 > .zyber-widget-container {
     background-color: transparent;
     background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
 }
 
-.elementor-11 .elementor-element.elementor-element-3d79fdd6 > .elementor-widget-container {
+.zyber-11 .zyber-element.zyber-element-3d79fdd6 > .zyber-widget-container {
     background-color: transparent;
     background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
 }
 
-.elementor-11 .elementor-element.elementor-element-7bac198e > .elementor-widget-container {
+.zyber-11 .zyber-element.zyber-element-7bac198e > .zyber-widget-container {
     background-color: transparent;
     background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
 }
 
-.elementor-11 .elementor-element.elementor-element-6374d4ac:hover {
+.zyber-11 .zyber-element.zyber-element-6374d4ac:hover {
     --border-radius: 100px 100px 100px 100px;
     --border-top-left-radius: 100px;
     --border-top-right-radius: 100px;
@@ -70,7 +70,7 @@ post-11.css
 
 
 botón del cotiza ahora, del primero
-.elementor-11 .elementor-element.elementor-element-6374d4ac {
+.zyber-11 .zyber-element.zyber-element-6374d4ac {
     --display: flex;
     --flex-direction: row;
     --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
@@ -91,11 +91,11 @@ botón del cotiza ahora, del primero
     --padding-right: 5px;
 }
 
-.elementor-11 .elementor-element.elementor-element-6374d4ac:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6374d4ac > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.zyber-11 .zyber-element.zyber-element-6374d4ac:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-6374d4ac > .zyber-motion-effects-container > .zyber-motion-effects-layer {
     background-color: var( --e-global-color-147d839 );
 }
 
-.elementor-11 .elementor-element.elementor-element-6374d4ac:hover {
+.zyber-11 .zyber-element.zyber-element-6374d4ac:hover {
     --border-radius: 100px 100px 100px 100px;
     --border-top-left-radius: 100px;
     --border-top-right-radius: 100px;
@@ -117,11 +117,11 @@ botón del cotiza ahora, del primero
 
 
 post-91.css
-<div class="elementor-element elementor-element-268f8fca e-con-full e-flex e-con e-child" data-id="268f8fca" data-element_type="container">
-                                    <div class="elementor-element elementor-element-5dfc8cf4 elementor-widget elementor-widget-spacer" data-id="5dfc8cf4" data-element_type="widget" data-widget_type="spacer.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-spacer">
-                                                <div class="elementor-spacer-inner"></div>
+<div class="zyber-element zyber-element-268f8fca e-con-full e-flex e-con e-child" data-id="268f8fca" data-element_type="container">
+                                    <div class="zyber-element zyber-element-5dfc8cf4 zyber-widget zyber-widget-spacer" data-id="5dfc8cf4" data-element_type="widget" data-widget_type="spacer.default">
+                                        <div class="zyber-widget-container">
+                                            <div class="zyber-spacer">
+                                                <div class="zyber-spacer-inner"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +129,7 @@ post-91.css
 
 
 borde inferior del footer de @2025 zyber todos los derechos reservados
-.elementor-91 .elementor-element.elementor-element-5dfc8cf4 > .elementor-widget-container {
+.zyber-91 .zyber-element.zyber-element-5dfc8cf4 > .zyber-widget-container {
     background-color: transparent;
     background-image: radial-gradient(at center center, #0097A7 0%, var( --e-global-color-b9ab9b6 ) 70%);
 }
@@ -160,7 +160,7 @@ si cambiamos en el post-91
 
 
 se cambia el color en el logo de youtube 
-    .elementor-91 .elementor-element.elementor-element-379c5176 {
+    .zyber-91 .zyber-element.zyber-element-379c5176 {
         --display: flex;
         --min-height: 45px;
         --justify-content: center;
@@ -169,12 +169,12 @@ se cambia el color en el logo de youtube
         --z-index: 1;
     }
 
-    .elementor-91 .elementor-element.elementor-element-379c5176:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-379c5176 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-91 .zyber-element.zyber-element-379c5176:not(.zyber-motion-effects-element-type-background), .zyber-91 .zyber-element.zyber-element-379c5176 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-91 .elementor-element.elementor-element-379c5176:hover {
+    .zyber-91 .zyber-element.zyber-element-379c5176:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                     rgba(0, 151, 167, 0.3)
     }   
@@ -187,7 +187,7 @@ se cambia el color en el logo de youtube
 
 
 se cambia el color en el logo de Facebook
-    .elementor-91 .elementor-element.elementor-element-1bf92685 {
+    .zyber-91 .zyber-element.zyber-element-1bf92685 {
         --display: flex;
         --min-height: 45px;
         --justify-content: center;
@@ -196,12 +196,12 @@ se cambia el color en el logo de Facebook
         --z-index: 1;
     }
 
-    .elementor-91 .elementor-element.elementor-element-1bf92685:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-1bf92685 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-91 .zyber-element.zyber-element-1bf92685:not(.zyber-motion-effects-element-type-background), .zyber-91 .zyber-element.zyber-element-1bf92685 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-91 .elementor-element.elementor-element-1bf92685:hover {
+    .zyber-91 .zyber-element.zyber-element-1bf92685:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                   rgba(0, 151, 167, 0.3)
     }
@@ -214,7 +214,7 @@ se cambia el color en el logo de Facebook
 
 
 se cambia el color en el logo de Instagram
-.elementor-91 .elementor-element.elementor-element-6610d865 {
+.zyber-91 .zyber-element.zyber-element-6610d865 {
     --display: flex;
     --min-height: 45px;
     --justify-content: center;
@@ -223,12 +223,12 @@ se cambia el color en el logo de Instagram
     --z-index: 1;
 }
 
-.elementor-91 .elementor-element.elementor-element-6610d865:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-6610d865 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.zyber-91 .zyber-element.zyber-element-6610d865:not(.zyber-motion-effects-element-type-background), .zyber-91 .zyber-element.zyber-element-6610d865 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
     background-color: transparent;
     background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
 }
 
-.elementor-91 .elementor-element.elementor-element-6610d865:hover {
+.zyber-91 .zyber-element.zyber-element-6610d865:hover {
     box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                               rgba(0, 151, 167, 0.3)
 }
@@ -240,7 +240,7 @@ se cambia el color en el logo de Instagram
 
 
 se cambia el color en el logo de LinkedIn
-.elementor-91 .elementor-element.elementor-element-4c27a460 {
+.zyber-91 .zyber-element.zyber-element-4c27a460 {
     --display: flex;
     --min-height: 45px;
     --justify-content: center;
@@ -249,12 +249,12 @@ se cambia el color en el logo de LinkedIn
     --z-index: 1;
 }
 
-.elementor-91 .elementor-element.elementor-element-4c27a460:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-4c27a460 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.zyber-91 .zyber-element.zyber-element-4c27a460:not(.zyber-motion-effects-element-type-background), .zyber-91 .zyber-element.zyber-element-4c27a460 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
     background-color: transparent;
     background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
 }
 
-.elementor-91 .elementor-element.elementor-element-4c27a460:hover {
+.zyber-91 .zyber-element.zyber-element-4c27a460:hover {
     box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                   rgba(0, 151, 167, 0.3)
 
@@ -267,7 +267,7 @@ se cambia el color en el logo de LinkedIn
 post-11.css
 
 
-.elementor-11 .elementor-element.elementor-element-6374d4ac {
+.zyber-11 .zyber-element.zyber-element-6374d4ac {
     --display: flex;
     --flex-direction: row;
     --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
@@ -288,11 +288,11 @@ post-11.css
     --padding-right: 5px;
 }
 
-.elementor-11 .elementor-element.elementor-element-6374d4ac:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6374d4ac > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.zyber-11 .zyber-element.zyber-element-6374d4ac:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-6374d4ac > .zyber-motion-effects-container > .zyber-motion-effects-layer {
     background-color: var( --e-global-color-147d839 );
 }
 
-.elementor-11 .elementor-element.elementor-element-6374d4ac:hover {
+.zyber-11 .zyber-element.zyber-element-6374d4ac:hover {
     --border-radius: 100px 100px 100px 100px;
     --border-top-left-radius: 100px;
     --border-top-right-radius: 100px;
@@ -306,7 +306,7 @@ post-11.css
 alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
-    .elementor-11 .elementor-element.elementor-element-31b53b25 {
+    .zyber-11 .zyber-element.zyber-element-31b53b25 {
         --display: flex;
         --min-height: 90px;
         --justify-content: center;
@@ -315,12 +315,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
         --z-index: 1;
     }
 
-    .elementor-11 .elementor-element.elementor-element-31b53b25:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-31b53b25 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-11 .zyber-element.zyber-element-31b53b25:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-31b53b25 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-11 .elementor-element.elementor-element-31b53b25:hover {
+    .zyber-11 .zyber-element.zyber-element-31b53b25:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                     rgba(0, 151, 167, 0.3)
     }
@@ -335,7 +335,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-    .elementor-11 .elementor-element.elementor-element-3e3ab79 {
+    .zyber-11 .zyber-element.zyber-element-3e3ab79 {
     --display: flex;
     --min-height: 90px;
     --justify-content: center;
@@ -344,12 +344,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
     --z-index: 1;
 }
 
-    .elementor-11 .elementor-element.elementor-element-3e3ab79:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-3e3ab79 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-11 .zyber-element.zyber-element-3e3ab79:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-3e3ab79 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at bottom right, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-11 .elementor-element.elementor-element-3e3ab79:hover {
+    .zyber-11 .zyber-element.zyber-element-3e3ab79:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                     rgba(0, 151, 167, 0.3)
     }
@@ -364,7 +364,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-    .elementor-11 .elementor-element.elementor-element-3c22ca43 {
+    .zyber-11 .zyber-element.zyber-element-3c22ca43 {
         --display: flex;
         --min-height: 90px;
         --justify-content: center;
@@ -373,12 +373,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
         --z-index: 1;
     }
 
-    .elementor-11 .elementor-element.elementor-element-3c22ca43:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-3c22ca43 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-11 .zyber-element.zyber-element-3c22ca43:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-3c22ca43 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-11 .elementor-element.elementor-element-3c22ca43:hover {
+    .zyber-11 .zyber-element.zyber-element-3c22ca43:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                     rgba(0, 151, 167, 0.3)
     }
@@ -393,7 +393,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-    .elementor-11 .elementor-element.elementor-element-3c22ca43 {
+    .zyber-11 .zyber-element.zyber-element-3c22ca43 {
         --display: flex;
         --min-height: 90px;
         --justify-content: center;
@@ -402,12 +402,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
         --z-index: 1;
     }
 
-    .elementor-11 .elementor-element.elementor-element-3c22ca43:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-3c22ca43 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-11 .zyber-element.zyber-element-3c22ca43:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-3c22ca43 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-11 .elementor-element.elementor-element-3c22ca43:hover {
+    .zyber-11 .zyber-element.zyber-element-3c22ca43:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                     rgba(0, 151, 167, 0.3)
     }
@@ -422,7 +422,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-    .elementor-11 .elementor-element.elementor-element-6c72236a {
+    .zyber-11 .zyber-element.zyber-element-6c72236a {
         --display: flex;
         --min-height: 80px;
         --justify-content: center;
@@ -431,12 +431,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
         --z-index: 1;
     }
 
-    .elementor-11 .elementor-element.elementor-element-6c72236a:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6c72236a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-11 .zyber-element.zyber-element-6c72236a:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-6c72236a > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-11 .elementor-element.elementor-element-6c72236a:hover {
+    .zyber-11 .zyber-element.zyber-element-6c72236a:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                         rgba(0, 151, 167, 0.3)
 
@@ -452,7 +452,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-    .elementor-11 .elementor-element.elementor-element-23b07796 {
+    .zyber-11 .zyber-element.zyber-element-23b07796 {
     --display: flex;
     --min-height: 80px;
     --justify-content: center;
@@ -461,12 +461,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
     --z-index: 1;
     }
 
-    .elementor-11 .elementor-element.elementor-element-23b07796:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-23b07796 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-11 .zyber-element.zyber-element-23b07796:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-23b07796 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-11 .elementor-element.elementor-element-23b07796:hover {
+    .zyber-11 .zyber-element.zyber-element-23b07796:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                 rgba(0, 151, 167, 0.3)
     }
@@ -478,7 +478,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-    .elementor-11 .elementor-element.elementor-element-65983dfe {
+    .zyber-11 .zyber-element.zyber-element-65983dfe {
         --display: flex;
         --min-height: 80px;
         --justify-content: center;
@@ -487,12 +487,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
         --z-index: 1;
     }
 
-    .elementor-11 .elementor-element.elementor-element-65983dfe:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-65983dfe > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    .zyber-11 .zyber-element.zyber-element-65983dfe:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-65983dfe > .zyber-motion-effects-container > .zyber-motion-effects-layer {
         background-color: transparent;
         background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
     }
 
-    .elementor-11 .elementor-element.elementor-element-65983dfe:hover {
+    .zyber-11 .zyber-element.zyber-element-65983dfe:hover {
         box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                         rgba(0, 151, 167, 0.3)
 
@@ -508,7 +508,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-.elementor-11 .elementor-element.elementor-element-6b53f066 {
+.zyber-11 .zyber-element.zyber-element-6b53f066 {
     --display: flex;
     --min-height: 80px;
     --justify-content: center;
@@ -517,12 +517,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
     --z-index: 1;
 }
 
-.elementor-11 .elementor-element.elementor-element-6b53f066:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6b53f066 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.zyber-11 .zyber-element.zyber-element-6b53f066:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-6b53f066 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
     background-color: transparent;
     background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
 }
 
-.elementor-11 .elementor-element.elementor-element-6b53f066:hover {
+.zyber-11 .zyber-element.zyber-element-6b53f066:hover {
     box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                                             rgba(0, 151, 167, 0.3)
 }
@@ -537,7 +537,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-.elementor-11 .elementor-element.elementor-element-1daae48 {
+.zyber-11 .zyber-element.zyber-element-1daae48 {
     --display: flex;
     --min-height: 80px;
     --justify-content: center;
@@ -546,12 +546,12 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
     --z-index: 1;
 }
 
-.elementor-11 .elementor-element.elementor-element-1daae48:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-1daae48 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.zyber-11 .zyber-element.zyber-element-1daae48:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-1daae48 > .zyber-motion-effects-container > .zyber-motion-effects-layer {
     background-color: transparent;
     background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
 }
 
-.elementor-11 .elementor-element.elementor-element-1daae48:hover {
+.zyber-11 .zyber-element.zyber-element-1daae48:hover {
     box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
                               rgba(0, 151, 167, 0.3)
 }
@@ -566,7 +566,7 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
 
-.elementor-11 .elementor-element.elementor-element-5bc2b27b {
+.zyber-11 .zyber-element.zyber-element-5bc2b27b {
     --display: flex;
     --min-height: 80px;
     --justify-content: center;
@@ -575,11 +575,11 @@ alguno de estos cambia el color del botón de arriba donde están los numeros
     --z-index: 1;
 }
 
-.elementor-11 .elementor-element.elementor-element-5bc2b27b:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-5bc2b27b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.zyber-11 .zyber-element.zyber-element-5bc2b27b:not(.zyber-motion-effects-element-type-background), .zyber-11 .zyber-element.zyber-element-5bc2b27b > .zyber-motion-effects-container > .zyber-motion-effects-layer {
     background-color: transparent;
     background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
 }
 
-.elementor-11 .elementor-element.elementor-element-5bc2b27b:hover {
+.zyber-11 .zyber-element.zyber-element-5bc2b27b:hover {
     box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
 }

@@ -65,8 +65,8 @@
                 t.removeClass("ekit-ajax-loading"),
                 i.replaceWith(s),
                 n.removeClass(o).addClass(a).removeAttr("style"),
-                t.find(".elementor-element").each((function() {
-                    elementorFrontend.elementsHandler.runReadyTrigger(e(this))
+                t.find(".zyber-element").each((function() {
+                    zyberFrontend.elementsHandler.runReadyTrigger(e(this))
                 }
                 ))
             }
@@ -192,10 +192,10 @@
                     }
                     !e(this).hasClass("elementskit-dropdown-menu-full_width") && e(this).hasClass("top_position") && e(this).on({
                         mouseenter: function() {
-                            0 === e(".default_menu_position").length && e(this).parents(".elementor-section-wrap").addClass("default_menu_position")
+                            0 === e(".default_menu_position").length && e(this).parents(".zyber-section-wrap").addClass("default_menu_position")
                         },
                         mouseleave: function() {
-                            0 !== e(".default_menu_position").length && e(this).parents(".elementor-section-wrap").removeClass("default_menu_position")
+                            0 !== e(".default_menu_position").length && e(this).parents(".zyber-section-wrap").removeClass("default_menu_position")
                         }
                     }),
                     t && t !== undefined ? "string" == typeof t ? (/^[0-9]/.test(t),
@@ -643,8 +643,8 @@
             n.rememberTab()
         }
     };
-    e(window).on("elementor/frontend/init", n.init).on("load", n.load).on("hashchange", n.hash)
-}(jQuery, window.elementorFrontend),
+    e(window).on("zyber/frontend/init", n.init).on("load", n.load).on("hashchange", n.hash)
+}(jQuery, window.zyberFrontend),
 function(e) {
     "use strict";
     e.fn.animateNumbers = function(t, n, i, s) {
@@ -673,10 +673,10 @@ function(e) {
     }
     ,
     e((function() {
-        if (e("#wp-admin-bar-elementor_edit_page-default").length > 0) {
-            let t = e("#wp-admin-bar-elementor_edit_page-default").children("li");
+        if (e("#wp-admin-bar-zyber_edit_page-default").length > 0) {
+            let t = e("#wp-admin-bar-zyber_edit_page-default").children("li");
             e(t).map((function(t, n) {
-                var i = e(n).find(".elementor-edit-link-title");
+                var i = e(n).find(".zyber-edit-link-title");
                 -1 !== i.text().indexOf("dynamic-content-") && i.parent().parent().remove()
             }
             ))
