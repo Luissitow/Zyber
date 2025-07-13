@@ -1,0 +1,642 @@
+Color principal de esta web
+colores de fondo en sombras, botones y bordes
+elementos a editar para cambiarlo
+
+antes era c82aef y ahora 0097A7
+          200.00000000000006, 42, 238.99999999999997, 0.3  y ahora 0, 151, 167, 0.3
+
+post-6.css
+
+.elementor-kit-6 {
+    --e-global-color-primary: #D1D1D1;
+    --e-global-color-secondary: #040404;
+    --e-global-color-text: #8B8B8B;
+    --e-global-color-accent: #FFFFFF;
+    --e-global-color-e850821: #0097A7   ; /* Color principal de la web */
+    --e-global-color-b9ab9b6: #ff000000;
+    --e-global-color-147d839: #0E0E0E;
+    --e-global-color-bcf4dba: #1F1F1F;      
+
+
+
+
+
+
+
+
+
+
+
+
+
+no se que cambio pero ya lo cambie a azul
+post-11.css
+.elementor-11 .elementor-element.elementor-element-1aa7acbf > .elementor-widget-container {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
+}
+
+.elementor-11 .elementor-element.elementor-element-2cd738a2 > .elementor-widget-container {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
+}
+
+.elementor-11 .elementor-element.elementor-element-3d79fdd6 > .elementor-widget-container {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
+}
+
+.elementor-11 .elementor-element.elementor-element-7bac198e > .elementor-widget-container {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
+}
+
+.elementor-11 .elementor-element.elementor-element-6374d4ac:hover {
+    --border-radius: 100px 100px 100px 100px;
+    --border-top-left-radius: 100px;
+    --border-top-right-radius: 100px;
+    --border-bottom-right-radius: 100px;
+    --border-bottom-left-radius: 100px;
+    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+post-91.css
+<div class="elementor-element elementor-element-268f8fca e-con-full e-flex e-con e-child" data-id="268f8fca" data-element_type="container">
+                                    <div class="elementor-element elementor-element-5dfc8cf4 elementor-widget elementor-widget-spacer" data-id="5dfc8cf4" data-element_type="widget" data-widget_type="spacer.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                                <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+borde inferior del footer de @2025 zyber todos los derechos reservados
+.elementor-91 .elementor-element.elementor-element-5dfc8cf4 > .elementor-widget-container {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #0097A7 0%, var( --e-global-color-b9ab9b6 ) 70%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+si cambiamos en el post-91
+
+
+se cambia el color en el logo de youtube 
+    .elementor-91 .elementor-element.elementor-element-379c5176 {
+        --display: flex;
+        --min-height: 45px;
+        --justify-content: center;
+        --border-radius: 15px 15px 15px 15px;
+        box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+        --z-index: 1;
+    }
+
+    .elementor-91 .elementor-element.elementor-element-379c5176:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-379c5176 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-91 .elementor-element.elementor-element-379c5176:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                    rgba(0, 151, 167, 0.3)
+    }   
+
+
+
+
+
+
+
+
+se cambia el color en el logo de Facebook
+    .elementor-91 .elementor-element.elementor-element-1bf92685 {
+        --display: flex;
+        --min-height: 45px;
+        --justify-content: center;
+        --border-radius: 15px 15px 15px 15px;
+        box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+        --z-index: 1;
+    }
+
+    .elementor-91 .elementor-element.elementor-element-1bf92685:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-1bf92685 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-91 .elementor-element.elementor-element-1bf92685:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                  rgba(0, 151, 167, 0.3)
+    }
+
+
+
+
+
+
+
+
+se cambia el color en el logo de Instagram
+.elementor-91 .elementor-element.elementor-element-6610d865 {
+    --display: flex;
+    --min-height: 45px;
+    --justify-content: center;
+    --border-radius: 15px 15px 15px 15px;
+    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    --z-index: 1;
+}
+
+.elementor-91 .elementor-element.elementor-element-6610d865:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-6610d865 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+}
+
+.elementor-91 .elementor-element.elementor-element-6610d865:hover {
+    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                              rgba(0, 151, 167, 0.3)
+}
+
+
+
+
+
+
+
+se cambia el color en el logo de LinkedIn
+.elementor-91 .elementor-element.elementor-element-4c27a460 {
+    --display: flex;
+    --min-height: 45px;
+    --justify-content: center;
+    --border-radius: 15px 15px 15px 15px;
+    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    --z-index: 1;
+}
+
+.elementor-91 .elementor-element.elementor-element-4c27a460:not(.elementor-motion-effects-element-type-background), .elementor-91 .elementor-element.elementor-element-4c27a460 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+}
+
+.elementor-91 .elementor-element.elementor-element-4c27a460:hover {
+    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                  rgba(0, 151, 167, 0.3)
+
+}
+
+
+
+
+
+post-11.css
+
+
+.elementor-11 .elementor-element.elementor-element-6374d4ac {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --align-items: center;
+    --gap: 0px 0px;
+    --row-gap: 0px;
+    --column-gap: 0px;
+    --flex-wrap: wrap;
+    --border-radius: 100px 100px 100px 100px;
+    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-11 .elementor-element.elementor-element-6374d4ac:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6374d4ac > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: var( --e-global-color-147d839 );
+}
+
+.elementor-11 .elementor-element.elementor-element-6374d4ac:hover {
+    --border-radius: 100px 100px 100px 100px;
+    --border-top-left-radius: 100px;
+    --border-top-right-radius: 100px;
+    --border-bottom-right-radius: 100px;
+    --border-bottom-left-radius: 100px;
+    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+                                rgba(0, 151, 167, 0.3)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .elementor-11 .elementor-element.elementor-element-31b53b25 {
+        --display: flex;
+        --min-height: 90px;
+        --justify-content: center;
+        --border-radius: 25px 25px 25px 25px;
+        box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+        --z-index: 1;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-31b53b25:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-31b53b25 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-11 .elementor-element.elementor-element-31b53b25:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                    rgba(0, 151, 167, 0.3)
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .elementor-11 .elementor-element.elementor-element-3e3ab79 {
+    --display: flex;
+    --min-height: 90px;
+    --justify-content: center;
+    --border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    --z-index: 1;
+}
+
+    .elementor-11 .elementor-element.elementor-element-3e3ab79:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-3e3ab79 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at bottom right, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-11 .elementor-element.elementor-element-3e3ab79:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                    rgba(0, 151, 167, 0.3)
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .elementor-11 .elementor-element.elementor-element-3c22ca43 {
+        --display: flex;
+        --min-height: 90px;
+        --justify-content: center;
+        --border-radius: 25px 25px 25px 25px;
+        box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+        --z-index: 1;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-3c22ca43:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-3c22ca43 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-11 .elementor-element.elementor-element-3c22ca43:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                    rgba(0, 151, 167, 0.3)
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .elementor-11 .elementor-element.elementor-element-3c22ca43 {
+        --display: flex;
+        --min-height: 90px;
+        --justify-content: center;
+        --border-radius: 25px 25px 25px 25px;
+        box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+        --z-index: 1;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-3c22ca43:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-3c22ca43 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-11 .elementor-element.elementor-element-3c22ca43:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                    rgba(0, 151, 167, 0.3)
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .elementor-11 .elementor-element.elementor-element-6c72236a {
+        --display: flex;
+        --min-height: 80px;
+        --justify-content: center;
+        --border-radius: 25px 25px 25px 25px;
+        box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+        --z-index: 1;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-6c72236a:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6c72236a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-11 .elementor-element.elementor-element-6c72236a:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                        rgba(0, 151, 167, 0.3)
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .elementor-11 .elementor-element.elementor-element-23b07796 {
+    --display: flex;
+    --min-height: 80px;
+    --justify-content: center;
+    --border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    --z-index: 1;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-23b07796:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-23b07796 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-11 .elementor-element.elementor-element-23b07796:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                rgba(0, 151, 167, 0.3)
+    }
+
+
+
+
+
+
+
+
+    .elementor-11 .elementor-element.elementor-element-65983dfe {
+        --display: flex;
+        --min-height: 80px;
+        --justify-content: center;
+        --border-radius: 25px 25px 25px 25px;
+        box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+        --z-index: 1;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-65983dfe:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-65983dfe > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-color: transparent;
+        background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+    }
+
+    .elementor-11 .elementor-element.elementor-element-65983dfe:hover {
+        box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                        rgba(0, 151, 167, 0.3)
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+.elementor-11 .elementor-element.elementor-element-6b53f066 {
+    --display: flex;
+    --min-height: 80px;
+    --justify-content: center;
+    --border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    --z-index: 1;
+}
+
+.elementor-11 .elementor-element.elementor-element-6b53f066:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6b53f066 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+}
+
+.elementor-11 .elementor-element.elementor-element-6b53f066:hover {
+    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                                            rgba(0, 151, 167, 0.3)
+}
+
+
+
+
+
+
+
+
+
+
+
+.elementor-11 .elementor-element.elementor-element-1daae48 {
+    --display: flex;
+    --min-height: 80px;
+    --justify-content: center;
+    --border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    --z-index: 1;
+}
+
+.elementor-11 .elementor-element.elementor-element-1daae48:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-1daae48 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+}
+
+.elementor-11 .elementor-element.elementor-element-1daae48:hover {
+    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+                              rgba(0, 151, 167, 0.3)
+}
+
+
+
+
+
+
+
+
+
+
+
+.elementor-11 .elementor-element.elementor-element-5bc2b27b {
+    --display: flex;
+    --min-height: 80px;
+    --justify-content: center;
+    --border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    --z-index: 1;
+}
+
+.elementor-11 .elementor-element.elementor-element-5bc2b27b:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-5bc2b27b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: radial-gradient(at top left, var( --e-global-color-bcf4dba ) 0%, var( --e-global-color-147d839 ) 70%);
+}
+
+.elementor-11 .elementor-element.elementor-element-5bc2b27b:hover {
+    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+}

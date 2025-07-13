@@ -374,12 +374,13 @@
     background-color: var( --e-global-color-secondary );
 }
 
+/* Logo de Facebook */
 .elementor-91 .elementor-element.elementor-element-1bf92685 {
     --display: flex;
     --min-height: 45px;
     --justify-content: center;
     --border-radius: 15px 15px 15px 15px;
-    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: -3px -3px 5px 0px rgba(0, 151, 167, 0.3);
     --z-index: 1;
 }
 
@@ -389,7 +390,7 @@
 }
 
 .elementor-91 .elementor-element.elementor-element-1bf92685:hover {
-    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-91 .elementor-element.elementor-element-683e9da8 .elementor-icon-wrapper {
@@ -447,12 +448,13 @@
     background-color: var( --e-global-color-secondary );
 }
 
+/* Logo de YouTube */
 .elementor-91 .elementor-element.elementor-element-379c5176 {
     --display: flex;
     --min-height: 45px;
     --justify-content: center;
     --border-radius: 15px 15px 15px 15px;
-    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: -3px -3px 5px 0px rgba(0, 151, 167, 0.3);
     --z-index: 1;
 }
 
@@ -462,7 +464,7 @@
 }
 
 .elementor-91 .elementor-element.elementor-element-379c5176:hover {
-    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-91 .elementor-element.elementor-element-26f39889 .elementor-icon-wrapper {
@@ -520,12 +522,14 @@
     background-color: var( --e-global-color-secondary );
 }
 
+
+/* Logo de instagram */
 .elementor-91 .elementor-element.elementor-element-6610d865 {
     --display: flex;
     --min-height: 45px;
     --justify-content: center;
     --border-radius: 15px 15px 15px 15px;
-    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: -3px -3px 5px 0px rgba(0, 151, 167, 0.3);
     --z-index: 1;
 }
 
@@ -535,7 +539,7 @@
 }
 
 .elementor-91 .elementor-element.elementor-element-6610d865:hover {
-    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-91 .elementor-element.elementor-element-446246e6 .elementor-icon-wrapper {
@@ -593,12 +597,13 @@
     background-color: var( --e-global-color-secondary );
 }
 
+/* Logo de LinkedIn */
 .elementor-91 .elementor-element.elementor-element-4c27a460 {
     --display: flex;
     --min-height: 45px;
     --justify-content: center;
     --border-radius: 15px 15px 15px 15px;
-    box-shadow: -3px -3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: -3px -3px 5px 0px rgba(0, 151, 167, 0.3);
     --z-index: 1;
 }
 
@@ -608,7 +613,7 @@
 }
 
 .elementor-91 .elementor-element.elementor-element-4c27a460:hover {
-    box-shadow: 3px 3px 5px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-91 .elementor-element.elementor-element-2b48c19 .elementor-icon-wrapper {
@@ -782,7 +787,7 @@ body:not(.rtl) .elementor-91 .elementor-element.elementor-element-748df645 .elem
 
 .elementor-91 .elementor-element.elementor-element-5dfc8cf4 > .elementor-widget-container {
     background-color: transparent;
-    background-image: radial-gradient(at center center, #C82AEF85 0%, var( --e-global-color-b9ab9b6 ) 70%);
+    background-image: radial-gradient(at center center, #0097A7   0%, var( --e-global-color-b9ab9b6 ) 70%);
 }
 
 @media(max-width: 1024px) {
