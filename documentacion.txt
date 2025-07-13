@@ -3,10 +3,13 @@ colores de fondo en sombras, botones y bordes
 elementos a editar para cambiarlo
 
 antes era c82aef y ahora 0097A7
-          200.00000000000006, 42, 238.99999999999997, 0.3  y ahora 0, 151, 167, 0.3
+          200.00000000000006, 42, 238.99999999999997, 0.3  y ahora 0, 151, 167, 0.3 con esto cambias todo
+
+
+
+
 
 post-6.css
-
 .elementor-kit-6 {
     --e-global-color-primary: #D1D1D1;
     --e-global-color-secondary: #040404;
@@ -57,10 +60,49 @@ post-11.css
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 
+
+
+
+
+
+botón del cotiza ahora, del primero
+.elementor-11 .elementor-element.elementor-element-6374d4ac {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --align-items: center;
+    --gap: 0px 0px;
+    --row-gap: 0px;
+    --column-gap: 0px;
+    --flex-wrap: wrap;
+    --border-radius: 100px 100px 100px 100px;
+    box-shadow: -3px -3px 7px 0px rgb(255, 255, 255);
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-11 .elementor-element.elementor-element-6374d4ac:not(.elementor-motion-effects-element-type-background), .elementor-11 .elementor-element.elementor-element-6374d4ac > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: var( --e-global-color-147d839 );
+}
+
+.elementor-11 .elementor-element.elementor-element-6374d4ac:hover {
+    --border-radius: 100px 100px 100px 100px;
+    --border-top-left-radius: 100px;
+    --border-top-right-radius: 100px;
+    --border-bottom-right-radius: 100px;
+    --border-bottom-left-radius: 100px;
+    box-shadow: 3px 3px 7px 0px rgb(255, 255, 255);
+}
 
 
 
@@ -239,7 +281,7 @@ post-11.css
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -256,111 +298,12 @@ post-11.css
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
-                                rgba(0, 151, 167, 0.3)
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
+                                rgba(0, 151, 167, 0.3)     
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+alguno de estos cambia el color del botón de arriba donde están los numeros
 
 
     .elementor-11 .elementor-element.elementor-element-31b53b25 {

@@ -485,11 +485,12 @@ body.rtl .elementor-11 .elementor-element.elementor-element-695aed7d {
     background-color: var( --e-global-color-secondary );
 }
 
+/* Post 11 CSS */
 .elementor-11 .elementor-element.elementor-element-3de62c2 {
     --display: flex;
     --justify-content: center;
     --border-radius: 25px 25px 25px 25px;
-    box-shadow: -3px -3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 10px 0px rgba(255, 255, 255, 0.3);
     --padding-top: 20px;
     --padding-bottom: 20px;
     --padding-left: 20px;
@@ -502,7 +503,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-695aed7d {
 }
 
 .elementor-11 .elementor-element.elementor-element-3de62c2:hover {
-    box-shadow: 3px 3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 10px 0px rgba(255, 255, 255, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-2d2eb03d p {
@@ -723,7 +724,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-41e0789f .elem
     --display: flex;
     --justify-content: center;
     --border-radius: 25px 25px 25px 25px;
-    box-shadow: 3px 3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 10px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 30px;
     --padding-bottom: 30px;
     --padding-left: 30px;
@@ -736,7 +737,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-41e0789f .elem
 }
 
 .elementor-11 .elementor-element.elementor-element-7033f3c0:hover {
-    box-shadow: -3px -3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 10px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-1b55907 {
@@ -1026,11 +1027,11 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6757d3e1 {
 }
 
 .elementor-11 .elementor-element.elementor-element-64ba5605 .jeg-elementor-kit.jkit-client-logo .client-slider.tns-slide-active .image-list {
-    box-shadow: 3px 3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 10px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-64ba5605 .jeg-elementor-kit.jkit-client-logo .client-slider.tns-slide-active:hover .image-list {
-    box-shadow: -3px -3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 10px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-64ba5605 .jeg-elementor-kit.jkit-client-logo .client-slider:hover .image-list {
@@ -1714,7 +1715,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --row-gap: 30px;
     --column-gap: 0px;
     --border-radius: 25px 25px 25px 25px;
-    box-shadow: 3px 3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 10px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 30px;
     --padding-bottom: 30px;
     --padding-left: 30px;
@@ -1727,7 +1728,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
 }
 
 .elementor-11 .elementor-element.elementor-element-5af373e8:hover {
-    box-shadow: -3px -3px 10px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 10px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-133190e0 .elementor-button-content-wrapper {
@@ -2141,7 +2142,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -2158,7 +2159,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-25f6f0a0, .elementor-11 .elementor-element.elementor-element-25f6f0a0::before {
@@ -2327,7 +2328,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -2344,7 +2345,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-35d54581, .elementor-11 .elementor-element.elementor-element-35d54581::before {
@@ -2520,7 +2521,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -2537,7 +2538,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-2e9346ae, .elementor-11 .elementor-element.elementor-element-2e9346ae::before {
@@ -2713,7 +2714,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -2730,7 +2731,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-2784f74d, .elementor-11 .elementor-element.elementor-element-2784f74d::before {
@@ -2899,7 +2900,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -2916,7 +2917,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-22d75814, .elementor-11 .elementor-element.elementor-element-22d75814::before {
@@ -3085,7 +3086,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -3102,7 +3103,7 @@ body.rtl .elementor-11 .elementor-element.elementor-element-6a571a68 {
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-4e198bd3, .elementor-11 .elementor-element.elementor-element-4e198bd3::before {
@@ -5769,7 +5770,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-6abac744 .elem
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -5786,7 +5787,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-6abac744 .elem
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-46c1c06, .elementor-11 .elementor-element.elementor-element-46c1c06::before {
@@ -6005,7 +6006,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-5cc2f82e .elem
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -6022,7 +6023,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-5cc2f82e .elem
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-2221befa, .elementor-11 .elementor-element.elementor-element-2221befa::before {
@@ -6526,7 +6527,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-6c2a41c .eleme
     --column-gap: 0px;
     --flex-wrap: wrap;
     --border-radius: 100px 100px 100px 100px;
-    box-shadow: -3px -3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: -3px -3px 7px 0px rgba(0, 151, 167, 0.3);
     --padding-top: 5px;
     --padding-bottom: 5px;
     --padding-left: 5px;
@@ -6543,7 +6544,7 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-6c2a41c .eleme
     --border-top-right-radius: 100px;
     --border-bottom-right-radius: 100px;
     --border-bottom-left-radius: 100px;
-    box-shadow: 3px 3px 7px 0px rgba(200.00000000000006, 42, 238.99999999999997, 0.44);
+    box-shadow: 3px 3px 7px 0px rgba(0, 151, 167, 0.3);
 }
 
 .elementor-11 .elementor-element.elementor-element-58a46c37, .elementor-11 .elementor-element.elementor-element-58a46c37::before {
