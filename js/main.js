@@ -663,3 +663,29 @@ window.addEventListener("load", function () {
   document.querySelector('.close-btn').addEventListener('click', () => {
     document.getElementById('modal-proyecto').style.display = 'none';
   });
+
+
+
+  
+document.addEventListener("DOMContentLoaded", () => {
+    const blocks = document.querySelectorAll(".block");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.classList.add("animate__fadeInUp");
+            }
+        });
+    });
+
+    blocks.forEach((block) => {
+        observer.observe(block);
+    });
+});
+
+AOS.init({
+    duration: 1000, // Duración de la animación en milisegundos
+    easing: "ease-in-out", // Tipo de animación
+    once: true, // Si la animación se ejecuta solo una vez
+});
