@@ -1987,3 +1987,169 @@ img.mf-input.mf-captcha-image {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos solo para PC/Desktop (ancho mínimo de 1025px) */
+@media screen and (min-width: 1025px) {
+    /* Contenedor circular (flecha) - aplicado a todos los elementos */
+    .zyber-element.zyber-element-2f8dd7f2,
+    .zyber-element.zyber-element-1c6731c5,
+    .zyber-element.zyber-element-569de5b8,
+    .zyber-element.zyber-element-48ebe596,
+    .zyber-element.zyber-element-58e826c2,
+    .zyber-element.zyber-element-1fdbb1d {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        min-height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00aabb;
+        border-radius: 50%;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Ajustar el tamaño del ícono dentro del círculo */
+    .zyber-element.zyber-element-2f8dd7f2 i,
+    .zyber-element.zyber-element-2f8dd7f2 svg,
+    .zyber-element.zyber-element-1c6731c5 i,
+    .zyber-element.zyber-element-1c6731c5 svg,
+    .zyber-element.zyber-element-569de5b8 i,
+    .zyber-element.zyber-element-569de5b8 svg,
+    .zyber-element.zyber-element-48ebe596 i,
+    .zyber-element.zyber-element-48ebe596 svg,
+    .zyber-element.zyber-element-58e826c2 i,
+    .zyber-element.zyber-element-58e826c2 svg,
+    .zyber-element.zyber-element-1fdbb1d i,
+    .zyber-element.zyber-element-1fdbb1d svg {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        color: white;
+    }
+
+    /* Ajustar el botón para acomodar el círculo más grande */
+    .zyber-button.zyber-button-link {
+        display: flex;
+        align-items: center;
+        background: #181818;
+        border-radius: 32px;
+        padding: 8px 8px 8px 24px;
+        min-width: 180px;
+        height: 48px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    /* Ajustar el espaciado del contenedor */
+    .zyber-element.zyber-element-35d54581,
+    .zyber-element.zyber-element-25f6f0a0,
+    .zyber-element.zyber-element-2e9346ae,
+    .zyber-element.zyber-element-4e198bd3,
+    .zyber-element.zyber-element-22d75814,
+    .zyber-element.zyber-element-2784f74d {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 12px;
+        padding: 10px;
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1025px) {
+    /* Contenedor circular (flecha) - aplicado a todos los elementos */
+    .zyber-element.zyber-element-169654bd,
+    .zyber-element.zyber-element-3c2063c3,
+    .zyber-element.zyber-element-edf4f28 {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        min-height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00aabb;
+        border-radius: 50%;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Ajustar el tamaño del ícono dentro del círculo */
+    .zyber-element.zyber-element-169654bd i,
+    .zyber-element.zyber-element-169654bd svg,
+    .zyber-element.zyber-element-3c2063c3 i,
+    .zyber-element.zyber-element-3c2063c3 svg,
+    .zyber-element.zyber-element-edf4f28 i,
+    .zyber-element.zyber-element-edf4f28 svg {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        color: white;
+    }
+
+    /* Ajustar el botón para acomodar el círculo más grande */
+    .zyber-button.zyber-button-link {
+        display: flex;
+        align-items: center;
+        background: #181818;
+        border-radius: 32px;
+        padding: 8px 8px 8px 24px;
+        min-width: 180px;
+        height: 48px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    /* Ajustar el espaciado del contenedor */
+    .zyber-element.zyber-element-2221befa,
+    .zyber-element.zyber-element-58a46c37,
+    .zyber-element.zyber-element-46c1c06 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 12px;
+        padding: 10px;
+        width: auto;
+    }
+}
