@@ -1,0 +1,8 @@
+.zyber-animation-grow {
+    transition-duration: .3s;
+    transition-property: transform
+}
+
+.zyber-animation-grow:active,.zyber-animation-grow:focus,.zyber-animation-grow:hover {
+    transform: scale(1.1)
+}
