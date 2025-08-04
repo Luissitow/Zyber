@@ -2748,6 +2748,21 @@ a.item-menu-mobile::after {
   overflow-y: auto;
   padding-right: 8px;
 }
+/* Animación */
+.animate-modal {
+  animation: slideDown 0.5s ease-out forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 /* RESPONSIVE: apila elementos en móvil */
 @media (max-width: 768px) {
