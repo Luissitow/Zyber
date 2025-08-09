@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Desarrollo Web - Zyber Company</title>
+        <link rel="icon" type="image/x-icon" href="/img/logos/zyberlogo.ico">
+        <meta name='robots' content='max-image-preview:large'/>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        
+        <!-- Font Awesome -->
+        <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        <!-- Custom CSS -->
+        <link rel='stylesheet' href='/css/style.css'>
+        <link rel='stylesheet' href='/css/responsive.css'>
+
+        <style>
+            :root {
+                --primary-color: #2B51C6;
+                --text-color: #ffffff;
+                --bg-dark: #0a0a0a;
+                --bg-darker: #1a1a1a;
+            }
+
+            body {
+                background-color: var(--bg-dark);
+                color: var(--text-color);
+                font-family: 'Plus Jakarta Sans', sans-serif;
+            }
+
+            /* Efectos y utilidades */
+            .glass-effect {
+                background: rgba(255, 255, 255, 0.05);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 15px;
+                transition: all 0.3s ease;
+            }
+
+            .glass-effect:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 30px rgba(43, 81, 198, 0.2);
+            }
+
+            .glow-text {
+                text-shadow: 0 0 10px rgba(43, 81, 198, 0.5);
+            }
+
+            .gradient-bg {
+                background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
+            }
+
+            /* Animaciones */
+            .animate-box {
+                opacity: 0;
+            }
+
+            .animate-box.animated {
+                opacity: 1;
+            }
+
+            /* Cards y elementos */
+            .service-card {
+                background: linear-gradient(145deg, rgba(43, 81, 198, 0.1), rgba(0, 0, 0, 0.3));
+                border: 1px solid rgba(43, 81, 198, 0.2);
+                box-shadow: 0 8px 32px 0 rgba(43, 81, 198, 0.1);
+                transition: all 0.3s ease;
+            }
+
+            .service-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 40px rgba(43, 81, 198, 0.2);
+            }
+
+            /* Spacing utilities */
+            .gspace-0 { gap: 0; }
+            .gspace-1 { gap: 0.5rem; }
+            .gspace-2 { gap: 1rem; }
+            .gspace-3 { gap: 1.5rem; }
+            .gspace-4 { gap: 2rem; }
+            .gspace-5 { gap: 2.5rem; }
+
+            /* Button styles */
+            .btn-accent {
+                background: var(--primary-color);
+                color: white;
+                border: none;
+                padding: 15px 30px;
+                border-radius: 8px;
+                transition: all 0.3s ease;
+            }
+
+            .btn-accent:hover {
+                background: #1a3ba0;
+                transform: translateY(-2px);
+            }
+
+            /* Swiper customization */
+            .swiper-pagination-bullet {
+                background: var(--primary-color);
+            }
+
+            /* Responsive text */
+            @media (max-width: 768px) {
+                h1 { font-size: 2.5rem !important; }
+                h2 { font-size: 2rem !important; }
+                h3 { font-size: 1.5rem !important; }
+            }
+        </style>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="page-template page-template-zyber_header_footer page page-id-11">
+        <!-- Header -->
+        <div class="ekit-template-content-markup ekit-template-content-header">
+            <div data-zyber-type="wp-post" data-zyber-id="61" class="zyber zyber-61">
+                <div class="zyber-element zyber-element-410ad4c7 e-con-full e-flex e-con e-parent">
+                    <div class="zyber-element zyber-element-68d2175b e-con-full e-flex e-con e-child">
+                        <!-- Logo -->
+                        <div class="zyber-element zyber-element-cda564f e-con-full e-flex e-con e-child">
+                            <div class="zyber-element zyber-element-2c92fd1c zyber-widget zyber-widget-image">
+                                <div class="zyber-widget-container">
+                                    <a href="/index.html">
+                                        <img width="511" height="111" src="/img/logos/zyberlogo.png" class="attachment-large size-large" alt="Zyber Logo">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Menú de navegación -->
+                        <div class="zyber-element zyber-element-74908113 e-con-full e-flex e-con e-child">
+                            <div class="zyber-element zyber-element-243d140 zyber-widget zyber-widget-ekit-nav-menu">
+                                <div class="zyber-widget-container">
+                                    <nav class="ekit-wid-con ekit_menu_responsive_tablet">
+                                        <button class="elementskit-menu-hamburger elementskit-menu-toggler">
+                                            <i aria-hidden="true" class="fas fa-bars"></i>
+                                        </button>
+                                        <div id="ekit-megamenu-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements">
+                                            <ul id="menu-menu" class="elementskit-navbar-nav elementskit-menu-po-center">
+                                                <li class="menu-item">
+                                                    <a href="/index.html" class="ekit-menu-nav-link">Inicio</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/pages/portafolio.html" class="ekit-menu-nav-link">Portafolio</a>
+                                                </li>
+                                                <li class="menu-item menu-item-has-children">
+                                                    <a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">
+                                                        Servicios<i class="fas fa-chevron-down"></i>
+                                                    </a>
+                                                    <ul class="elementskit-dropdown elementskit-submenu-panel">
+                                                        <li class="menu-item">
+                                                            <a href="/pages/marketingdigital.html" class="dropdown-item">Marketing Digital</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/pages/desarrolloweb.html" class="dropdown-item">Desarrollo Web</a>
+                                                        </li>
+                                                        <!-- Otros servicios... -->
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#contacto" class="ekit-menu-nav-link">Contacto</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="zyber-element e-con-full e-flex gradient-bg" style="min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden;">
+            <div class="e-con-inner" style="max-width: 1140px; margin: 0 auto; position: relative; z-index: 2;">
+                <div class="zyber-element e-con-full e-flex zyber-invisible" data-animation="fadeInLeft">
+                    <h1 class="zyber-heading--title glow-text" style="font-size: 64px; margin-bottom: 30px; font-weight: 700;">
+                        Impulsa Tu Negocio con<br>
+                        <span style="color: #2B51C6;">Tecnología</span>, Estrategia y<br>
+                        Creatividad
+                    </h1>
+                    <p style="font-size: 20px; line-height: 1.8; margin-bottom: 40px; color: rgba(255,255,255,0.8); max-width: 600px;">
+                        En Zyber, transformamos tu visión en una experiencia digital excepcional. Desarrollamos sitios web que no solo se ven increíbles, sino que también impulsan el crecimiento de tu negocio.
+                    </p>
+                    <div class="zyber-button-wrapper">
+                        <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20me%20interesa%20el%20servicio%20de%20desarrollo%20web%20para%20mi%20negocio" 
+                           class="zyber-button zyber-button-link zyber-size-lg glass-effect"
+                           style="padding: 20px 40px; border-radius: 10px; text-decoration: none; display: inline-flex; align-items: center; transition: all 0.3s ease;">
+                            <span style="margin-right: 10px;">Cotizar ahora</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Efecto de fondo -->
+            <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 50% 50%, rgba(43,81,198,0.1) 0%, rgba(0,0,0,0) 50%);"></div>
+        </div>
+
+        <!-- Servicios de Desarrollo Web -->
+        <div class="zyber-element e-con-full e-flex gradient-bg" style="padding: 100px 0;">
+            <div class="e-con-inner" style="max-width: 1140px; margin: 0 auto;">
+                <div class="zyber-element e-con-full e-flex zyber-invisible" data-animation="fadeInUp">
+                    <div style="text-align: center; margin-bottom: 80px;">
+                        <h2 class="zyber-heading--title glow-text" style="font-size: 48px; margin-bottom: 20px;">
+                            Soluciones Digitales Que<br>
+                            <span style="color: #2B51C6;">Dan Soluciones Reales</span>
+                        </h2>
+                    </div>
+                    
+                    <!-- Grid de servicios -->
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                        <!-- Servicio 1 -->
+                        <div class="service-card glass-effect" style="padding: 40px; transition: transform 0.3s ease;">
+                            <div style="margin-bottom: 30px;">
+                                <i class="fas fa-laptop-code" style="font-size: 40px; color: #2B51C6;"></i>
+                            </div>
+                            <h3 style="font-size: 24px; margin-bottom: 20px; color: #fff;">Sitios Web Corporativos</h3>
+                            <ul style="color: rgba(255,255,255,0.8); list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Diseño web personalizado</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Optimización SEO</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Integración con redes sociales</li>
+                            </ul>
+                        </div>
+
+                        <!-- Servicio 2 -->
+                        <div class="service-card glass-effect" style="padding: 40px; transition: transform 0.3s ease;">
+                            <div style="margin-bottom: 30px;">
+                                <i class="fas fa-code" style="font-size: 40px; color: #2B51C6;"></i>
+                            </div>
+                            <h3 style="font-size: 24px; margin-bottom: 20px; color: #fff;">Landing Pages</h3>
+                            <ul style="color: rgba(255,255,255,0.8); list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Diseño orientado a conversión</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>A/B Testing</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Análisis de comportamiento</li>
+                            </ul>
+                        </div>
+
+                        <!-- Servicio 3 -->
+                        <div class="service-card glass-effect" style="padding: 40px; transition: transform 0.3s ease;">
+                            <div style="margin-bottom: 30px;">
+                                <i class="fas fa-shopping-cart" style="font-size: 40px; color: #2B51C6;"></i>
+                            </div>
+                            <h3 style="font-size: 24px; margin-bottom: 20px; color: #fff;">E-commerce</h3>
+                            <ul style="color: rgba(255,255,255,0.8); list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Tiendas online completas</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Pasarelas de pago seguras</li>
+                                <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: #2B51C6; margin-right: 10px;"></i>Gestión de inventario</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proceso de Desarrollo -->
+        <div class="zyber-element e-con-full e-flex" style="background-color: #f8f9fa; padding: 80px 0;">
+            <div class="e-con-inner" style="max-width: 1140px; margin: 0 auto;">
+                <h2 class="zyber-heading--title" style="font-size: 36px; margin-bottom: 50px; text-align: center;">
+                    Nuestro Proceso de Desarrollo
+                </h2>
+
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px;">
+                    <!-- Paso 1 -->
+                    <div class="proceso-item" style="text-align: center;">
+                        <div class="numero" style="font-size: 48px; color: #2B51C6; font-weight: bold;">01</div>
+                        <h3 style="font-size: 20px; margin: 15px 0;">Planificación</h3>
+                        <p>Analizamos tus necesidades y definimos los objetivos del proyecto.</p>
+                    </div>
+
+                    <!-- Paso 2 -->
+                    <div class="proceso-item" style="text-align: center;">
+                        <div class="numero" style="font-size: 48px; color: #2B51C6; font-weight: bold;">02</div>
+                        <h3 style="font-size: 20px; margin: 15px 0;">Diseño</h3>
+                        <p>Creamos mockups y prototipos para visualizar el resultado final.</p>
+                    </div>
+
+                    <!-- Paso 3 -->
+                    <div class="proceso-item" style="text-align: center;">
+                        <div class="numero" style="font-size: 48px; color: #2B51C6; font-weight: bold;">03</div>
+                        <h3 style="font-size: 20px; margin: 15px 0;">Desarrollo</h3>
+                        <p>Programamos tu sitio web con las últimas tecnologías.</p>
+                    </div>
+
+                    <!-- Paso 4 -->
+                    <div class="proceso-item" style="text-align: center;">
+                        <div class="numero" style="font-size: 48px; color: #2B51C6; font-weight: bold;">04</div>
+                        <h3 style="font-size: 20px; margin: 15px 0;">Lanzamiento</h3>
+                        <p>Realizamos pruebas exhaustivas y publicamos tu sitio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tecnologías -->
+        <div class="zyber-element e-con-full e-flex" style="padding: 80px 0;">
+            <div class="e-con-inner" style="max-width: 1140px; margin: 0 auto;">
+                <h2 class="zyber-heading--title" style="font-size: 36px; margin-bottom: 50px; text-align: center;">
+                    Tecnologías que Utilizamos
+                </h2>
+
+                <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 30px; align-items: center; justify-items: center;">
+                    <!-- Iconos de tecnologías -->
+                    <i class="fab fa-html5" style="font-size: 50px; color: #E44D26;"></i>
+                    <i class="fab fa-css3-alt" style="font-size: 50px; color: #264DE4;"></i>
+                    <i class="fab fa-js-square" style="font-size: 50px; color: #F7DF1E;"></i>
+                    <i class="fab fa-react" style="font-size: 50px; color: #61DAFB;"></i>
+                    <i class="fab fa-wordpress" style="font-size: 50px; color: #21759B;"></i>
+                    <i class="fab fa-php" style="font-size: 50px; color: #777BB3;"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="zyber-element e-con-full e-flex" style="background-color: #2B51C6; padding: 80px 0; color: white;">
+            <div class="e-con-inner" style="max-width: 1140px; margin: 0 auto; text-align: center;">
+                <h2 style="font-size: 36px; margin-bottom: 20px;">¿Listo para impulsar tu presencia digital?</h2>
+                <p style="font-size: 20px; margin-bottom: 30px;">Contáctanos hoy y comencemos a crear tu sitio web ideal</p>
+                <div class="zyber-button-wrapper">
+                    <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20me%20interesa%20el%20servicio%20de%20desarrollo%20web%20para%20mi%20negocio" 
+                       class="zyber-button zyber-button-link zyber-size-lg"
+                       style="background-color: white; color: #2B51C6; padding: 15px 30px; border-radius: 5px; text-decoration: none; display: inline-block;">
+                        Solicita una cotización gratuita
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="ekit-template-content-footer">
+            <div class="zyber-element e-con-full e-flex" style="background-color: #1a1a1a; color: white; padding: 80px 0;">
+                <div class="e-con-inner" style="max-width: 1140px; margin: 0 auto;">
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px;">
+                        <!-- Columna 1 - Información de la empresa -->
+                        <div>
+                            <img width="200" src="/img/logos/zyberlogo.png" alt="Zyber Logo">
+                            <p style="margin-top: 20px;">Transformamos negocios con soluciones digitales innovadoras y efectivas.</p>
+                        </div>
+
+                        <!-- Columna 2 - Enlaces rápidos -->
+                        <div>
+                            <h4 style="margin-bottom: 20px;">Enlaces Rápidos</h4>
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><a href="/index.html" style="color: white; text-decoration: none;">Inicio</a></li>
+                                <li style="margin-bottom: 10px;"><a href="/pages/servicios.html" style="color: white; text-decoration: none;">Servicios</a></li>
+                                <li style="margin-bottom: 10px;"><a href="/pages/portafolio.html" style="color: white; text-decoration: none;">Portafolio</a></li>
+                                <li style="margin-bottom: 10px;"><a href="#contacto" style="color: white; text-decoration: none;">Contacto</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Columna 3 - Servicios -->
+                        <div>
+                            <h4 style="margin-bottom: 20px;">Servicios</h4>
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 10px;"><a href="/pages/desarrolloweb.html" style="color: white; text-decoration: none;">Desarrollo Web</a></li>
+                                <li style="margin-bottom: 10px;"><a href="/pages/marketingdigital.html" style="color: white; text-decoration: none;">Marketing Digital</a></li>
+                                <li style="margin-bottom: 10px;"><a href="/pages/ecommerce.html" style="color: white; text-decoration: none;">E-commerce</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Columna 4 - Contacto -->
+                        <div>
+                            <h4 style="margin-bottom: 20px;">Contacto</h4>
+                            <p style="margin-bottom: 10px;">📧 contacto@zyber.company</p>
+                            <p style="margin-bottom: 10px;">📱 +52 722 644 8900</p>
+                            <p>📍 Toluca, Estado de México</p>
+                            
+                            <!-- Redes sociales -->
+                            <div style="margin-top: 20px;">
+                                <a href="#" style="color: white; margin-right: 15px; font-size: 20px;"><i class="fab fa-facebook"></i></a>
+                                <a href="#" style="color: white; margin-right: 15px; font-size: 20px;"><i class="fab fa-instagram"></i></a>
+                                <a href="#" style="color: white; margin-right: 15px; font-size: 20px;"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Copyright -->
+                    <div style="border-top: 1px solid rgba(255,255,255,0.1); margin-top: 50px; padding-top: 20px; text-align: center;">
+                        <p>&copy; 2025 Zyber. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        
+        <!-- GSAP para animaciones avanzadas -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+        <!-- Custom Scripts -->
+        <script>
+            // Inicialización de animaciones
+            document.addEventListener('DOMContentLoaded', function() {
+                // Configurar animaciones al scroll
+                const animateBoxes = document.querySelectorAll('.animate-box');
+                
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const element = entry.target;
+                            const animation = element.dataset.animate || 'animate__fadeIn';
+                            element.classList.add('animate__animated', animation);
+                        }
+                    });
+                }, {
+                    threshold: 0.1
+                });
+
+                animateBoxes.forEach(box => observer.observe(box));
+
+                // Inicializar Swiper para testimonios si existe
+                if (document.querySelector('.swiperTestimonial')) {
+                    new Swiper('.swiperTestimonial', {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        loop: true,
+                        autoplay: {
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 1,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                            },
+                        }
+                    });
+                }
+
+                // Animaciones con GSAP
+                gsap.registerPlugin(ScrollTrigger);
+
+                // Animación para las tarjetas de servicio
+                gsap.utils.toArray('.service-card').forEach((card, i) => {
+                    gsap.from(card, {
+                        scrollTrigger: {
+                            trigger: card,
+                            start: "top bottom",
+                            end: "top center",
+                            scrub: 1
+                        },
+                        y: 100,
+                        opacity: 0,
+                        duration: 1,
+                        delay: i * 0.2
+                    });
+                });
+
+                // Contador para números en estadísticas
+                const startCounting = (element) => {
+                    const target = parseInt(element.dataset.target);
+                    let count = 0;
+                    const speed = 2000 / target;
+
+                    const counter = setInterval(() => {
+                        count += 1;
+                        element.textContent = count;
+
+                        if (count === target) {
+                            clearInterval(counter);
+                        }
+                    }, speed);
+                };
+
+                // Iniciar contadores cuando sean visibles
+                const counterElements = document.querySelectorAll('.counter');
+                const counterObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            startCounting(entry.target);
+                            counterObserver.unobserve(entry.target);
+                        }
+                    });
+                });
+
+                counterElements.forEach(counter => counterObserver.observe(counter));
+            });
+        </script>
+    </body>
+</html>

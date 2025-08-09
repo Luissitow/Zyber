@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Datos - Zyber Company</title>
+    <!-- Favicon estándar -->
+    <link rel="icon" type="image/x-icon" href="/img/logos/zyberlogo.ico">
+    <meta name='robots' content='max-image-preview:large'/>
+    
+    <!-- CSS Files -->
+    <link rel='stylesheet' id='zyber-frontend-css' href='/css/frontend.min.css' media='all'/>
+    <link rel='stylesheet' id='zyber-post-61-css' href='/css/post-61.css' media='all'/>
+    <link rel='stylesheet' id='zyber-post-91-css' href='/css/post-91.css' media='all'/>
+    <link rel='stylesheet' id='jkit-elements-main-css' href='/css/main.css' media='all'/>
+    <link rel='stylesheet' id='hello-zyber-css' href='/css/style.min.css' media='all'/>
+    <link rel='stylesheet' id='hello-zyber-theme-style-css' href='/css/theme.min.css' media='all'/>
+    <link rel='stylesheet' id='hello-zyber-header-footer-css' href='/css/header-footer.min.css' media='all'/>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.1' media='all'/>
+    
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 120px 0 80px;
+            color: white;
+            text-align: center;
+        }
+        
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+        }
+        
+        .service-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        
+        .service-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .breadcrumb {
+            background: #f8f9fa;
+            padding: 1rem 0;
+        }
+        
+        .breadcrumb-nav {
+            color: #666;
+        }
+        
+        .breadcrumb-nav a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .breadcrumb-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .feature-section {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            height: 100%;
+        }
+        
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body class="analisis-datos-page">
+    <!-- Header -->
+    <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
+        <div data-zyber-type="wp-post" data-zyber-id="61" class="zyber zyber-61">
+            <div class="zyber-element zyber-element-410ad4c7 e-con-full e-flex e-con e-parent" data-id="410ad4c7" data-element_type="container">
+                <div class="zyber-element zyber-element-68d2175b e-con-full e-flex e-con e-child" data-id="68d2175b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+
+                    <!--LOGO-->
+                    <div class="zyber-element zyber-element-cda564f e-con-full e-flex e-con e-child" data-id="cda564f" data-element_type="container">
+                        <div class="zyber-element zyber-element-2c92fd1c zyber-widget zyber-widget-image" data-id="2c92fd1c" data-element_type="widget" data-widget_type="image.default">
+                            <div class="zyber-widget-container">
+                                <a href="/index.html">
+                                    <img fetchpriority="high" width="511" height="111" src="/img/logos/zyberlogo.png" class="attachment-large size-large wp-image-63" alt="Zyber Logo" decoding="async" srcset="/img/logos/zyberlogo.png 511w" sizes="(max-width: 511px) 100vw, 511px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Menu-->
+                    <div class="zyber-element zyber-element-74908113 e-con-full e-flex e-con e-child" data-id="74908113" data-element_type="container">
+                        <div class="zyber-element zyber-element-243d140 zyber-widget zyber-widget-ekit-nav-menu" data-id="243d140" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
+                            <div class="zyber-widget-container">
+                                <nav class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="icon icon-menu-button-of-three-horizontal-lines" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
+
+                                    <!--Botón menu secundario-->
+                                    <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button" aria-label="hamburger-icon">
+                                        <i aria-hidden="true" class="fas fa-bars"></i>
+                                    </button>
+
+                                    <div id="ekit-megamenu-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
+                                        <ul id="menu-menu" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon">
+                                            <li class="menu-item nav-item">
+                                                <a href="/index.html" class="ekit-menu-nav-link">Inicio</a>
+                                            </li>
+                                            <li class="menu-item nav-item">
+                                                <a href="/pages/portafolio.html" class="ekit-menu-nav-link">Portafolio</a>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width">
+                                                <a class="ekit-menu-nav-link ekit-menu-dropdown-toggle">
+                                                    Servicios<i aria-hidden="true" class="fas fa-chevron-down elementskit-submenu-indicator"></i>
+                                                </a>
+                                                <ul class="elementskit-dropdown elementskit-submenu-panel">
+                                                    <li class="menu-item nav-item">
+                                                        <a href="/pages/marketingdigital.html" class="dropdown-item">Marketing Digital</a>
+                                                    </li>
+                                                    <li class="menu-item nav-item">
+                                                        <a href="/pages/desarrolloweb.html" class="dropdown-item">Desarrollo Web</a>
+                                                    </li>
+                                                    <li class="menu-item nav-item">
+                                                        <a href="/pages/analisisdedatos.html" class="dropdown-item">Análisis de datos</a>
+                                                    </li>
+                                                    <li class="menu-item nav-item">
+                                                        <a href="/pages/chatbots.html" class="dropdown-item">Chatbots y experiencia al cliente</a>
+                                                    </li>
+                                                    <li class="menu-item nav-item">
+                                                        <a href="#" class="dropdown-item">Transformación Digital</a>
+                                                    </li>
+                                                    <li class="menu-item nav-item">
+                                                        <a href="#" class="dropdown-item">Innovación y nuevas tecnologías</a>
+                                                    </li>
+                                                    <li class="menu-item nav-item">
+                                                        <a href="#" class="dropdown-item">Servicios adicionales</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item nav-item">
+                                                <a href="#" class="ekit-menu-nav-link">Contactanos</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Teléfono -->
+                    <div class="zyber-element zyber-element-7b729c06 e-con-full e-flex e-con e-child" data-id="7b729c06" data-element_type="container">
+                        <div class="zyber-element zyber-element-2d76e89e e-con-full e-flex e-con e-child" data-id="2d76e89e" data-element_type="container">
+                            <div class="zyber-element zyber-element-251b53ff zyber-view-default zyber-widget zyber-widget-icon" data-id="251b53ff" data-element_type="widget" data-widget_type="icon.default">
+                                <div class="zyber-widget-container">
+                                    <div class="zyber-icon-wrapper">
+                                        <div class="zyber-icon">
+                                            <i class="fas fa-phone-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="zyber-widget-container">
+                            <h6 class="zyber-heading-title zyber-size-default">
+                                <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20vi%20su%20sitio%20web%20y%20estoy%20interesado%20en%20servicios%20de%20análisis%20de%20datos%20para%20mi%20negocio" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style="text-decoration: none; color: inherit;">
+                                    722 644 8900
+                                </a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <nav class="breadcrumb-nav">
+                <a href="/index.html">Inicio</a> > <a href="#servicios">Servicios</a> > <strong>Análisis de Datos</strong>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Análisis de Datos Empresariales</h1>
+            <p class="hero-subtitle">Transforma tus datos en decisiones inteligentes que impulsen el crecimiento de tu negocio</p>
+            <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20quiero%20cotizar%20servicios%20de%20análisis%20de%20datos%20para%20mi%20empresa" 
+               target="_blank" class="cta-button">
+                Solicitar Consulta
+            </a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section style="padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios de Análisis de Datos</h2>
+            
+            <div class="services-grid">
+                <!-- Business Intelligence -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="service-title">Business Intelligence (BI)</h3>
+                    <p class="service-description">
+                        Dashboards interactivos que te permiten visualizar el rendimiento de tu negocio en tiempo real y tomar decisiones basadas en datos.
+                    </p>
+                    <ul style="text-align: left; margin-bottom: 1.5rem;">
+                        <li>Dashboards personalizados</li>
+                        <li>Reportes automatizados</li>
+                        <li>KPIs y métricas clave</li>
+                        <li>Visualizaciones interactivas</li>
+                        <li>Alertas en tiempo real</li>
+                    </ul>
+                    <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20me%20interesa%20implementar%20Business%20Intelligence%20en%20mi%20empresa" 
+                       target="_blank" class="cta-button">Cotizar BI</a>
+                </div>
+
+                <!-- Análisis Predictivo -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crystal-ball"></i>
+                    </div>
+                    <h3 class="service-title">Análisis Predictivo</h3>
+                    <p class="service-description">
+                        Utilizamos inteligencia artificial y machine learning para predecir tendencias futuras y comportamientos de clientes.
+                    </p>
+                    <ul style="text-align: left; margin-bottom: 1.5rem;">
+                        <li>Predicción de ventas</li>
+                        <li>Análisis de churn de clientes</li>
+                        <li>Forecasting de demanda</li>
+                        <li>Modelos de machine learning</li>
+                        <li>Análisis de riesgo</li>
+                    </ul>
+                    <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20quiero%20implementar%20análisis%20predictivo%20para%20anticipar%20tendencias" 
+                       target="_blank" class="cta-button">Cotizar Predictivo</a>
+                </div>
+
+                <!-- Analytics Web -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="service-title">Web Analytics Avanzado</h3>
+                    <p class="service-description">
+                        Análisis profundo del comportamiento de usuarios en tu sitio web para optimizar la experiencia y aumentar conversiones.
+                    </p>
+                    <ul style="text-align: left; margin-bottom: 1.5rem;">
+                        <li>Google Analytics 4 configurado</li>
+                        <li>Análisis de embudo de conversión</li>
+                        <li>Mapas de calor (heatmaps)</li>
+                        <li>Análisis de comportamiento</li>
+                        <li>Optimización de conversiones</li>
+                    </ul>
+                    <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20necesito%20análisis%20avanzado%20de%20mi%20sitio%20web%20y%20conversiones" 
+                       target="_blank" class="cta-button">Cotizar Web Analytics</a>
+                </div>
+
+                <!-- Data Mining -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <h3 class="service-title">Data Mining y Insights</h3>
+                    <p class="service-description">
+                        Extraemos patrones ocultos y insights valiosos de grandes volúmenes de datos para descubrir oportunidades de negocio.
+                    </p>
+                    <ul style="text-align: left; margin-bottom: 1.5rem;">
+                        <li>Segmentación de clientes</li>
+                        <li>Análisis de comportamiento</li>
+                        <li>Patrones de compra</li>
+                        <li>Oportunidades de cross-selling</li>
+                        <li>Insights estratégicos</li>
+                    </ul>
+                    <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20quiero%20extraer%20insights%20valiosos%20de%20mis%20datos%20empresariales" 
+                       target="_blank" class="cta-button">Cotizar Data Mining</a>
+                </div>
+
+                <!-- ROI y Performance -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3 class="service-title">Análisis de ROI y Performance</h3>
+                    <p class="service-description">
+                        Medimos y optimizamos el retorno de inversión de todas tus estrategias de marketing y operaciones comerciales.
+                    </p>
+                    <ul style="text-align: left; margin-bottom: 1.5rem;">
+                        <li>Análisis de ROI por canal</li>
+                        <li>Atribución de conversiones</li>
+                        <li>Optimización de presupuesto</li>
+                        <li>Métricas de rendimiento</li>
+                        <li>Reportes de rentabilidad</li>
+                    </ul>
+                    <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20necesito%20medir%20el%20ROI%20de%20mis%20inversiones%20en%20marketing" 
+                       target="_blank" class="cta-button">Cotizar ROI Analysis</a>
+                </div>
+
+                <!-- Data Integration -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="service-title">Integración de Datos</h3>
+                    <p class="service-description">
+                        Conectamos y centralizamos datos de múltiples fuentes para crear una visión unificada de tu negocio.
+                    </p>
+                    <ul style="text-align: left; margin-bottom: 1.5rem;">
+                        <li>Integración de sistemas CRM</li>
+                        <li>Conexión con herramientas de marketing</li>
+                        <li>APIs y webhooks</li>
+                        <li>Data warehousing</li>
+                        <li>ETL automatizado</li>
+                    </ul>
+                    <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20quiero%20integrar%20todas%20mis%20fuentes%20de%20datos%20en%20un%20solo%20lugar" 
+                       target="_blank" class="cta-button">Cotizar Integración</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section class="feature-section">
+        <div class="container">
+            <h2 class="section-title">¿Por qué el Análisis de Datos es Crucial?</h2>
+            
+            <div class="services-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4>Decisiones Informadas</h4>
+                    <p>Toma decisiones basadas en datos reales, no en intuición, reduciendo riesgos y aumentando probabilidades de éxito.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h4>Identificación de Oportunidades</h4>
+                    <p>Descubre nuevas oportunidades de mercado, productos y segmentos de clientes que antes pasaban desapercibidos.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Optimización Continua</h4>
+                    <p>Mejora constantemente tus procesos, campañas y estrategias basándote en métricas y resultados medibles.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Reducción de Riesgos</h4>
+                    <p>Anticipa problemas potenciales y toma medidas preventivas antes de que afecten tu negocio.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Mejor Conocimiento del Cliente</h4>
+                    <p>Comprende profundamente a tus clientes, sus necesidades y comportamientos para personalizar tu oferta.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h4>Ventaja Competitiva</h4>
+                    <p>Mantente por delante de la competencia con insights que otros no tienen y estrategias más efectivas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Final -->
+    <section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 80px 0; text-align: center; color: white;">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">¿Listo para convertir tus datos en ventaja competitiva?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                Contáctanos y descubre cómo el análisis de datos puede transformar tu negocio.
+            </p>
+            <a href="https://wa.me/5217226448900?text=Hola%20Zyber%2C%20quiero%20agendar%20una%20consulta%20sobre%20análisis%20de%20datos%20para%20mi%20empresa" 
+               target="_blank" 
+               style="background: white; color: #667eea; padding: 15px 35px; border-radius: 30px; text-decoration: none; font-weight: 700; display: inline-block; transition: all 0.3s ease;">
+                Consulta Gratuita
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer placeholder -->
+    <footer style="background: #333; color: white; text-align: center; padding: 40px 0;">
+        <div class="container">
+            <p>&copy; 2025 Zyber Company. Todos los derechos reservados.</p>
+            <p>📱 <a href="https://wa.me/5217226448900" style="color: #667eea;">722 644 8900</a> | 
+               📧 <a href="mailto:contacto@zyber.com" style="color: #667eea;">contacto@zyber.com</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery-migrate.min.js"></script>
+</body>
+</html>
