@@ -1,33 +1,39 @@
 @import "tailwindcss";
 
-/* ------------------------------------------------------------------ */
-/*  Tokens de marca Zyber (Tailwind v4 — se exponen como utilidades)   */
-/* ------------------------------------------------------------------ */
+/* ================================================================== */
+/*  Sistema de diseño Zyber — tokens fieles al sitio original          */
+/*  (paleta, tipografía Plus Jakarta Sans, degradados y sombras neu)   */
+/* ================================================================== */
 @theme {
-  --color-bg: #0a0a0b;
-  --color-surface: #101114;
-  --color-surface-2: #16181c;
-  --color-line: #23262c;
+  /* Fondos (del original: 147d839 / secondary / bcf4dba) */
+  --color-bg: #0e0e0e;
+  --color-bg-deep: #040404;
+  --color-surface: #171717;
+  --color-surface-2: #1f1f1f;
+  --color-line: #2a2a2a;
 
+  /* Acento teal de la marca (e850821) */
   --color-primary: #0097a7;
-  --color-primary-bright: #14c4d6;
+  --color-primary-bright: #16c6d9;
   --color-primary-dark: #00727e;
 
+  /* Texto (primary=D1D1D1, text=8B8B8B, accent=FFFFFF) */
   --color-content: #d1d1d1;
   --color-muted: #8b8b8b;
   --color-heading: #ffffff;
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system,
     sans-serif;
-  --font-display: var(--font-sora), var(--font-inter), ui-sans-serif, sans-serif;
 
   --radius-pill: 100px;
 
-  --shadow-neu:
-    -3px -3px 8px rgba(255, 255, 255, 0.02),
-    6px 6px 16px rgba(0, 0, 0, 0.55);
-  --shadow-glow: 0 0 0 1px rgba(0, 151, 167, 0.25),
-    0 8px 40px -12px rgba(0, 151, 167, 0.45);
+  /* Sombra neumórfica con glow teal (como en el original) */
+  --shadow-neu: -3px -3px 7px rgba(255, 255, 255, 0.03),
+    3px 3px 10px rgba(0, 151, 167, 0.18);
+  --shadow-neu-hover: -2px -2px 6px rgba(255, 255, 255, 0.05),
+    4px 4px 16px rgba(0, 151, 167, 0.35);
+  --shadow-glow: 0 0 0 1px rgba(0, 151, 167, 0.3),
+    0 10px 44px -12px rgba(0, 151, 167, 0.55);
 }
 
 /* ------------------------------------------------------------------ */
@@ -35,7 +41,7 @@
 /* ------------------------------------------------------------------ */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: 96px;
 }
 
 body {
@@ -44,86 +50,114 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 ::selection {
   background: var(--color-primary);
-  color: #001417;
+  color: #00171a;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
-  font-family: var(--font-display);
+h5,
+h6 {
   color: var(--color-heading);
-  line-height: 1.1;
+  line-height: 1.08;
   letter-spacing: -0.02em;
+  font-weight: 700;
 }
 
 /* ------------------------------------------------------------------ */
-/*  Utilidades de composición                                          */
+/*  Utilidades reutilizables                                           */
 /* ------------------------------------------------------------------ */
-@utility container-zyber {
-  width: 100%;
-  max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: 1.25rem;
-}
 
-/* Superficie con estética neumórfica sutil */
-@utility card-neu {
-  background: linear-gradient(
-    160deg,
-    var(--color-surface) 0%,
-    var(--color-surface-2) 100%
+/* Degradado metálico recortado al texto (equivalente a .text_fill del original) */
+@utility heading-fill {
+  background-image: linear-gradient(
+    300deg,
+    #5c5c5c 0%,
+    var(--color-heading) 70%
   );
-  border: 1px solid var(--color-line);
-  box-shadow: var(--shadow-neu);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
-@utility text-gradient {
-  background: linear-gradient(
-    90deg,
+/* Degradado con acento teal para palabras destacadas */
+@utility heading-fill-teal {
+  background-image: linear-gradient(
+    120deg,
     var(--color-heading) 0%,
     var(--color-primary-bright) 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
-/* Glow radial teal reutilizable para fondos */
-@utility glow-primary {
+/* Superficie neumórfica */
+@utility surface-neu {
+  background: linear-gradient(
+    150deg,
+    var(--color-surface) 0%,
+    var(--color-bg) 100%
+  );
+  border: 1px solid var(--color-line);
+  box-shadow: var(--shadow-neu);
+}
+
+/* Glow radial teal para fondos de sección */
+@utility glow-teal {
   background-image: radial-gradient(
     circle at center,
-    rgba(0, 151, 167, 0.18) 0%,
+    rgba(0, 151, 167, 0.16) 0%,
     transparent 70%
   );
 }
 
-/* Animación de aparición suave al cargar */
-@keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* ------------------------------------------------------------------ */
+/*  Animaciones de entrada (equivalentes a fadeInUp/Down/Left/Right)   */
+/*  El componente <Reveal> conmuta .is-visible al entrar en viewport.  */
+/* ------------------------------------------------------------------ */
+.reveal {
+  opacity: 0;
+  transition:
+    opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
 }
-
-.animate-fade-up {
-  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+.reveal-up {
+  transform: translateY(40px);
+}
+.reveal-down {
+  transform: translateY(-40px);
+}
+.reveal-left {
+  transform: translateX(-48px);
+}
+.reveal-right {
+  transform: translateX(48px);
+}
+.reveal-zoom {
+  transform: scale(0.94);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
-  .animate-fade-up {
-    animation: none;
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none;
   }
 }

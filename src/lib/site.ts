@@ -241,10 +241,22 @@ export const clients: Client[] = [
   { name: "Tec", logo: "/img/logos/tec.png" },
 ];
 
-export const navLinks = [
+export type NavLink = {
+  label: string;
+  href: string;
+  external?: boolean;
+  children?: { label: string; href: string }[];
+};
+
+// Menú fiel al original: Inicio · Portafolio · Servicios (dropdown) · Contáctanos.
+// TODO: cuando existan las páginas internas, apuntar cada servicio a /servicios/<slug>.
+export const navLinks: NavLink[] = [
   { label: "Inicio", href: "/" },
-  { label: "Servicios", href: "/#servicios" },
-  { label: "Proceso", href: "/#proceso" },
-  { label: "Planes", href: "/#planes" },
-  { label: "Clientes", href: "/#clientes" },
-] as const;
+  { label: "Portafolio", href: "/#clientes" },
+  {
+    label: "Servicios",
+    href: "/#servicios",
+    children: services.map((s) => ({ label: s.title, href: "/#servicios" })),
+  },
+  { label: "Contáctanos", href: siteConfig.whatsappMessage, external: true },
+];

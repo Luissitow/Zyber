@@ -1,18 +1,12 @@
 import type { Metadata } from "next";
-import { Inter, Sora } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
-const inter = Inter({
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const sora = Sora({
-  subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
-  variable: "--font-sora",
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-jakarta",
   display: "swap",
 });
 
@@ -98,7 +92,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es-MX" className={`${inter.variable} ${sora.variable}`}>
+    <html lang="es-MX" className={jakarta.variable}>
       <body className="min-h-screen antialiased">
         <script
           type="application/ld+json"

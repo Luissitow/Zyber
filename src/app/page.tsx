@@ -1,12 +1,12 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Clients from "@/components/Clients";
-import Services from "@/components/Services";
-import Process from "@/components/Process";
-import Pricing from "@/components/Pricing";
-import FinalCTA from "@/components/FinalCTA";
-import Footer from "@/components/Footer";
-import WhatsappFloat from "@/components/WhatsappFloat";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import WhatsappFloat from "@/components/layout/WhatsappFloat";
+import Hero from "@/components/sections/Hero";
+import Clients from "@/components/sections/Clients";
+import Services from "@/components/sections/Services";
+import Process from "@/components/sections/Process";
+import Pricing from "@/components/sections/Pricing";
+import FinalCTA from "@/components/sections/FinalCTA";
 
 export default function Home() {
   return (
