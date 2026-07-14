@@ -1,0 +1,26 @@
+{
+  "name": "zyber",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de Zyber Company — agencia de tecnología, estrategia y creatividad.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && rm -rf build && mv out build",
+    "preview": "npx serve build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.469.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0"
+  }
+}

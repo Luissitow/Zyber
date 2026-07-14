@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/*  Tokens de marca Zyber (Tailwind v4 — se exponen como utilidades)   */
+/* ------------------------------------------------------------------ */
+@theme {
+  --color-bg: #0a0a0b;
+  --color-surface: #101114;
+  --color-surface-2: #16181c;
+  --color-line: #23262c;
+
+  --color-primary: #0097a7;
+  --color-primary-bright: #14c4d6;
+  --color-primary-dark: #00727e;
+
+  --color-content: #d1d1d1;
+  --color-muted: #8b8b8b;
+  --color-heading: #ffffff;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    sans-serif;
+  --font-display: var(--font-sora), var(--font-inter), ui-sans-serif, sans-serif;
+
+  --radius-pill: 100px;
+
+  --shadow-neu:
+    -3px -3px 8px rgba(255, 255, 255, 0.02),
+    6px 6px 16px rgba(0, 0, 0, 0.55);
+  --shadow-glow: 0 0 0 1px rgba(0, 151, 167, 0.25),
+    0 8px 40px -12px rgba(0, 151, 167, 0.45);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Base                                                               */
+/* ------------------------------------------------------------------ */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-content);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: #001417;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-display);
+  color: var(--color-heading);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Utilidades de composición                                          */
+/* ------------------------------------------------------------------ */
+@utility container-zyber {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+/* Superficie con estética neumórfica sutil */
+@utility card-neu {
+  background: linear-gradient(
+    160deg,
+    var(--color-surface) 0%,
+    var(--color-surface-2) 100%
+  );
+  border: 1px solid var(--color-line);
+  box-shadow: var(--shadow-neu);
+}
+
+@utility text-gradient {
+  background: linear-gradient(
+    90deg,
+    var(--color-heading) 0%,
+    var(--color-primary-bright) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Glow radial teal reutilizable para fondos */
+@utility glow-primary {
+  background-image: radial-gradient(
+    circle at center,
+    rgba(0, 151, 167, 0.18) 0%,
+    transparent 70%
+  );
+}
+
+/* Animación de aparición suave al cargar */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-fade-up {
+    animation: none;
+  }
+}

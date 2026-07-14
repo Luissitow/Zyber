@@ -1,0 +1,9 @@
+# Configuración de pnpm (pnpm 11 lee estos ajustes desde aquí, ya no de package.json).
+
+# Permite el script de instalación de sharp (dependencia opcional de Next.js).
+# Evita que quede un build "pendiente de aprobar" que rompa `pnpm run build`.
+allowBuilds:
+  sharp: true
+
+# No re-verificar/instalar dependencias antes de cada `pnpm run <script>`.
+verifyDepsBeforeRun: false
