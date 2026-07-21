@@ -14,9 +14,33 @@ const nextConfig = {
   // Esto hace que los enlaces funcionen en hosting estático sin configuración extra.
   trailingSlash: true,
 
+  // Carga solo los iconos usados de lucide-react (acelera mucho el dev).
+  experimental: {
+    optimizePackageImports: ["lucide-react"],
+  },
+
   // No frenamos el build por ESLint (no lo usamos en producción del sitio).
   eslint: {
     ignoreDuringBuilds: true,
+  },
+
+  // En desarrollo, el file-watcher ignora carpetas pesadas que NO son parte de
+  // la app (el sitio viejo en legacy/, el export en build/out y node_modules).
+  // Esto evita escaneos enormes y arranques lentos.
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.watchOptions = {
+        ...(config.watchOptions || {}),
+        ignored: [
+          "**/node_modules/**",
+          "**/.git/**",
+          "**/legacy/**",
+          "**/build/**",
+          "**/out/**",
+        ],
+      };
+    }
+    return config;
   },
 };
 
