@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Container from "@/components/ui/Container";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
+import Icon from "@/components/ui/Icon";
 import Reveal from "@/components/ui/Reveal";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { processSteps, siteConfig } from "@/lib/site";
@@ -24,16 +24,15 @@ export default function Process() {
                 <span className="absolute right-5 top-4 text-5xl font-extrabold text-line">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-surface-2 ring-1 ring-line">
-                  <Image
-                    src={step.icon}
-                    alt={step.title}
-                    width={34}
-                    height={34}
-                    className="h-8 w-8 object-contain"
+                <div className="mb-5 flex h-[76px] w-[76px] items-center justify-center rounded-2xl bg-gradient-to-br from-surface-2 to-bg-deep ring-1 ring-line">
+                  <Icon
+                    name={step.icon}
+                    size={38}
+                    strokeWidth={1.75}
+                    className="text-primary-bright"
                   />
                 </div>
-                <h3 className="text-lg font-semibold text-heading">{step.title}</h3>
+                <h3 className="text-xl font-semibold text-heading">{step.title}</h3>
                 <p className="mt-2 text-sm text-content/75">{step.description}</p>
               </Card>
             </Reveal>

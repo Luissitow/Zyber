@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { Check, ArrowUpRight } from "lucide-react";
 import Container from "@/components/ui/Container";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
+import Icon from "@/components/ui/Icon";
 import Reveal from "@/components/ui/Reveal";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { services, siteConfig, type Service } from "@/lib/site";
@@ -54,18 +54,17 @@ export default function Services() {
 function ServiceCard({ service }: { service: Service }) {
   return (
     <Card hover className="flex h-full flex-col p-6">
-      <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-xl bg-surface-2 ring-1 ring-line">
-        <Image
-          src={service.icon}
-          alt={service.title}
-          width={36}
-          height={36}
-          className="h-9 w-9 object-contain"
+      <div className="mb-5 flex h-[76px] w-[76px] items-center justify-center rounded-2xl bg-gradient-to-br from-surface-2 to-bg-deep ring-1 ring-line">
+        <Icon
+          name={service.icon}
+          size={38}
+          strokeWidth={1.75}
+          className="text-primary-bright"
         />
       </div>
 
-      <h3 className="text-lg font-semibold text-heading">{service.title}</h3>
-      <p className="mt-2 text-sm text-content/70">{service.summary}</p>
+      <h3 className="text-xl font-semibold text-heading">{service.title}</h3>
+      <p className="mt-2 text-[15px] text-content/70">{service.summary}</p>
 
       <ul className="mt-4 flex-1 space-y-2">
         {service.features.map((feature) => (

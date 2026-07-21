@@ -4,6 +4,8 @@
  * los componentes leen todo desde este archivo.
  */
 
+import type { IconName } from "@/components/ui/Icon";
+
 export const siteConfig = {
   name: "Zyber",
   legalName: "Zyber Company",
@@ -19,7 +21,8 @@ export const siteConfig = {
   whatsapp: "https://wa.me/5217226448900",
   whatsappMessage:
     "https://wa.me/5217226448900?text=Hola%20Zyber%2C%20me%20gustar%C3%ADa%20cotizar%20un%20proyecto.",
-  email: "contacto@zybercompany.com",
+  email: "contacto@zyber.company",
+  location: "Toluca, Estado de México",
 
   // TODO: reemplaza con tus URLs reales de redes sociales.
   social: {
@@ -34,7 +37,7 @@ export const siteConfig = {
 export type Service = {
   slug: string;
   title: string;
-  icon: string; // ruta dentro de /public
+  icon: IconName; // nombre del icono (ver src/components/ui/Icon.tsx)
   summary: string;
   features: string[];
 };
@@ -43,7 +46,7 @@ export const services: Service[] = [
   {
     slug: "marketing-digital",
     title: "Marketing Digital",
-    icon: "/img/servicios/marketingdigital.png",
+    icon: "Megaphone",
     summary: "Campañas que atraen, convierten y fidelizan clientes.",
     features: [
       "Campañas en redes: Facebook, Instagram, TikTok, LinkedIn",
@@ -56,7 +59,7 @@ export const services: Service[] = [
   {
     slug: "desarrollo-web",
     title: "Desarrollo Web",
-    icon: "/img/servicios/desarrolloweb.png",
+    icon: "Code2",
     summary: "Sitios modernos, rápidos y optimizados para SEO.",
     features: [
       "Diseño de sitios responsivos y optimizados",
@@ -68,7 +71,7 @@ export const services: Service[] = [
   {
     slug: "innovacion",
     title: "Innovación y Nuevas Tecnologías",
-    icon: "/img/servicios/inteligenciaartificial.png",
+    icon: "Cpu",
     summary: "Inteligencia artificial y automatización de vanguardia.",
     features: [
       "Inteligencia artificial y análisis de datos",
@@ -80,7 +83,7 @@ export const services: Service[] = [
   {
     slug: "branding-diseno",
     title: "Branding & Diseño",
-    icon: "/img/servicios/branding.png",
+    icon: "Palette",
     summary: "Una identidad de marca que te hace memorable.",
     features: [
       "Creación de logotipos únicos y personalizados",
@@ -92,7 +95,7 @@ export const services: Service[] = [
   {
     slug: "experiencia-cliente",
     title: "Experiencia al Cliente",
-    icon: "/img/servicios/chatbot.png",
+    icon: "MessagesSquare",
     summary: "Atención y fidelización con asistentes inteligentes.",
     features: [
       "Chatbots y asistentes virtuales de atención",
@@ -103,7 +106,7 @@ export const services: Service[] = [
   {
     slug: "analisis-datos",
     title: "Análisis de Datos",
-    icon: "/img/servicios/tablero.png",
+    icon: "BarChart3",
     summary: "Decisiones basadas en datos, no en corazonadas.",
     features: [
       "Dashboards personalizados con tus métricas clave",
@@ -114,7 +117,7 @@ export const services: Service[] = [
   {
     slug: "transformacion-digital",
     title: "Transformación Digital",
-    icon: "/img/servicios/digitalizacion.png",
+    icon: "Workflow",
     summary: "Llevamos tus procesos manuales al mundo digital.",
     features: [
       "Digitalización de procesos y sistemas",
@@ -125,7 +128,7 @@ export const services: Service[] = [
   {
     slug: "servicios-adicionales",
     title: "Servicios Adicionales",
-    icon: "/img/servicios/softwaredediseno.png",
+    icon: "LayoutGrid",
     summary: "Todo lo que tu marca necesita, en un solo lugar.",
     features: [
       "Gestión de redes sociales",
@@ -138,7 +141,7 @@ export const services: Service[] = [
 export type ProcessStep = {
   title: string;
   description: string;
-  icon: string;
+  icon: IconName;
 };
 
 export const processSteps: ProcessStep[] = [
@@ -146,25 +149,25 @@ export const processSteps: ProcessStep[] = [
     title: "Análisis & Consultoría",
     description:
       "Evaluamos tus necesidades y objetivos para diseñar una estrategia digital personalizada.",
-    icon: "/img/servicios/investigacion.png",
+    icon: "Search",
   },
   {
     title: "Estrategia & Planificación",
     description:
       "Definimos un plan de acción claro para alcanzar tus metas de negocio.",
-    icon: "/img/servicios/estrategiayplanificacion.png",
+    icon: "PencilRuler",
   },
   {
     title: "Ejecución & Optimización",
     description:
       "Implementamos la estrategia y ajustamos continuamente para maximizar resultados.",
-    icon: "/img/servicios/ejecucionyoptimizacion.png",
+    icon: "Rocket",
   },
   {
     title: "Resultados & Crecimiento",
     description:
       "Medimos el impacto y escalamos tus esfuerzos para un crecimiento sostenible.",
-    icon: "/img/servicios/marketing.png",
+    icon: "TrendingUp",
   },
 ];
 
@@ -241,6 +244,67 @@ export const clients: Client[] = [
   { name: "Tec", logo: "/img/logos/tec.png" },
 ];
 
+export type Testimonial = {
+  quote: string;
+  author: string;
+  role: string;
+  logo?: string;
+};
+
+export const testimonials: Testimonial[] = [
+  {
+    quote:
+      "La inversión, aunque no fue barata, valió cada peso. Nuestro negocio no vendía y, gracias a la digitalización desde el sitio web, redes sociales, nueva imagen y logos, hasta la automatización de procesos de corte de metales y madera, hemos logrado entregar más y mejores resultados. Hoy nuestros clientes confían más en nosotros y eso nos ha permitido cerrar proyectos más grandes y rentables. Zyber no solo nos ayudó a tener presencia en línea, sino que impulsó la profesionalización de toda nuestra operación. Totalmente recomendados.",
+    author: "Enrique Bartolo",
+    role: "CEO · GRUMEX",
+    logo: "/img/logos/logotipogrumex.png",
+  },
+  {
+    quote:
+      "Antes contraté otra agencia y solo me entregaron una web básica, sin asesoría ni seguimiento. Con Zyber fue completamente diferente: me explicaron la importancia del posicionamiento en Google y Maps, el SEO y la experiencia del cliente. Integraron herramientas clave como sistema de citas, políticas de garantía, manuales y FAQs, lo que me ayudó a evitar reclamos y verme más profesional. Mi negocio se fue posicionando cada vez más y aumenté mis ventas. Totalmente recomendado si quieres impulsar tu marca y vender más.",
+    author: "Jerry Mendoza",
+    role: "Fundador · MJ Wrap & Custom",
+    logo: "/img/logos/logowhitemj.png",
+  },
+  {
+    quote:
+      "Estamos muy contentos con el trabajo de Zyber. A pesar de la distancia entre países, el nivel de atención, compromiso y seguimiento ha sido excepcional. Rediseñamos nuestro sitio con una imagen más moderna y funcional, y optimizamos nuestra estrategia digital. Nos ayudaron a implementar herramientas que facilitaron la comunicación con nuestros clientes y nos dieron una visión más estratégica para posicionarnos. Fue una excelente decisión confiar en Zyber; su trabajo ha marcado una diferencia real en el crecimiento de nuestro negocio.",
+    author: "José Serna",
+    role: "Presidente · Awaq",
+    logo: "/img/logos/awaq.png",
+  },
+];
+
+export type Benefit = { title: string; description: string; icon: IconName };
+
+// Beneficios genéricos usados en las páginas de servicio ("¿Por qué Zyber?").
+export const whyChooseUs: Benefit[] = [
+  {
+    title: "Estrategia basada en datos",
+    description:
+      "Cada decisión se apoya en métricas y análisis, no en corazonadas.",
+    icon: "BarChart3",
+  },
+  {
+    title: "Equipo cercano y comprometido",
+    description:
+      "Asesoría clara y acompañamiento constante en cada fase del proyecto.",
+    icon: "MessagesSquare",
+  },
+  {
+    title: "Resultados medibles",
+    description:
+      "Nos enfocamos en resultados reales: más clientes, más ventas, más crecimiento.",
+    icon: "TrendingUp",
+  },
+  {
+    title: "Soluciones a la medida",
+    description:
+      "Diseñamos estrategias adaptadas a tu negocio, no plantillas genéricas.",
+    icon: "Workflow",
+  },
+];
+
 export type NavLink = {
   label: string;
   href: string;
@@ -252,11 +316,14 @@ export type NavLink = {
 // TODO: cuando existan las páginas internas, apuntar cada servicio a /servicios/<slug>.
 export const navLinks: NavLink[] = [
   { label: "Inicio", href: "/" },
-  { label: "Portafolio", href: "/#clientes" },
+  { label: "Portafolio", href: "/portafolio" },
   {
     label: "Servicios",
     href: "/#servicios",
-    children: services.map((s) => ({ label: s.title, href: "/#servicios" })),
+    children: services.map((s) => ({
+      label: s.title,
+      href: `/servicios/${s.slug}`,
+    })),
   },
   { label: "Contáctanos", href: siteConfig.whatsappMessage, external: true },
 ];

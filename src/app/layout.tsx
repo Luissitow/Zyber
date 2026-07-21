@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { siteConfig } from "@/lib/site";
+import Preloader from "@/components/layout/Preloader";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import WhatsappFloat from "@/components/layout/WhatsappFloat";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -93,12 +97,27 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es-MX" className={jakarta.variable}>
+      <head>
+        {/* Sin JavaScript: no bloquear el sitio con el preloader ni ocultar contenido */}
+        <noscript>
+          <style
+            dangerouslySetInnerHTML={{
+              __html:
+                ".zyber-preloader{display:none!important}.reveal{opacity:1!important;transform:none!important;filter:none!important}",
+            }}
+          />
+        </noscript>
+      </head>
       <body className="min-h-screen antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <Preloader />
+        <Header />
         {children}
+        <Footer />
+        <WhatsappFloat />
       </body>
     </html>
   );

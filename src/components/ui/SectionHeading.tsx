@@ -23,7 +23,7 @@ export default function SectionHeading({
   return (
     <div
       className={cn(
-        "max-w-2xl",
+        "max-w-4xl",
         centered ? "mx-auto text-center" : "text-left",
         className,
       )}
@@ -37,7 +37,7 @@ export default function SectionHeading({
         </Reveal>
       )}
       <Reveal animation="up" delay={80}>
-        <h2 className="mt-4 text-3xl font-extrabold sm:text-4xl md:text-5xl">
+        <h2 className="mt-4 text-4xl font-extrabold sm:text-5xl md:text-6xl lg:text-7xl">
           <GradientText>{title}</GradientText>
         </h2>
       </Reveal>

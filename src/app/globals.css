@@ -41,7 +41,7 @@
 /* ------------------------------------------------------------------ */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 96px;
+  scroll-padding-top: 112px;
 }
 
 body {
@@ -77,9 +77,9 @@ h6 {
 /* Degradado metálico recortado al texto (equivalente a .text_fill del original) */
 @utility heading-fill {
   background-image: linear-gradient(
-    300deg,
-    #5c5c5c 0%,
-    var(--color-heading) 70%
+    135deg,
+    #ffffff 0%,
+    #b0b0b0 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -100,6 +100,32 @@ h6 {
   color: transparent;
 }
 
+/* Degradado semitransparente para el hero: deja ver el video a través del texto
+   (equivalente al text_fill original que arrancaba en transparente). */
+@utility heading-fill-glass {
+  background-image: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #d0d0d0 52%,
+    #8a8a8a 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Máscara de desvanecido: hace que el título "desaparezca" hacia el final,
+   dissolviéndose en el fondo/video (como el hero original). */
+@utility heading-fade-mask {
+  -webkit-mask-image: linear-gradient(
+    120deg,
+    #000 38%,
+    rgba(0, 0, 0, 0.12) 100%
+  );
+  mask-image: linear-gradient(120deg, #000 38%, rgba(0, 0, 0, 0.12) 100%);
+}
+
 /* Superficie neumórfica */
 @utility surface-neu {
   background: linear-gradient(
@@ -115,7 +141,7 @@ h6 {
 @utility glow-teal {
   background-image: radial-gradient(
     circle at center,
-    rgba(0, 151, 167, 0.16) 0%,
+    rgba(0, 151, 167, 0.26) 0%,
     transparent 70%
   );
 }
@@ -126,10 +152,12 @@ h6 {
 /* ------------------------------------------------------------------ */
 .reveal {
   opacity: 0;
+  filter: blur(6px);
   transition:
     opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
-  will-change: opacity, transform;
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.8s ease;
+  will-change: opacity, transform, filter;
 }
 .reveal-up {
   transform: translateY(40px);
@@ -149,6 +177,7 @@ h6 {
 .reveal.is-visible {
   opacity: 1;
   transform: none;
+  filter: blur(0);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -158,6 +187,51 @@ h6 {
   .reveal {
     opacity: 1 !important;
     transform: none !important;
+    filter: blur(0) !important;
     transition: none;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Preloader: letras ZYBER que suben una por una + barra de carga     */
+/* ------------------------------------------------------------------ */
+@keyframes zyber-letter-rise {
+  0% {
+    opacity: 0;
+    transform: translateY(110%);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.preloader-letter {
+  display: inline-block;
+  transform: translateY(110%);
+  opacity: 0;
+  animation: zyber-letter-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes zyber-load-bar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.preloader-bar {
+  animation: zyber-load-bar 1.9s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .preloader-letter {
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 }

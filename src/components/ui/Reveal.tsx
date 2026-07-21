@@ -1,7 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { cn } from "@/lib/cn";
+import {
+  subscribeAppReady,
+  getAppReadySnapshot,
+  getAppReadyServerSnapshot,
+} from "@/lib/appReady";
 
 type Animation = "up" | "down" | "left" | "right" | "zoom";
 
@@ -18,8 +23,9 @@ type RevealProps = {
 };
 
 /**
- * Anima su contenido cuando entra en el viewport (IntersectionObserver).
- * Reemplaza las animaciones de entrada de Elementor de forma reutilizable.
+ * Anima su contenido cuando entra en el viewport (IntersectionObserver) y la
+ * app está lista (preloader terminado). Reemplaza las animaciones de entrada
+ * de Elementor de forma reutilizable.
  */
 export default function Reveal({
   children,
@@ -30,7 +36,12 @@ export default function Reveal({
   once = true,
 }: RevealProps) {
   const ref = useRef<HTMLElement | null>(null);
-  const [visible, setVisible] = useState(false);
+  const [inView, setInView] = useState(false);
+  const ready = useSyncExternalStore(
+    subscribeAppReady,
+    getAppReadySnapshot,
+    getAppReadyServerSnapshot,
+  );
 
   useEffect(() => {
     const el = ref.current;
@@ -39,18 +50,20 @@ export default function Reveal({
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setVisible(true);
+          setInView(true);
           if (once) observer.disconnect();
         } else if (!once) {
-          setVisible(false);
+          setInView(false);
         }
       },
-      { threshold: 0.15, rootMargin: "0px 0px -8% 0px" },
+      { threshold: 0.15, rootMargin: "0px 0px -10% 0px" },
     );
 
     observer.observe(el);
     return () => observer.disconnect();
   }, [once]);
+
+  const visible = ready && inView;
 
   return (
     <Tag

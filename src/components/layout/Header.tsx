@@ -20,23 +20,23 @@ export default function Header() {
   }, []);
 
   return (
-    <header
-      className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-        scrolled
-          ? "border-b border-line bg-bg/85 backdrop-blur-md"
-          : "border-b border-transparent",
-      )}
-    >
-      <div className="mx-auto flex h-[76px] w-full max-w-[1240px] items-center justify-between gap-4 px-5 sm:px-6">
+    <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-4 sm:pt-4">
+      <div
+        className={cn(
+          "mx-auto flex h-[88px] w-full max-w-[1240px] items-center justify-between gap-4 rounded-full border pl-8 pr-3 transition-all duration-300",
+          scrolled
+            ? "border-line bg-bg/80 shadow-[0_16px_50px_-20px_rgba(0,0,0,0.85)] backdrop-blur-xl"
+            : "border-line/50 bg-surface/25 backdrop-blur-md",
+        )}
+      >
         <Link href="/" aria-label="Zyber inicio" className="shrink-0">
           <Image
             src="/img/logos/zyberlogo.png"
             alt="Zyber"
-            width={140}
-            height={38}
+            width={210}
+            height={58}
             priority
-            className="h-9 w-auto"
+            className="h-12 w-auto sm:h-14"
           />
         </Link>
 
@@ -45,7 +45,7 @@ export default function Header() {
           {navLinks.map((link) =>
             link.children ? (
               <div key={link.label} className="group relative">
-                <button className="flex items-center gap-1 text-sm font-medium text-content/85 transition-colors hover:text-primary-bright">
+                <button className="flex items-center gap-1 text-[15px] font-medium text-content/85 transition-colors hover:text-primary-bright">
                   {link.label}
                   <ChevronDown
                     size={15}
@@ -74,7 +74,7 @@ export default function Header() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-content/85 transition-colors hover:text-primary-bright"
+                className="text-[15px] font-medium text-content/85 transition-colors hover:text-primary-bright"
               >
                 {link.label}
               </a>
@@ -82,7 +82,7 @@ export default function Header() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="text-sm font-medium text-content/85 transition-colors hover:text-primary-bright"
+                className="text-[15px] font-medium text-content/85 transition-colors hover:text-primary-bright"
               >
                 {link.label}
               </Link>
@@ -96,20 +96,20 @@ export default function Header() {
             type="button"
             onClick={() => setSearch(true)}
             aria-label="Buscar"
-            className="hidden h-10 w-10 items-center justify-center rounded-full text-content/80 transition-colors hover:text-primary-bright sm:flex"
+            className="hidden h-12 w-12 items-center justify-center rounded-full text-content/80 transition-colors hover:text-primary-bright sm:flex"
           >
-            <Search size={18} />
+            <Search size={20} />
           </button>
 
           {/* Píldora de teléfono */}
           <a
             href={siteConfig.phoneHref}
-            className="hidden items-center gap-3 rounded-full border border-line bg-bg-deep py-1.5 pl-1.5 pr-5 shadow-[var(--shadow-neu)] transition-shadow hover:shadow-[var(--shadow-neu-hover)] sm:flex"
+            className="hidden items-center gap-3 rounded-full border border-line bg-bg-deep py-2 pl-2 pr-6 shadow-[var(--shadow-neu)] transition-shadow hover:shadow-[var(--shadow-neu-hover)] sm:flex"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-white">
-              <Phone size={16} />
+            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white">
+              <Phone size={18} />
             </span>
-            <span className="text-sm font-semibold text-heading">
+            <span className="text-base font-semibold text-heading">
               {siteConfig.phoneDisplay}
             </span>
           </a>
@@ -129,8 +129,8 @@ export default function Header() {
 
       {/* Menú móvil */}
       {open && (
-        <div className="border-t border-line bg-bg/97 backdrop-blur-md lg:hidden">
-          <nav className="mx-auto flex w-full max-w-[1240px] flex-col gap-1 px-5 py-4">
+        <div className="mx-auto mt-3 max-w-[1200px] rounded-3xl border border-line bg-bg/95 backdrop-blur-xl lg:hidden">
+          <nav className="flex flex-col gap-1 px-4 py-4">
             {navLinks.flatMap((link) =>
               link.children
                 ? [

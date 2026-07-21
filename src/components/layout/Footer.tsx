@@ -49,12 +49,12 @@ export default function Footer() {
             <FooterLink href="/#servicios">Servicios</FooterLink>
             <FooterLink href="/#proceso">Cómo trabajamos</FooterLink>
             <FooterLink href="/#planes">Planes</FooterLink>
-            <FooterLink href="/#clientes">Portafolio</FooterLink>
+            <FooterLink href="/portafolio">Portafolio</FooterLink>
           </FooterCol>
 
           <FooterCol title="Servicios">
             {services.slice(0, 5).map((s) => (
-              <FooterLink key={s.slug} href="/#servicios">
+              <FooterLink key={s.slug} href={`/servicios/${s.slug}`}>
                 {s.title}
               </FooterLink>
             ))}
@@ -87,6 +87,7 @@ export default function Footer() {
                 WhatsApp
               </a>
             </li>
+            <li className="text-content/70">{siteConfig.location}</li>
           </FooterCol>
         </div>
 
