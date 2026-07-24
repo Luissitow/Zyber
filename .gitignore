@@ -11,6 +11,9 @@
 # produccion / export estatico
 /dist
 
+# legacy
+/legacy
+
 # entorno
 .env*
 !.env.example
