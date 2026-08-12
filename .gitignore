@@ -10,6 +10,13 @@
 
 # produccion / export estatico
 /dist
+/*.zip
+
+# duplicados que crea la sincronizacion de iCloud ("archivo 2.tsx", "carpeta 2/")
+* 2
+* 3
+* 2.*
+* 3.*
 
 # legacy
 /legacy
