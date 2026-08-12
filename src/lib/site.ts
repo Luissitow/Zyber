@@ -9,8 +9,7 @@ import type { IconName } from "@/components/ui/Icon";
 export const siteConfig = {
   name: "Zyber",
   legalName: "Zyber Company",
-  // TODO: cambia esta URL por tu dominio real antes de publicar (afecta al SEO/canonical).
-  url: "https://zybercompany.com",
+  url: "https://zyber.com.mx",
   description:
     "Zyber ayuda a las empresas a crecer en línea con estrategias de automatización digital basadas en datos y soluciones enfocadas en resultados: desarrollo web, marketing, SEO, branding y transformación digital.",
   slogan: "Impulsa tu negocio con tecnología, estrategia y creatividad.",
