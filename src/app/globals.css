@@ -225,13 +225,65 @@ h6 {
 }
 
 .preloader-bar {
+  /* La duración la fija el componente para que siga al total de la secuencia. */
   animation: zyber-load-bar 1.9s cubic-bezier(0.65, 0, 0.35, 1) forwards;
 }
 
+/* Frases de venta: entran subiendo y salen desenfocadas hacia arriba. */
+@keyframes zyber-phrase {
+  0% {
+    opacity: 0;
+    transform: translateY(0.45em);
+    filter: blur(14px);
+  }
+  24% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+  72% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-0.32em);
+    filter: blur(14px);
+  }
+}
+
+.preloader-phrase {
+  /* Margen inferior para que el desenfoque no recorte g, y, p, j. */
+  padding-bottom: 0.14em;
+  animation: zyber-phrase 560ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes zyber-tagline {
+  0% {
+    opacity: 0;
+    transform: translateY(0.6em);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.preloader-tagline {
+  opacity: 0;
+  animation: zyber-tagline 0.56s cubic-bezier(0.22, 1, 0.36, 1) 0.56s forwards;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .preloader-letter {
+  .preloader-letter,
+  .preloader-phrase,
+  .preloader-tagline {
     animation: none;
     opacity: 1;
     transform: none;
+    filter: none;
   }
 }
