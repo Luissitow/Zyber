@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Check } from "lucide-react";
-import { services, whyChooseUs } from "@/lib/site";
+import { services, whyChooseUs, siteConfig } from "@/lib/site";
 import PageHeader from "@/components/layout/PageHeader";
 import Container from "@/components/ui/Container";
 import Card from "@/components/ui/Card";
@@ -25,10 +25,29 @@ export async function generateMetadata({
   const { slug } = await params;
   const service = services.find((s) => s.slug === slug);
   if (!service) return {};
+
+  const url = `/servicios/${service.slug}`;
+  // Sin esto, cada servicio hereda el Open Graph genérico del layout y al
+  // compartirlo sale el título de la home en vez del del servicio.
+  const title = `${service.title} | ${siteConfig.name}`;
+
   return {
     title: service.title,
     description: service.summary,
-    alternates: { canonical: `/servicios/${service.slug}` },
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      url,
+      title,
+      description: service.summary,
+      siteName: siteConfig.legalName,
+      locale: "es_MX",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: service.summary,
+    },
   };
 }
 
@@ -41,8 +60,56 @@ export default async function ServicePage({
   const service = services.find((s) => s.slug === slug);
   if (!service) notFound();
 
+  const pageUrl = `${siteConfig.url}/servicios/${service.slug}/`;
+
+  // Le dice a Google qué servicio concreto es esta página y dónde vive dentro
+  // del sitio. Sin esto las 8 páginas se ven casi idénticas entre sí.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": `${pageUrl}#service`,
+        name: service.title,
+        description: service.summary,
+        serviceType: service.title,
+        url: pageUrl,
+        provider: {
+          "@type": "Organization",
+          name: siteConfig.legalName,
+          url: siteConfig.url,
+        },
+        areaServed: {
+          "@type": "Place",
+          name: siteConfig.location,
+        },
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: `Qué incluye ${service.title}`,
+          itemListElement: service.features.map((feature) => ({
+            "@type": "Offer",
+            itemOffered: { "@type": "Service", name: feature },
+          })),
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Inicio", item: `${siteConfig.url}/` },
+          { "@type": "ListItem", position: 2, name: "Servicios", item: `${siteConfig.url}/#servicios` },
+          { "@type": "ListItem", position: 3, name: service.title, item: pageUrl },
+        ],
+      },
+    ],
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <PageHeader
         title={service.title}
         subtitle={service.summary}

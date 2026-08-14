@@ -1,0 +1,64 @@
+# ---------------------------------------------------------------------------
+# Zyber — configuracion de Apache/LiteSpeed para Hostinger.
+# Vive en public/ para que Next lo copie a build/ en cada compilacion.
+# De ahi va tal cual a public_html/.
+# ---------------------------------------------------------------------------
+
+# 1. UN SOLO HOST CANONICO
+#    Sin esto el sitio responde en http, https, con www y sin www: cuatro
+#    direcciones con el mismo contenido. Google lo lee como contenido duplicado
+#    y reparte la autoridad entre las cuatro en vez de concentrarla en una.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # http -> https
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://zyber.com.mx/$1 [R=301,L]
+
+  # www -> sin www (coincide con el canonical de cada pagina)
+  RewriteCond %{HTTP_HOST} ^www\.zyber\.com\.mx$ [NC]
+  RewriteRule ^(.*)$ https://zyber.com.mx/$1 [R=301,L]
+</IfModule>
+
+# 2. PAGINA 404 PROPIA
+#    Sin esta linea Apache muestra su pantalla blanca por defecto.
+ErrorDocument 404 /404.html
+
+# 3. COMPRESION
+#    El HTML de la home pesa 163 KB y baja a ~25 KB comprimido.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE application/xml image/svg+xml
+</IfModule>
+
+# 4. CACHE
+#    Los archivos de /_next/static/ llevan un hash en el nombre: si cambia el
+#    contenido cambia el nombre. Por eso se pueden cachear un año sin riesgo.
+#    El HTML NO se cachea, para que un deploy nuevo se vea de inmediato.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2|woff|ttf)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(png|jpg|jpeg|gif|svg|ico|webp|mp4)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 5. TIPOS MIME
+#    Si el servidor sirve el CSS como text/plain, el navegador lo ignora y la
+#    pagina se ve sin estilos.
+<IfModule mod_mime.c>
+  AddType text/css .css
+  AddType application/javascript .js
+  AddType image/svg+xml .svg
+  AddType font/woff2 .woff2
+  AddType application/xml .xml
+</IfModule>
