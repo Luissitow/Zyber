@@ -23,6 +23,15 @@ export const siteConfig = {
   email: "contacto@zyber.company",
   location: "Toluca, Estado de México",
 
+  // Zonas donde damos servicio. Alimentan el schema y el texto de las páginas:
+  // son la señal que permite competir por búsquedas locales ("desarrollo de
+  // software en Querétaro") en vez de contra todo el país.
+  serviceAreas: [
+    "Toluca y Estado de México",
+    "Ciudad de México",
+    "Querétaro",
+  ],
+
   // TODO: reemplaza con tus URLs reales de redes sociales.
   social: {
     facebook: "#",
@@ -39,6 +48,18 @@ export type Service = {
   icon: IconName; // nombre del icono (ver src/components/ui/Icon.tsx)
   summary: string;
   features: string[];
+
+  // --- Contenido para SEO -------------------------------------------------
+  // Sin esto cada página de servicio tenía ~146 palabras propias y las 8 eran
+  // casi idénticas entre sí: Google lo trata como contenido duplicado y no
+  // las posiciona. Estos campos dan a cada página texto único y suficiente.
+
+  /** Párrafo de apertura. Responde "qué es y para quién". */
+  intro: string;
+  /** Secciones de desarrollo. Aquí vive el grueso del contenido. */
+  sections: { heading: string; text: string }[];
+  /** Preguntas frecuentes. Alimentan el schema FAQPage. */
+  faq: { q: string; a: string }[];
 };
 
 export const services: Service[] = [
@@ -54,6 +75,36 @@ export const services: Service[] = [
       "Email marketing y automatización",
       "Marketing de contenidos (blogs, video, infografías)",
     ],
+    intro:
+      "El marketing digital deja de ser un gasto cuando cada peso invertido se puede rastrear hasta una venta. Trabajamos con negocios de Toluca, Ciudad de México y Querétaro que ya intentaron publicar en redes sin un plan detrás y no vieron retorno. La diferencia no está en publicar más, sino en saber a quién le hablas, dónde está y qué lo hace comprar.",
+    sections: [
+      {
+        heading: "Campañas que se miden, no que se suponen",
+        text: "Cada campaña arranca definiendo qué cuenta como resultado: una llamada, un formulario, una venta en línea. A partir de ahí configuramos el seguimiento en Google Ads, Meta y tu sitio para que sepas exactamente de dónde vino cada cliente. Sin esa base, aumentar el presupuesto solo significa gastar más rápido. Con ella, puedes cortar lo que no funciona en la primera semana y reinvertir en lo que sí.",
+      },
+      {
+        heading: "SEO: el tráfico que no deja de llegar",
+        text: "La publicidad pagada se detiene el día que dejas de pagar. El posicionamiento orgánico sigue trayendo visitas meses después del trabajo. Atacamos las búsquedas donde sí puedes competir —términos locales y específicos, no genéricos imposibles— y construimos el contenido que responde a esas búsquedas. Es más lento que un anuncio, pero el costo por cliente baja con el tiempo en vez de subir.",
+      },
+      {
+        heading: "Contenido y automatización que sostienen la relación",
+        text: "Conseguir un cliente cuesta varias veces más que retener uno. Por eso conectamos las campañas con secuencias de correo y contenido que mantienen la conversación después de la primera compra: recordatorios, novedades, ofertas segmentadas. Todo automatizado, para que funcione sin que tengas que acordarte de enviarlo.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿En cuánto tiempo se ven resultados?",
+        a: "Las campañas de pago pueden traer los primeros contactos en días. El SEO es otra historia: en un dominio nuevo suele tomar de tres a seis meses ver movimiento real. Cualquiera que prometa primer lugar en Google en dos semanas está vendiendo humo.",
+      },
+      {
+        q: "¿Cuánto debo invertir en publicidad?",
+        a: "Depende del sector y de cuánto vale un cliente para ti. Antes de proponer una cifra calculamos cuánto puedes pagar por cliente sin perder margen. Empezar con un presupuesto de prueba y escalar lo que funciona casi siempre supera a apostar fuerte desde el primer día.",
+      },
+      {
+        q: "¿Trabajan con negocios pequeños?",
+        a: "Sí. De hecho es donde el marketing bien enfocado más se nota, porque un solo canal que funcione puede cambiar el mes. Ajustamos el alcance del trabajo al presupuesto real en vez de aplicar un paquete fijo.",
+      },
+    ],
   },
   {
     slug: "desarrollo-web",
@@ -65,6 +116,36 @@ export const services: Service[] = [
       "E-commerce con pasarelas de pago e inventario",
       "Landing pages para campañas",
       "Sistemas de reservas para tu negocio",
+    ],
+    intro:
+      "Un sitio web no es un folleto en línea: es el lugar donde alguien decide si te compra o cierra la pestaña. Construimos sitios rápidos, que se ven bien en el celular —donde ocurre la mayoría del tráfico en México— y que están preparados para aparecer en Google desde el primer día, no como un parche posterior.",
+    sections: [
+      {
+        heading: "Velocidad y móvil no son extras",
+        text: "Más de la mitad de los visitantes abandona una página que tarda más de tres segundos en cargar, y Google usa esa velocidad como criterio de posicionamiento. Por eso desarrollamos con tecnologías que entregan páginas ya construidas en vez de armarlas dentro del navegador del usuario. El resultado se nota sobre todo en el celular con datos móviles, que es donde de verdad se pierde a la gente.",
+      },
+      {
+        heading: "Tiendas en línea que puedes administrar tú",
+        text: "Montamos comercio electrónico con pasarelas de pago mexicanas, control de inventario y envíos configurados. Igual de importante: te dejamos un panel que puedas usar sin depender de nosotros para cambiar un precio o subir un producto. Un sitio que necesita al desarrollador para cada ajuste se convierte en un cuello de botella.",
+      },
+      {
+        heading: "Landing pages y sistemas a la medida",
+        text: "No todo proyecto necesita un sitio completo. Una campaña puede rendir mucho más con una sola página enfocada en una acción concreta. Y si tu negocio vive de las citas —consultorios, talleres, salones— un sistema de reservas conectado a tu calendario elimina el ir y venir de mensajes para agendar.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cuánto cuesta un sitio web?",
+        a: "Varía según el alcance: no es lo mismo una página de aterrizaje que una tienda con inventario y pagos. Lo que sí hacemos siempre es cotizar cerrado antes de empezar, con el alcance por escrito, para que no aparezcan sorpresas a mitad del proyecto.",
+      },
+      {
+        q: "¿Puedo actualizar el contenido yo mismo?",
+        a: "Sí, es parte de cómo entregamos. Dejamos la estructura preparada para que textos, imágenes y precios se cambien sin tocar código, y entregamos una guía de edición del proyecto.",
+      },
+      {
+        q: "¿El sitio va a aparecer en Google?",
+        a: "Lo construimos técnicamente listo para eso: HTML que Google puede leer sin ejecutar JavaScript, sitemap, canonical y datos estructurados. Aparecer depende también del tiempo y del contenido; que el sitio no sea el obstáculo es lo que sí controlamos.",
+      },
     ],
   },
   {
@@ -78,6 +159,36 @@ export const services: Service[] = [
       "IoT: dispositivos inteligentes y monitoreo remoto",
       "Realidad aumentada para productos y servicios",
     ],
+    intro:
+      "Inteligencia artificial, IoT o blockchain suenan a palabras de conferencia hasta que resuelven un problema concreto de tu operación. Nuestro punto de partida nunca es la tecnología: es qué te está costando tiempo o dinero hoy. Si una hoja de cálculo bien hecha lo arregla, te decimos eso en vez de venderte un proyecto de inteligencia artificial.",
+    sections: [
+      {
+        heading: "Inteligencia artificial aplicada a tareas reales",
+        text: "Los casos donde la inteligencia artificial se paga sola suelen ser los menos vistosos: clasificar cientos de correos de clientes, extraer datos de facturas escaneadas, redactar primeras versiones de fichas de producto, responder preguntas frecuentes a cualquier hora. Son tareas repetitivas que consumen horas de gente capacitada. Automatizarlas libera ese tiempo para lo que sí requiere criterio humano.",
+      },
+      {
+        heading: "IoT y monitoreo remoto",
+        text: "Sensores conectados que reportan temperatura, consumo eléctrico, ubicación de unidades o estado de una máquina. Para negocios con almacenes, flotillas o equipo en campo, la diferencia está en enterarte de un problema cuando ocurre y no cuando alguien lo reporta días después. El ahorro suele venir del mantenimiento preventivo mucho más que del correctivo.",
+      },
+      {
+        heading: "Blockchain y trazabilidad",
+        text: "Fuera del ruido de las criptomonedas, la utilidad práctica está en registros que nadie puede alterar después: cadenas de suministro donde importa probar el origen, certificados verificables, contratos que se ejecutan solos al cumplirse una condición. Es útil cuando la confianza entre las partes es el problema; si no lo es, hay soluciones más baratas.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Esto es solo para empresas grandes?",
+        a: "No. Una automatización bien elegida puede ahorrarle a un negocio de diez personas varias horas a la semana, y ese impacto proporcionalmente pesa más que en una corporación. Lo que descartamos son proyectos donde la tecnología cuesta más de lo que ahorra.",
+      },
+      {
+        q: "¿Cómo saben qué tecnología necesito?",
+        a: "Empezamos por una sesión de diagnóstico sobre tus procesos actuales, no por el catálogo. De ahí sale una recomendación con costo estimado y ahorro esperado. Si no hay un caso de negocio claro, te lo decimos.",
+      },
+      {
+        q: "¿Qué pasa si la tecnología cambia?",
+        a: "Construimos sobre estándares y servicios establecidos, no sobre modas. Y documentamos todo para que otro equipo pueda continuar el trabajo si algún día dejas de trabajar con nosotros.",
+      },
+    ],
   },
   {
     slug: "branding-diseno",
@@ -90,6 +201,36 @@ export const services: Service[] = [
       "Remodelación de identidad de marca",
       "Diseño de materiales promocionales",
     ],
+    intro:
+      "Tu marca es lo que la gente dice de ti cuando no estás en la sala. El logotipo es apenas la punta: lo que realmente decide si te recuerdan es la consistencia con la que apareces en todos lados. Trabajamos identidades para negocios que ya tienen clientes pero se ven improvisados frente a competidores más pequeños y mejor presentados.",
+    sections: [
+      {
+        heading: "Del logotipo al sistema completo",
+        text: "Un logo aislado no resuelve nada si cada publicación usa un color distinto y tres tipografías diferentes. Entregamos un manual de identidad con la paleta, las tipografías, los usos correctos e incorrectos y ejemplos aplicados. Con eso, cualquier persona de tu equipo —o un proveedor externo— puede producir material que se vea tuyo sin tener que preguntarte.",
+      },
+      {
+        heading: "Rediseño sin perder lo que ya construiste",
+        text: "Cuando una marca lleva años operando, cambiar todo de golpe puede costarte el reconocimiento que ya ganaste. En esos casos trabajamos una evolución: conservamos los elementos que tus clientes asocian contigo y modernizamos el resto. El objetivo es que quien ya te conoce te siga reconociendo, y quien no, te tome en serio.",
+      },
+      {
+        heading: "Materiales que aterrizan la identidad",
+        text: "La identidad se prueba cuando se aplica: tarjetas, presentaciones de venta, plantillas para redes, rotulación de vehículos, empaques. Preparamos esos materiales y te dejamos plantillas editables, para que no dependas de un diseñador cada vez que necesites una publicación o una cotización con buena presentación.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cuánto tarda un proyecto de identidad?",
+        a: "Una identidad completa suele tomar de tres a seis semanas, dependiendo de cuántas rondas de revisión haya y de qué tan clara esté la dirección desde el inicio. Un logotipo suelto es más rápido, pero también rinde menos.",
+      },
+      {
+        q: "¿Me entregan los archivos originales?",
+        a: "Sí, todos: vectores editables, versiones para web e impresión, y el manual en PDF. Son tuyos. No trabajamos con esquemas donde el cliente queda atado al proveedor por los archivos.",
+      },
+      {
+        q: "¿Puedo conservar mi logo actual?",
+        a: "Claro. Muchos proyectos empiezan así: el logo funciona pero no hay un sistema alrededor. En ese caso construimos la identidad tomándolo como punto de partida en vez de rehacerlo.",
+      },
+    ],
   },
   {
     slug: "experiencia-cliente",
@@ -100,6 +241,36 @@ export const services: Service[] = [
       "Chatbots y asistentes virtuales de atención",
       "Encuestas y sistemas de feedback",
       "Programas de fidelización de clientes",
+    ],
+    intro:
+      "La mayoría de los clientes que se pierden no se van molestos: se van porque nadie contestó a tiempo. En un negocio que recibe mensajes por WhatsApp, Instagram, correo y teléfono, responder rápido a todo se vuelve imposible sin ayuda. Ahí es donde la automatización bien hecha deja de sentirse fría y empieza a sentirse atenta.",
+    sections: [
+      {
+        heading: "Chatbots que resuelven, no que estorban",
+        text: "Un mal chatbot es el que atrapa a la gente en un menú del que no puede salir. Los que construimos hacen lo contrario: responden al instante las preguntas repetitivas —horarios, precios, disponibilidad, estatus de un pedido— y pasan la conversación a una persona en cuanto detectan algo que requiere criterio. El resultado es respuesta inmediata a cualquier hora sin que nadie sienta que le habla a una pared.",
+      },
+      {
+        heading: "Escuchar de forma sistemática",
+        text: "Las quejas que llegan son una fracción mínima de las que existen; la mayoría de los clientes insatisfechos simplemente no regresa. Implementamos encuestas cortas en el momento adecuado —después de una compra, al cerrar un ticket— para detectar patrones antes de que se conviertan en pérdida de clientes. Pocas preguntas bien colocadas rinden más que un cuestionario largo que nadie termina.",
+      },
+      {
+        heading: "Fidelización que da razones para volver",
+        text: "Retener sale más barato que adquirir, pero requiere darle a la gente un motivo concreto. Diseñamos programas de recompensas, niveles o beneficios que encajen con tu margen y sean simples de entender. Un programa que el cliente no comprende en diez segundos no se usa.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿El chatbot va a molestar a mis clientes?",
+        a: "Solo si está mal diseñado. La regla que seguimos es que siempre haya una salida visible hacia una persona real, y que el bot no insista cuando alguien pide hablar con alguien. Bien configurado, la gente agradece que le respondan a las once de la noche.",
+      },
+      {
+        q: "¿Funciona con WhatsApp?",
+        a: "Sí, y suele ser el canal más importante en México. Se integra con WhatsApp Business, además de Instagram, Facebook Messenger y el chat de tu sitio, concentrando todo en una sola bandeja de entrada.",
+      },
+      {
+        q: "¿Necesito un equipo grande para operarlo?",
+        a: "No, el objetivo es justo el contrario: que un equipo pequeño atienda bien un volumen que antes lo desbordaba, porque lo repetitivo ya quedó resuelto.",
+      },
     ],
   },
   {
@@ -112,6 +283,36 @@ export const services: Service[] = [
       "Análisis predictivo de tendencias",
       "Optimización de campañas en tiempo real",
     ],
+    intro:
+      "Casi todos los negocios ya tienen datos: ventas, visitas al sitio, campañas, inventario. El problema rara vez es la falta de información, sino que vive dispersa en plataformas que no se hablan entre sí. Nuestro trabajo es juntarla en un solo lugar y traducirla a decisiones que puedas tomar el lunes por la mañana.",
+    sections: [
+      {
+        heading: "Un tablero con lo que de verdad importa",
+        text: "Un tablero con cuarenta gráficas no se usa. Construimos paneles con las pocas métricas que mueven tu negocio, actualizados de forma automática, para que revisar cómo va el mes tome dos minutos y no una tarde exportando hojas de cálculo. Definir cuáles son esas métricas es la mitad del trabajo.",
+      },
+      {
+        heading: "Ver hacia adelante, no solo hacia atrás",
+        text: "Los reportes tradicionales cuentan lo que ya pasó. Con suficiente historial se puede estimar lo que viene: qué meses van a caer, qué productos se van a agotar, qué clientes están dando señales de que se van a ir. No es una bola de cristal, pero anticipar una caída con semanas de margen cambia por completo lo que puedes hacer al respecto.",
+      },
+      {
+        heading: "Optimizar campañas mientras corren",
+        text: "Cuando el gasto publicitario está conectado a los resultados reales de venta, dejas de decidir por intuición. Puedes ver qué anuncio trae compradores y cuál solo trae clics, y mover el presupuesto en días en vez de esperar al cierre de mes para descubrir que se fue en algo que no funcionó.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Necesito muchos datos para empezar?",
+        a: "Menos de los que crees. Con las ventas del último año y los datos de tu sitio ya se puede armar algo útil. Y si no estás midiendo nada todavía, el primer paso es instalar el seguimiento correctamente, que es trabajo de días, no de meses.",
+      },
+      {
+        q: "¿Qué herramientas usan?",
+        a: "Depende de dónde vivan tus datos. Trabajamos con Google Analytics, Looker Studio, hojas de cálculo conectadas y bases de datos propias. Preferimos herramientas que ya conozcas o que sean gratuitas antes de sumarte otra suscripción mensual.",
+      },
+      {
+        q: "¿Quién mantiene el tablero después?",
+        a: "Queda automatizado, así que se actualiza solo. Te capacitamos para leerlo e interpretarlo, y si más adelante quieres agregar métricas nuevas se puede hacer sin rehacerlo desde cero.",
+      },
+    ],
   },
   {
     slug: "transformacion-digital",
@@ -123,6 +324,36 @@ export const services: Service[] = [
       "Capacitación tecnológica para tu equipo",
       "Consultoría tecnológica a la medida",
     ],
+    intro:
+      "Digitalizar no es comprar software. Es revisar cómo trabaja tu equipo hoy y decidir qué partes de ese proceso deberían dejar de hacerse a mano. Muchos proyectos fracasan porque se instala una herramienta sobre un proceso desordenado: el desorden se vuelve más rápido, pero sigue siendo desorden.",
+    sections: [
+      {
+        heading: "Primero el proceso, después la herramienta",
+        text: "Empezamos mapeando cómo fluye realmente el trabajo, incluidos los atajos que la gente inventó porque el sistema oficial no servía. Casi siempre aparecen pasos que existen solo por costumbre y que se pueden eliminar antes de automatizar nada. Digitalizar un proceso innecesario es pagar por hacer más eficiente algo que no debería ocurrir.",
+      },
+      {
+        heading: "Migración sin parar la operación",
+        text: "Nadie puede darse el lujo de cerrar dos semanas para cambiar de sistema. Trabajamos por etapas, empezando por el área donde el dolor es mayor y el riesgo menor, con el proceso anterior funcionando en paralelo hasta que el nuevo demuestre que aguanta. Es más lento que un cambio de golpe, y considerablemente menos peligroso.",
+      },
+      {
+        heading: "Capacitación: donde se gana o se pierde",
+        text: "La herramienta más buena del mundo fracasa si el equipo vuelve a la hoja de cálculo en la primera semana. Por eso la capacitación no es un anexo al final del proyecto: acompañamos al equipo durante la transición, resolvemos las dudas que salen en el uso real y ajustamos lo que en la práctica no funcionó como se había planeado.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cuánto tiempo lleva?",
+        a: "Un proceso puntual puede quedar en semanas. Una transformación que toca varias áreas se mide en meses, y conviene hacerla por etapas. Desconfía de quien prometa cambiar toda la operación de un negocio en un mes.",
+      },
+      {
+        q: "¿Mi equipo se va a resistir?",
+        a: "Casi siempre al principio, y es razonable: nadie quiere que le cambien su forma de trabajar. Lo que reduce la resistencia es involucrarlos desde el diagnóstico, porque quien hace el trabajo todos los días sabe mejor que nadie dónde están los cuellos de botella.",
+      },
+      {
+        q: "¿Y si ya compré un sistema que no uso?",
+        a: "Pasa seguido. A veces la herramienta era la correcta y lo que falló fue la implementación o la capacitación. Revisamos qué tienes antes de recomendarte comprar algo nuevo.",
+      },
+    ],
   },
   {
     slug: "servicios-adicionales",
@@ -133,6 +364,36 @@ export const services: Service[] = [
       "Gestión de redes sociales",
       "Producción audiovisual y fotografía",
       "Consultoría en ciberseguridad",
+    ],
+    intro:
+      "No todo encaja en una categoría. Estos son los servicios que suelen sumarse a un proyecto principal, o que resuelven necesidades puntuales de negocios que ya tienen su operación digital andando y necesitan reforzar un frente específico.",
+    sections: [
+      {
+        heading: "Gestión de redes sociales",
+        text: "Publicar por publicar no construye nada. Trabajamos con un calendario editorial atado a objetivos concretos —dar a conocer un producto, sostener presencia en temporada baja, generar consultas— y con la producción del material incluida. También manejamos la conversación: responder comentarios y mensajes es donde muchas cuentas se caen, y es justo donde ocurren las ventas.",
+      },
+      {
+        heading: "Producción audiovisual y fotografía",
+        text: "Fotos de producto, video corporativo, contenido para redes. Con la calidad de cámara de los teléfonos actuales, la diferencia ya no está en el equipo sino en la luz, la dirección y el criterio de edición. Producimos material pensado para dónde va a vivir: lo que funciona en un video vertical de quince segundos no es lo mismo que en tu página de inicio.",
+      },
+      {
+        heading: "Consultoría en ciberseguridad",
+        text: "La mayoría de los incidentes en negocios pequeños no son ataques sofisticados: son contraseñas repetidas, accesos de exempleados que nadie revocó y respaldos que nunca se probaron. Revisamos esos puntos básicos, que es donde está el riesgo real, y dejamos procedimientos claros para el equipo. Cuesta mucho menos prevenir que recuperar.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Puedo contratar solo uno de estos servicios?",
+        a: "Sí. No exigimos paquete completo ni contratar un proyecto grande para acceder a ellos. Si solo necesitas la gestión de redes o una sesión de fotos de producto, eso se cotiza por separado.",
+      },
+      {
+        q: "¿El contenido de redes lo producen ustedes?",
+        a: "Cualquiera de las dos opciones. Podemos producir todo el material, trabajar con lo que ya tienes, o un esquema mixto donde tú aportas el contenido crudo y nosotros lo editamos y publicamos.",
+      },
+      {
+        q: "¿Cada cuánto conviene revisar la seguridad?",
+        a: "Recomendamos una revisión inicial y después repasos cada seis meses, o cada vez que haya cambios importantes en el equipo. La rotación de personal es de los momentos donde más huecos de acceso quedan abiertos.",
+      },
     ],
   },
 ];

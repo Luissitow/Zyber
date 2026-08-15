@@ -93,6 +93,15 @@ export default async function ServicePage({
         },
       },
       {
+        "@type": "FAQPage",
+        "@id": `${pageUrl}#faq`,
+        mainEntity: service.faq.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: { "@type": "Answer", text: item.a },
+        })),
+      },
+      {
         "@type": "BreadcrumbList",
         "@id": `${pageUrl}#breadcrumb`,
         itemListElement: [
@@ -119,6 +128,32 @@ export default async function ServicePage({
           { label: service.title },
         ]}
       />
+
+      {/* Introducción + desarrollo: el contenido único de cada servicio. */}
+      <section className="pt-16">
+        <Container>
+          <Reveal animation="up">
+            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-content/85">
+              {service.intro}
+            </p>
+          </Reveal>
+
+          <div className="mx-auto mt-16 max-w-3xl space-y-12">
+            {service.sections.map((block, i) => (
+              <Reveal key={block.heading} animation="up" delay={i * 80}>
+                <article>
+                  <h2 className="text-2xl font-bold text-heading sm:text-3xl">
+                    {block.heading}
+                  </h2>
+                  <p className="mt-4 leading-relaxed text-content/75">
+                    {block.text}
+                  </p>
+                </article>
+              </Reveal>
+            ))}
+          </div>
+        </Container>
+      </section>
 
       {/* Qué incluye el servicio */}
       <section className="py-20">
@@ -163,6 +198,31 @@ export default async function ServicePage({
                   <h3 className="text-lg font-semibold text-heading">{benefit.title}</h3>
                   <p className="mt-2 text-sm text-content/70">{benefit.description}</p>
                 </Card>
+              </Reveal>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* Preguntas frecuentes: contenido único y, vía schema, candidatas a
+          aparecer como resultado enriquecido en Google. */}
+      <section className="py-20">
+        <Container>
+          <SectionHeading
+            label="Preguntas frecuentes"
+            title={`Dudas sobre ${service.title}`}
+          />
+          <div className="mx-auto mt-12 max-w-3xl space-y-4">
+            {service.faq.map((item, i) => (
+              <Reveal key={item.q} animation="up" delay={i * 70}>
+                <details className="group surface-neu rounded-2xl p-6">
+                  <summary className="cursor-pointer list-none text-lg font-semibold text-heading marker:content-none">
+                    {item.q}
+                  </summary>
+                  <p className="mt-3 leading-relaxed text-content/75">
+                    {item.a}
+                  </p>
+                </details>
               </Reveal>
             ))}
           </div>

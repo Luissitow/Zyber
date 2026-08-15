@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, services } from "@/lib/site";
 import Preloader from "@/components/layout/Preloader";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -70,18 +70,42 @@ export const metadata: Metadata = {
   },
 };
 
+// ProfessionalService en vez de Organization: describe a una agencia que da
+// servicio en zonas concretas sin oficina abierta al público, que es el caso.
+// `areaServed` es la señal que permite competir en búsquedas locales.
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "ProfessionalService",
+  "@id": `${siteConfig.url}/#organization`,
   name: siteConfig.legalName,
+  alternateName: siteConfig.name,
   url: siteConfig.url,
   logo: `${siteConfig.url}/img/logos/zyberlogo.png`,
+  image: `${siteConfig.url}/img/logos/zyberlogo.png`,
   description: siteConfig.description,
   slogan: siteConfig.slogan,
   email: siteConfig.email,
   telephone: "+527226448900",
-  areaServed: "MX",
+  priceRange: "$$",
+  areaServed: siteConfig.serviceAreas.map((area) => ({
+    "@type": "Place",
+    name: area,
+  })),
+  knowsLanguage: ["es-MX"],
   sameAs: Object.values(siteConfig.social).filter((u) => u && u !== "#"),
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Servicios de Zyber Company",
+    itemListElement: services.map((s) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: s.title,
+        description: s.summary,
+        url: `${siteConfig.url}/servicios/${s.slug}/`,
+      },
+    })),
+  },
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+527226448900",
