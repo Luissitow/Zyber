@@ -23,32 +23,22 @@ export const siteConfig = {
   email: "contacto@zyber.company",
   location: "Toluca, Estado de México",
 
-  // Dirección tal como está registrada en Google Business Profile.
-  // Debe coincidir CARÁCTER POR CARÁCTER con la ficha: Google contrasta
-  // nombre, dirección y teléfono (NAP) entre fuentes, y cualquier diferencia
-  // le resta confianza al perfil y te baja en resultados locales.
-  address: {
-    street: "C. Laguna de la Gavia 646, El Seminario Tercera Secc.",
-    locality: "Toluca de Lerdo",
-    region: "Estado de México",
-    postalCode: "50170",
-    country: "MX",
-    full: "C. Laguna de la Gavia 646, El Seminario Tercera Secc, 50170 Toluca de Lerdo, Méx.",
-  },
+  // NO publicamos dirección: Zyber opera como negocio de área de servicio
+  // (atención remota o en sitio del cliente). Google solo permite listar una
+  // dirección donde el negocio atiende presencialmente; publicar una donde no
+  // se opera es causa de suspensión de la ficha.
 
   // Zonas donde damos servicio. Alimentan el schema y el texto de las páginas:
   // son la señal que permite competir por búsquedas locales ("desarrollo de
   // software en Querétaro") en vez de contra todo el país.
-  serviceAreas: [
-    "Toluca y Estado de México",
-    "Ciudad de México",
-    "Querétaro",
-  ],
+  serviceAreas: ["Toluca y Estado de México", "Ciudad de México"],
 
-  // TODO: reemplaza con tus URLs reales de redes sociales.
+  // Alimentan el campo `sameAs` del schema: es como Google confirma que el
+  // sitio, la ficha y los perfiles sociales son la misma marca. Clave para
+  // búsquedas del nombre, donde compites con varias empresas llamadas Zyber.
   social: {
-    facebook: "#",
-    instagram: "#",
+    facebook: "https://www.facebook.com/profile.php?id=61578213685372",
+    instagram: "https://www.instagram.com/zybercompany/",
     linkedin: "#",
     youtube: "#",
     tiktok: "#",

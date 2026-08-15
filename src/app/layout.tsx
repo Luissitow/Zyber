@@ -87,33 +87,25 @@ const jsonLd = {
   email: siteConfig.email,
   telephone: "+527226448900",
   priceRange: "$$",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: siteConfig.address.street,
-    addressLocality: siteConfig.address.locality,
-    addressRegion: siteConfig.address.region,
-    postalCode: siteConfig.address.postalCode,
-    addressCountry: siteConfig.address.country,
-  },
-  // Refleja el horario declarado en Google Business Profile.
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday",
-    ],
-    opens: "00:00",
-    closes: "23:59",
-  },
+  // Sin `address`: Zyber atiende de forma remota o en sitio del cliente, así
+  // que declara zonas de cobertura en vez de un domicilio. Es el equivalente
+  // en schema a un negocio de área de servicio en Google Business Profile.
   areaServed: siteConfig.serviceAreas.map((area) => ({
     "@type": "Place",
     name: area,
   })),
+  availableChannel: {
+    "@type": "ServiceChannel",
+    serviceType: "Consulta remota y visita en sitio",
+    servicePhone: {
+      "@type": "ContactPoint",
+      telephone: "+527226448900",
+    },
+    serviceLocation: siteConfig.serviceAreas.map((area) => ({
+      "@type": "Place",
+      name: area,
+    })),
+  },
   knowsLanguage: ["es-MX"],
   sameAs: Object.values(siteConfig.social).filter((u) => u && u !== "#"),
   hasOfferCatalog: {

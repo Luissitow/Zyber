@@ -87,18 +87,11 @@ export default function Footer() {
                 WhatsApp
               </a>
             </li>
-            {/* La dirección debe coincidir con Google Business Profile: es el
-                cruce que Google usa para confiar en la ficha (NAP). */}
-            <li>
-              <address className="not-italic text-content/70">
-                {siteConfig.address.street}
-                <br />
-                {siteConfig.address.postalCode} {siteConfig.address.locality},{" "}
-                {siteConfig.address.region}
-              </address>
-            </li>
+            {/* Zonas de cobertura en vez de domicilio: refuerza el SEO local
+                sin declarar una oficina que no existe. */}
             <li className="text-content/70">
-              Atendemos en {siteConfig.serviceAreas.join(", ")}.
+              Atendemos en {siteConfig.serviceAreas.join(" y ")}, de forma
+              remota o en tu negocio.
             </li>
           </FooterCol>
         </div>
