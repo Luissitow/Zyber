@@ -87,6 +87,29 @@ const jsonLd = {
   email: siteConfig.email,
   telephone: "+527226448900",
   priceRange: "$$",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: siteConfig.address.street,
+    addressLocality: siteConfig.address.locality,
+    addressRegion: siteConfig.address.region,
+    postalCode: siteConfig.address.postalCode,
+    addressCountry: siteConfig.address.country,
+  },
+  // Refleja el horario declarado en Google Business Profile.
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+    ],
+    opens: "00:00",
+    closes: "23:59",
+  },
   areaServed: siteConfig.serviceAreas.map((area) => ({
     "@type": "Place",
     name: area,

@@ -23,6 +23,19 @@ export const siteConfig = {
   email: "contacto@zyber.company",
   location: "Toluca, Estado de México",
 
+  // Dirección tal como está registrada en Google Business Profile.
+  // Debe coincidir CARÁCTER POR CARÁCTER con la ficha: Google contrasta
+  // nombre, dirección y teléfono (NAP) entre fuentes, y cualquier diferencia
+  // le resta confianza al perfil y te baja en resultados locales.
+  address: {
+    street: "C. Laguna de la Gavia 646, El Seminario Tercera Secc.",
+    locality: "Toluca de Lerdo",
+    region: "Estado de México",
+    postalCode: "50170",
+    country: "MX",
+    full: "C. Laguna de la Gavia 646, El Seminario Tercera Secc, 50170 Toluca de Lerdo, Méx.",
+  },
+
   // Zonas donde damos servicio. Alimentan el schema y el texto de las páginas:
   // son la señal que permite competir por búsquedas locales ("desarrollo de
   // software en Querétaro") en vez de contra todo el país.

@@ -87,7 +87,19 @@ export default function Footer() {
                 WhatsApp
               </a>
             </li>
-            <li className="text-content/70">{siteConfig.location}</li>
+            {/* La dirección debe coincidir con Google Business Profile: es el
+                cruce que Google usa para confiar en la ficha (NAP). */}
+            <li>
+              <address className="not-italic text-content/70">
+                {siteConfig.address.street}
+                <br />
+                {siteConfig.address.postalCode} {siteConfig.address.locality},{" "}
+                {siteConfig.address.region}
+              </address>
+            </li>
+            <li className="text-content/70">
+              Atendemos en {siteConfig.serviceAreas.join(", ")}.
+            </li>
           </FooterCol>
         </div>
 
