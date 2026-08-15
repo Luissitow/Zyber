@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { siteConfig, services } from "@/lib/site";
+import { siteConfig, services, localPages } from "@/lib/site";
 
 export const dynamic = "force-static";
 
@@ -25,5 +25,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...serviceRoutes];
+  // Prioridad alta: son las páginas que compiten por las búsquedas locales
+  // donde un dominio nuevo sí tiene oportunidad real de posicionar.
+  const localRoutes = localPages.map((p) => ({
+    url: url(`/automatizacion/${p.slug}`),
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  return [...staticRoutes, ...localRoutes, ...serviceRoutes];
 }

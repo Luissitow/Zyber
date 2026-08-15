@@ -66,6 +66,51 @@ export type Service = {
 };
 
 export const services: Service[] = [
+  // Va primero a propósito: es el servicio con mejor margen, menos competencia
+  // en búsquedas y el único respaldado por un caso con resultado medible.
+  {
+    slug: "automatizacion-procesos",
+    title: "Automatización de Procesos",
+    icon: "Workflow",
+    summary:
+      "Tareas que hoy toman días, resueltas en minutos y sin errores de captura.",
+    features: [
+      "Migración de hojas de cálculo a sistemas reales",
+      "Conexión entre herramientas que hoy no se hablan",
+      "Reportes que se generan solos, sin capturar a mano",
+      "Flujos de aprobación y seguimiento automatizados",
+    ],
+    intro:
+      "Casi todos los negocios tienen al menos un proceso que consume horas cada semana y que nadie ha cuestionado porque siempre se ha hecho así: capturar los mismos datos en dos sistemas, armar el reporte del mes a mano, perseguir aprobaciones por correo. Automatizar eso no requiere cambiar toda tu operación. Requiere identificar dónde se va el tiempo y atacar ese punto.",
+    sections: [
+      {
+        heading: "De tres días a unos minutos",
+        text: "Automatizamos para una dependencia de gobierno un proceso que vivía en hojas de cálculo y que tardaba tres días en completarse. Convertido en sistema, hoy se resuelve en minutos. No fue magia ni tecnología exótica: fue mapear el proceso real, encontrar dónde se duplicaba el trabajo y programar esa parte. Si un proceso de gobierno se puede reducir así, el de una pyme casi siempre también.",
+      },
+      {
+        heading: "El Excel no es el enemigo, el Excel compartido sí",
+        text: "Las hojas de cálculo funcionan bien hasta que dos personas necesitan editarlas al mismo tiempo, o hasta que alguien borra una fórmula sin darse cuenta. A partir de ahí el archivo empieza a costar más de lo que ahorra: versiones que no cuadran, datos que se pierden, decisiones tomadas sobre números viejos. Migrar a un sistema donde cada quien ve lo mismo y nadie puede romper nada es de los cambios que más rápido se notan.",
+      },
+      {
+        heading: "Consultoría, no solo ejecución",
+        text: "Muchos proveedores hacen exactamente lo que les pides y cobran. Nosotros primero cuestionamos si eso es lo que conviene. A veces el proceso que quieres automatizar debería eliminarse, o hay uno más costoso que ni habías notado. Esa conversación es la parte que más valor deja, y por eso empezamos siempre con un diagnóstico antes de cotizar desarrollo.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Qué procesos vale la pena automatizar primero?",
+        a: "Los que se repiten seguido, siguen reglas claras y hoy se hacen a mano. Capturar datos de un lado a otro, armar reportes periódicos, enviar recordatorios. Lo que requiere criterio o negociación conviene dejarlo con personas.",
+      },
+      {
+        q: "¿Tengo que cambiar los sistemas que ya uso?",
+        a: "Casi nunca. La mayoría de las veces se trata de conectar lo que ya tienes para que se pasen información entre sí, en vez de reemplazarlo todo. Reemplazar es más caro, más lento y más riesgoso.",
+      },
+      {
+        q: "¿Cómo sé si me conviene?",
+        a: "Con una cuenta simple: cuántas horas a la semana se van en esa tarea, por cuánto se paga esa hora, y cuánto cuesta automatizarla. Si no se paga sola en un plazo razonable, te lo decimos y no lo hacemos.",
+      },
+    ],
+  },
   {
     slug: "marketing-digital",
     title: "Marketing Digital",
@@ -396,6 +441,102 @@ export const services: Service[] = [
       {
         q: "¿Cada cuánto conviene revisar la seguridad?",
         a: "Recomendamos una revisión inicial y después repasos cada seis meses, o cada vez que haya cambios importantes en el equipo. La rotación de personal es de los momentos donde más huecos de acceso quedan abiertos.",
+      },
+    ],
+  },
+];
+
+/**
+ * Páginas de aterrizaje por ciudad. Compiten por búsquedas locales
+ * ("automatización de procesos en Toluca"), donde un dominio nuevo sí tiene
+ * oportunidad, en vez de contra términos nacionales imposibles.
+ *
+ * Regla al agregar una ciudad: el contenido debe ser realmente distinto, no la
+ * misma plantilla con el nombre cambiado. Google detecta eso y lo penaliza.
+ * Y solo agregar ciudades donde de verdad se atiende.
+ */
+export type LocalPage = {
+  slug: string;
+  city: string;
+  title: string;
+  summary: string;
+  intro: string;
+  sections: { heading: string; text: string }[];
+  faq: { q: string; a: string }[];
+};
+
+export const localPages: LocalPage[] = [
+  {
+    slug: "toluca",
+    city: "Toluca",
+    title: "Automatización de Procesos en Toluca",
+    summary:
+      "Automatizamos procesos para empresas de Toluca y el Valle de México: de hojas de cálculo a sistemas que resuelven en minutos lo que hoy toma días.",
+    intro:
+      "Somos de Toluca y trabajamos aquí. Eso significa que podemos sentarnos contigo en tu negocio a ver cómo funciona realmente tu operación, que es donde se detectan las cosas que no salen en una videollamada: el cuaderno donde alguien apunta lo que el sistema no registra, el archivo que se pasan por WhatsApp, el reporte que alguien arma a mano cada viernes.",
+    sections: [
+      {
+        heading: "Por qué importa que sea presencial",
+        text: "Un proceso se entiende viéndolo. Cuando acompañamos a alguien durante su jornada normal aparecen pasos que nadie menciona en una junta porque ya se volvieron invisibles de tan cotidianos. En Toluca y municipios cercanos —Metepec, Lerma, Zinacantepec— podemos hacer ese trabajo de campo sin cobrarte traslados, y suele ser la diferencia entre automatizar lo que dijiste y automatizar lo que de verdad te está costando.",
+      },
+      {
+        heading: "El perfil de negocio con el que mejor funciona",
+        text: "El Valle de Toluca concentra mucha empresa mediana con operación seria pero herramientas improvisadas: manufactura, logística, distribución, despachos profesionales. Negocios que facturan bien y que llevan control en hojas de cálculo que ya no dan para más. Ahí la automatización se paga sola rápido, porque hay volumen de operaciones repetitivas y personal calificado gastando horas en captura.",
+      },
+      {
+        heading: "Experiencia con procesos de gobierno",
+        text: "Automatizamos para una dependencia de gobierno un proceso que tomaba tres días y hoy se resuelve en minutos. Trabajar con sector público enseña a lidiar con reglas rígidas, formatos obligatorios y gente que lleva años haciendo las cosas de una forma. Si ese contexto se puede automatizar, el de una empresa privada con más margen de decisión casi siempre también.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Atienden fuera de Toluca?",
+        a: "Sí, cubrimos Metepec, Lerma, Zinacantepec y el resto del Valle de Toluca de forma presencial, y también Ciudad de México. Fuera de esas zonas trabajamos de forma remota sin problema.",
+      },
+      {
+        q: "¿Cuánto cuesta el diagnóstico?",
+        a: "La primera conversación para entender tu operación no tiene costo. De ahí sale una propuesta con alcance y precio cerrado. Si concluimos que automatizar no te conviene, también te lo decimos.",
+      },
+      {
+        q: "¿Necesito tener un sistema ya?",
+        a: "No. Muchos proyectos empiezan justo en el punto contrario: todo vive en Excel y WhatsApp. Ese es un buen punto de partida, no un obstáculo.",
+      },
+    ],
+  },
+  {
+    slug: "cdmx",
+    city: "Ciudad de México",
+    title: "Automatización de Procesos en CDMX",
+    summary:
+      "Consultoría y automatización de procesos para empresas de la Ciudad de México, con trabajo remoto y visitas presenciales cuando el proyecto lo pide.",
+    intro:
+      "En Ciudad de México atendemos con un esquema mixto: la mayor parte del trabajo se hace en remoto —que es más rápido y te sale más barato que pagar horas de traslado— y vamos presencialmente en los momentos donde sí aporta, como el levantamiento inicial del proceso o la capacitación del equipo.",
+    sections: [
+      {
+        heading: "Remoto por default, presencial cuando suma",
+        text: "Buena parte de lo que cobran las agencias en CDMX se va en tiempo de traslado que no produce nada. Nuestro esquema es al revés: videollamadas para el seguimiento y el desarrollo, y visitas concentradas en las etapas donde estar ahí cambia el resultado. Eso baja el costo del proyecto sin bajar la calidad del diagnóstico.",
+      },
+      {
+        heading: "Para negocios que ya se quemaron con un proveedor",
+        text: "En un mercado del tamaño de la CDMX es común encontrar empresas que ya compraron un sistema que nadie usa, o que pagaron un desarrollo que quedó a medias. Cuando ese es el punto de partida, empezamos revisando qué tienes antes de proponerte comprar algo nuevo. A veces la herramienta era correcta y lo que falló fue la implementación o la capacitación, y eso sale mucho más barato de arreglar que volver a empezar.",
+      },
+      {
+        heading: "Consultoría antes que desarrollo",
+        text: "No cobramos por escribir código, cobramos por resolver un problema. Antes de proponer desarrollo revisamos si el proceso debería existir, si hay una herramienta que ya lo hace, o si el cuello de botella está en otro lado. Es la parte que la mayoría de los proveedores se salta porque no factura tan bien, y es justo donde se decide si el proyecto sirve.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Trabajan todo en remoto?",
+        a: "La mayoría sí, y funciona bien. Pero para el levantamiento inicial y la capacitación preferimos ir presencialmente: ver la operación en vivo detecta cosas que en videollamada no aparecen.",
+      },
+      {
+        q: "¿Manejan proyectos grandes?",
+        a: "Trabajamos por etapas, empezando por el proceso donde el retorno es más claro. Si el proyecto crece, el equipo se amplía con especialistas. Preferimos entregar algo funcionando en semanas que prometer una plataforma completa en un año.",
+      },
+      {
+        q: "¿Cómo empezamos?",
+        a: "Con una videollamada de diagnóstico sin costo donde nos cuentas qué proceso te está costando tiempo. De ahí sale una propuesta concreta con alcance, plazo y precio cerrado.",
       },
     ],
   },
