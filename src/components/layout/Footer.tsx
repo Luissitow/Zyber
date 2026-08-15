@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import Container from "@/components/ui/Container";
-import { siteConfig, services } from "@/lib/site";
+import { siteConfig, services, localPages } from "@/lib/site";
 
 const socials = [
   { icon: Facebook, href: siteConfig.social.facebook, label: "Facebook" },
@@ -88,11 +88,20 @@ export default function Footer() {
               </a>
             </li>
             {/* Zonas de cobertura en vez de domicilio: refuerza el SEO local
-                sin declarar una oficina que no existe. */}
-            <li className="text-content/70">
-              Atendemos en {siteConfig.serviceAreas.join(" y ")}, de forma
-              remota o en tu negocio.
-            </li>
+                sin declarar una oficina que no existe. Además son los únicos
+                enlaces internos a las páginas locales: sin ellos Google las
+                trata como huérfanas y les da mucho menos peso. */}
+            <li className="pt-2 text-content/70">Cobertura</li>
+            {localPages.map((page) => (
+              <li key={page.slug}>
+                <Link
+                  href={`/automatizacion/${page.slug}`}
+                  className="text-content/70 transition-colors hover:text-primary-bright"
+                >
+                  Automatización en {page.city}
+                </Link>
+              </li>
+            ))}
           </FooterCol>
         </div>
 
